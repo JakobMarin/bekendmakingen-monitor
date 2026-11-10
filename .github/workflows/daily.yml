@@ -1,0 +1,70 @@
+# Dagelijkse scan: bekendmakingen binnen 100 m van het Stedin-hoogspanningsnet.
+#
+# Benodigde repository secrets (Settings → Secrets and variables → Actions):
+#   SUPABASE_URL               https://faooiidlipaaowwjzpah.supabase.co
+#   SUPABASE_SERVICE_ROLE_KEY  service_role / secret key uit Supabase (Project Settings → API Keys)
+# Zet deze waarden NOOIT in bestanden in de repo.
+name: Dagelijkse scan bekendmakingen
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # 05:00 UTC = 06:00 Amsterdam (winter) / 07:00 (zomer)
+  workflow_dispatch:
+    inputs:
+      dagen:
+        description: "Aantal dagen terugkijken (bijv. 30 voor een backfill)"
+        required: false
+        default: "2"
+
+permissions:
+  contents: write   # om data/meldingen.geojson te committen
+
+concurrency:
+  group: daily-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Afhankelijkheden
+        run: pip install -r requirements.txt
+
+      - name: Scan, upsert, buffer herberekenen, export
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          python scripts/daily_sync.py \
+            --dagen "${{ github.event.inputs.dagen || '2' }}" \
+            --export data/meldingen.geojson \
+            --summary run-summary.json
+
+      - name: Samenvatting bewaren (zonder assets)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: run-summary
+          path: run-summary.json
+          if-no-files-found: ignore
+          retention-days: 30
+
+      - name: GeoJSON committen als die veranderde
+        run: |
+          if git diff --quiet -- data/meldingen.geojson && git ls-files --error-unmatch data/meldingen.geojson >/dev/null 2>&1; then
+            echo "GeoJSON ongewijzigd"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/meldingen.geojson
+          git commit -m "Dagelijkse update meldingen.geojson ($(date -u +%Y-%m-%d))"
+          git push

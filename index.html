@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bekendmakingen-monitor Stedin hoogspanning</title>
+  <meta name="description" content="Officiële bekendmakingen binnen 100 meter van het Stedin-hoogspanningsnet, dagelijks bijgewerkt.">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" crossorigin="">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" crossorigin="">
+  <link rel="stylesheet" href="assets/app.css">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <div>
+        <h1>Bekendmakingen-monitor Stedin hoogspanning</h1>
+        <p class="sub" id="header-sub">Officiële bekendmakingen binnen 100 m van het hoogspanningsnet · dagelijks bijgewerkt</p>
+      </div>
+      <p class="counts" id="header-counts">Laden…</p>
+    </header>
+    <div id="main">
+      <div id="map" role="application" aria-label="Kaart van bekendmakingen nabij het Stedin-hoogspanningsnet"></div>
+      <aside id="sidebar">
+        <div id="filters">
+          <p class="status" id="status">Gegevens laden…</p>
+          <h2>Weergave</h2>
+          <div class="view-switch" role="group" aria-label="Weergave">
+            <button type="button" id="btn-buffer" aria-pressed="false">Binnen 100 m van het net</button>
+            <button type="button" id="btn-alle" aria-pressed="true">Alle opgeslagen meldingen</button>
+          </div>
+          <h2>Filter op inschatting</h2>
+          <p class="hint">Klik op een punt of een melding voor de details. Zet klassen aan of uit om na te lopen of er tóch iets tussen zit.</p>
+          <div class="filter-row" id="filter-row"></div>
+        </div>
+        <div id="views">
+          <div id="list-view">
+            <h2 class="section-title" id="mapped-title">Op de kaart</h2>
+            <div id="mapped-list"></div>
+            <h2 class="section-title" id="unlocated-title">Zonder coördinaat</h2>
+            <p id="unlocated-note">Deze bekendmakingen hebben geen bruikbare puntcoördinaat en staan daarom niet als punt op de kaart. De dagelijkse scan bewaart zulke publicaties normaal niet.</p>
+            <div id="unlocated-list"></div>
+          </div>
+          <div id="detail"></div>
+        </div>
+        <footer class="bron">Punten zijn het middelpunt van de geometrie uit de metadata, niet het exacte tracé. Inschatting is een eerste, automatische of handmatige beoordeling. Bron: <a href="https://zoek.officielebekendmakingen.nl/" target="_blank" rel="noopener">officiële bekendmakingen</a> · <a href="data/meldingen.geojson">GeoJSON voor QGIS</a></footer>
+      </aside>
+    </div>
+  </div>
+  <script src="config.js"></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js" crossorigin=""></script>
+  <script src="assets/app.js"></script>
+</body>
+</html>

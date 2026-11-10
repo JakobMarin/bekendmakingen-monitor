@@ -1,0 +1,40 @@
+# Geheimen — nooit committen
+.env
+.env.*
+*.env
+*secret*
+*service_role*
+*.pem
+*.key
+
+# Assets zijn privé: geen shapefiles/GeoPackages/asset-exports in deze (publieke) repo
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.sbn
+*.sbx
+*.gpkg
+*.gpkg-*
+assets*.geojson
+assets*.csv
+private-assets/
+dekkingsgebied.json
+
+# Lokale run-uitvoer
+run-summary.json
+runs/
+*.sql.out
+upsert*.sql
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# QGIS / OS
+*.qgs~
+*.qgz~
+.DS_Store

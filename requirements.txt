@@ -1,0 +1,7 @@
+# Dagelijkse job (GitHub Action)
+requests>=2.31
+shapely>=2.0
+pyproj>=3.6
+numpy>=1.26
+# Alleen lokaal nodig voor build_scope.py / load_assets.py met Shapefile/GeoPackage:
+#   pip install geopandas pyogrio
