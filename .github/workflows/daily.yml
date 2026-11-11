@@ -8,7 +8,7 @@ name: Dagelijkse scan bekendmakingen
 
 on:
   schedule:
-    - cron: "0 5 * * *"   # 05:00 UTC = 06:00 Amsterdam (winter) / 07:00 (zomer)
+    - cron: "37 4 * * *"   # 04:37 UTC = 05:37 Amsterdam (winter) / 06:37 (zomer); niet op het hele uur i.v.m. drukte bij GitHub
   workflow_dispatch:
     inputs:
       dagen:
