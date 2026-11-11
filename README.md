@@ -226,3 +226,45 @@ Een inschatting is een eerste, automatische beoordeling; controleer altijd de of
   `vorm_type` (bijv. na herklassificatie) aan via de SRU-API op kenmerk.
 - `data/meldingen_vormen.geojson`: de vormen als aparte laag (ook als terugval voor de website
   en bruikbaar in QGIS).
+
+---
+
+## Tabblad ‘Lijst & review’ (menselijke beoordeling)
+
+`#lijst` op de website: alle meldingen als tabel (Tabulator 6.3, via CDN met SRI).
+
+- Klik op een kolomkop om te sorteren (shift-klik voor meerdere kolommen); per kolom een filter
+  (tekst: losse woorden, keuzelijst, of bereik van–t/m voor datum, score en afstand).
+- Vrij zoekveld: losse woorden, elk woord moet ergens in de rij voorkomen; hoofdletters en
+  accenten tellen niet mee. Vinkje ‘alleen nog niet beoordeeld’.
+- Kolommen tonen/verbergen (onthouden in de browser), export van de gefilterde rijen naar CSV
+  (puntkomma, Excel-vriendelijk) of XLSX.
+- Knop ‘Kaart’ (of dubbelklik op de rij) springt naar de kaart en zoomt naar de melding.
+- Review per rij: ✔ relevant / ✖ niet relevant / ? twijfel, vrij veld ‘Reden’ en optioneel een
+  gecorrigeerde klasse. Opslaan gebeurt direct (optimistisch; bij een fout wordt het teruggezet).
+
+### Beveiliging
+
+- Inloggen met Supabase Auth via een e-mail-magic-link. Alleen adressen in `private.reviewers`
+  (niet via de API bereikbaar) met een bevestigd e-mailadres mogen schrijven; dat wordt in de
+  database afgedwongen (RLS op `public.feedback`), niet alleen in de browser.
+- `public.feedback` is append-only: geen UPDATE/DELETE via de API. Wie en wanneer zet een trigger
+  (niet de browser), plus een snapshot van titel/type/bron/klasse/score.
+- Publiek ziet per melding alleen de laatste status (oordeel, klasse-correctie, datum) via
+  `rpc/feedback_status`. Reden en reviewer-e-mail zijn alleen zichtbaar voor reviewers
+  (`feedback_laatste`).
+- Migratie: `sql/005_review.sql`.
+
+Reviewer toevoegen (Supabase SQL Editor):
+
+```sql
+INSERT INTO private.reviewers (email, naam) VALUES (lower('naam@example.nl'), 'Naam')
+ON CONFLICT (email) DO NOTHING;
+```
+
+### Feedbackloop
+
+`scripts/export_feedback.py` schrijft alle beoordelingen naar `feedback/feedback.jsonl`
+(kenmerk, titel, type, bron, uitgever, oorspronkelijke klasse en score, oordeel, correctie,
+reden, tijdstip, `laatste`); zonder e-mailadressen. De dagelijkse job draait dit mee en commit
+het bestand. Bedoeld om `scripts/classify.py` later bij te stellen.

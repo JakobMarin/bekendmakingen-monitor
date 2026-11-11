@@ -19,6 +19,7 @@ Stappen
   5. private.refresh_buffer_matches() via de wrapper public.sync_refresh_buffer_matches()
      (sql/002_sync_rpc.sql), daarna rijen met binnen_buffer_100m <> true verwijderen.
   4c. Vormen (vlak/lijn uit de metadata) bijvullen voor klassen in config/vormen.json.
+  7. Menselijke review (public.feedback) naar feedback/feedback.jsonl (scripts/export_feedback.py).
   6. Optioneel GeoJSON-export van public.meldingen_kaart (nooit assets), plus
      meldingen_vormen.geojson met de vlakken/lijnen.
 
@@ -48,6 +49,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import classify  # noqa: E402
 import sru  # noqa: E402
 import vormen  # noqa: E402
+import export_feedback  # noqa: E402
 from geo import naar_rd, naar_wgs  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -340,6 +342,14 @@ def main() -> int:
         veranderd = export_geojson([dict(r, geojson=r.get("vorm_geojson")) for r in rows if r.get("vorm_geojson")],
                                    pad_vormen, vorm=True)
         log(f"Vormen-GeoJSON {'bijgewerkt' if veranderd else 'ongewijzigd'}: {pad_vormen}")
+
+    # 7. menselijke review exporteren voor de feedbackloop (zonder e-mailadressen)
+    try:
+        samenvatting["feedback"] = export_feedback.export(sb)
+        log(f"Feedback geëxporteerd: {samenvatting['feedback']}")
+    except RuntimeError as exc:
+        log(f"WAARSCHUWING: feedback-export mislukt ({exc}). Is sql/005_review.sql toegepast?")
+        samenvatting["feedback"] = "mislukt"
 
     if a.summary:
         Path(a.summary).write_text(json.dumps(samenvatting, ensure_ascii=False, indent=1), encoding="utf-8")

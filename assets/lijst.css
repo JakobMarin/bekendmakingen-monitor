@@ -1,0 +1,71 @@
+/* Tabbladen + lijstweergave */
+header { align-items: center; }
+.tabs { display: flex; gap: 0.25rem; margin-left: auto; }
+.tabs a {
+  color: #d5dcea; text-decoration: none; padding: 0.35rem 0.8rem; border-radius: 6px;
+  font-size: 0.9rem; border: 1px solid transparent;
+}
+.tabs a:hover { background: rgba(255,255,255,0.08); }
+.tabs a[aria-selected="true"] { background: #fff; color: var(--ink); font-weight: 600; }
+body[data-view="lijst"] #main { display: none; }
+body[data-view="kaart"] #lijst-view { display: none; }
+#lijst-view { flex: 1; display: flex; flex-direction: column; min-height: 0; background: var(--panel); }
+.lijst-toolbar {
+  display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem;
+  padding: 0.6rem 1rem; border-bottom: 1px solid var(--line); font-size: 0.85rem;
+}
+.lijst-toolbar input[type="search"] { flex: 1 1 320px; min-width: 220px; padding: 0.4rem 0.6rem; border: 1px solid #c9d0dc; border-radius: 6px; font: inherit; }
+.lijst-toolbar button, #login-form button {
+  font: inherit; padding: 0.35rem 0.65rem; border: 1px solid #c9d0dc; background: #fff; border-radius: 6px; cursor: pointer;
+}
+.lijst-toolbar button:hover { background: #f1f4f9; }
+.lijst-toolbar .chk { display: inline-flex; align-items: center; gap: 0.3rem; white-space: nowrap; }
+.teller { color: var(--ink-soft); white-space: nowrap; }
+.dropdown { position: relative; }
+.dropdown-menu {
+  position: absolute; z-index: 1000; top: 110%; left: 0; background: #fff; border: 1px solid var(--line);
+  border-radius: 8px; box-shadow: 0 4px 14px rgba(0,0,0,0.15); padding: 0.5rem 0.7rem; max-height: 60vh; overflow: auto; min-width: 210px;
+}
+.dropdown-menu label { display: block; padding: 0.15rem 0; white-space: nowrap; cursor: pointer; }
+#auth-box { margin-left: auto; display: flex; align-items: center; gap: 0.45rem; flex-wrap: wrap; }
+#login-form { display: flex; gap: 0.35rem; }
+#login-form[hidden] { display: none; }
+#login-form input { padding: 0.35rem 0.55rem; border: 1px solid #c9d0dc; border-radius: 6px; font: inherit; width: 200px; }
+#auth-status .ok { color: #2e7d32; font-weight: 600; }
+#auth-status .err, .lijst-melding.err { color: #c62828; }
+#auth-status .muted { color: var(--ink-soft); }
+.lijst-melding { margin: 0; padding: 0 1rem; font-size: 0.84rem; min-height: 0; }
+.lijst-melding:not(:empty) { padding: 0.4rem 1rem; border-bottom: 1px solid var(--line); background: #f7f9fc; }
+.lijst-melding.warn { color: #8a5a00; }
+.lijst-melding.ok { color: #2e7d32; }
+#tabel { flex: 1; min-height: 0; font-size: 0.84rem; border: 0; }
+#tabel .tabulator-header .tabulator-col .tabulator-header-filter input,
+#tabel .tabulator-header .tabulator-col .tabulator-header-filter select { font-size: 0.78rem; padding: 2px 4px; }
+.bereik { display: flex; gap: 2px; }
+.bereik input { width: 50%; min-width: 0; font-size: 0.75rem; padding: 2px 3px; }
+.rv { display: flex; align-items: center; gap: 3px; flex-wrap: wrap; }
+.rv-btn {
+  width: 28px; height: 24px; border-radius: 5px; border: 1px solid #c9d0dc; background: #fff; cursor: pointer;
+  font-size: 0.85rem; line-height: 1; padding: 0;
+}
+.rv-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+.rv-btn.rv-relevant.actief { background: #2e7d32; color: #fff; border-color: #2e7d32; }
+.rv-btn.rv-niet_relevant.actief { background: #616161; color: #fff; border-color: #616161; }
+.rv-btn.rv-twijfel.actief { background: #f9a825; color: #000; border-color: #f9a825; }
+.rv-st { font-weight: 700; margin-left: 2px; color: var(--ink-soft); }
+.rv-st.ok { color: #2e7d32; }
+.rv-st.err { color: #c62828; }
+.rv-hint { width: 100%; font-size: 0.68rem; color: var(--ink-soft); line-height: 1.1; }
+.oordeel { padding: 1px 7px; border-radius: 999px; font-size: 0.76rem; border: 1px solid transparent; }
+.oordeel.relevant { background: #e8f5e9; color: #1b5e20; border-color: #a5d6a7; }
+.oordeel.niet_relevant { background: #eceff1; color: #37474f; border-color: #cfd8dc; }
+.oordeel.twijfel { background: #fff8e1; color: #7a5600; border-color: #ffe082; }
+.oordeel.open { color: #7a8599; font-style: italic; }
+.kaart-btn { font: inherit; font-size: 0.76rem; padding: 2px 7px; border: 1px solid #c9d0dc; background: #fff; border-radius: 5px; cursor: pointer; }
+.kaart-btn:hover { background: #eef3fb; }
+#tabel .badge { font-size: 0.72rem; }
+@media (max-width: 760px) {
+  .tabs { margin-left: 0; }
+  header { flex-wrap: wrap; }
+  #auth-box { margin-left: 0; }
+}

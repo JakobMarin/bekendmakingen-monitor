@@ -13,6 +13,9 @@
     "september", "oktober", "november", "december"];
 
   const visible = new Set(ORDE);
+  // Gedeeld met assets/lijst.js (tabblad 'Lijst').
+  let klaarResolve;
+  window.MONITOR = { data: [], klaar: new Promise(r => { klaarResolve = r; }), toonOpKaart: null };
   const markersById = new Map();
   const vormenById = new Map();   // kenmerk -> L.GeoJSON (alleen klassen in CFG.vormKlassen met vlak/lijn)
   const VORM_KLASSEN = new Set(CFG.vormKlassen || ["hoog"]);
@@ -352,8 +355,50 @@
     render();
     const pts = data.filter(d => d.heeft_coordinaat && inModus(d)).map(d => [d.lat, d.lon]);
     if (pts.length) map.fitBounds(L.latLngBounds(pts), { padding: [28, 28], maxZoom: 14 });
+    window.MONITOR.data = data;
+    klaarResolve(data);
   }).catch(err => {
     setStatus("Gegevens konden niet worden geladen (" + err.message + ").", "err");
     $("header-counts").textContent = "";
+    klaarResolve([]);
   });
+
+  // ---------------------------------------------------------------- tabbladen (hash-routing) ---
+  function toonOpKaart(kenmerk) {
+    const d = data.find(x => x.kenmerk === kenmerk);
+    if (!d) return;
+    // Zorg dat de melding niet door een filter verborgen is.
+    if (!zichtbaar(d)) {
+      visible.add(d.inschatting);
+      document.querySelectorAll(".filter-btn").forEach(b => b.setAttribute("aria-pressed", visible.has(b.dataset.klasse) ? "true" : "false"));
+      if (!inModus(d)) modus = "alle";
+      render();
+    }
+    toonDetail(kenmerk, true);
+  }
+  window.MONITOR.toonOpKaart = toonOpKaart;
+
+  function toonView(v) {
+    document.body.dataset.view = v;
+    $("tab-kaart").setAttribute("aria-selected", v === "kaart" ? "true" : "false");
+    $("tab-lijst").setAttribute("aria-selected", v === "lijst" ? "true" : "false");
+    if (v === "kaart") setTimeout(() => map.invalidateSize(), 0);
+    document.dispatchEvent(new CustomEvent("monitor:view", { detail: v }));
+  }
+  function route() {
+    const h = location.hash || "";
+    if (/access_token=|error_description=|[#&]error=/.test(h)) return;   // Supabase-login verwerkt dit zelf
+    if (h.startsWith("#lijst")) { toonView("lijst"); return; }
+    toonView("kaart");
+    const m = h.match(/^#kaart\/(.+)$/);
+    if (m) {
+      const kenmerk = decodeURIComponent(m[1]);
+      window.MONITOR.klaar.then(() => {
+        setTimeout(() => { map.invalidateSize(); toonOpKaart(kenmerk); }, 30);
+        history.replaceState(null, "", "#kaart");
+      });
+    }
+  }
+  window.addEventListener("hashchange", route);
+  route();
 })();
