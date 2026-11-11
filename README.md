@@ -93,7 +93,13 @@ Lukt de API niet, dan valt de site terug op `data/meldingen.geojson`.
 - Klik op een punt of in de lijst voor details en de link naar de officiële bekendmaking.
 - Het Stedin-hoogspanningsnet als groene lijn (tooltip met naam) en de zone van 100 m in
   lichtgroen, doorzichtig; beide aan/uit te zetten via de laagschakelaar rechtsboven.
-  Lagenvolgorde: achtergrond < zone < lijn < meldingen, zodat punten klikbaar blijven.
+  Lagenvolgorde: achtergrond < zone < lijn < vormen < stippen, zodat alles klikbaar blijft.
+- **Hoog-meldingen als vorm**: heeft de publicatie in de metadata een vlak of lijn
+  (gebiedsmarkering), dan tekent de kaart die vorm in de klassekleur (rood, deels
+  doorzichtig) in plaats van een stip, met dezelfde popup en hetzelfde detailpaneel.
+  Een vorm verschijnt zodra hij op het scherm minstens 14 pixels groot is (`vormMinPixels`
+  in `config.js`); kleiner, of alleen een punt/adres in de metadata, dan blijft het een stip.
+  Filters (klassen, binnen 100 m/alle) gelden ook voor de vormen.
 
 ---
 
@@ -205,3 +211,18 @@ python scripts/build_scope.py --uit-database   # zoekgebied opnieuw bepalen → 
 
 Bron van de data: [officiële bekendmakingen](https://zoek.officielebekendmakingen.nl/) (KOOP).
 Een inschatting is een eerste, automatische beoordeling; controleer altijd de officiële publicatie.
+
+---
+
+## Vormen (vlak/lijn) van publicaties
+
+- Kolommen `geom_vorm` (EPSG:4326, ca. 1 m vereenvoudigd, 6 decimalen) en `vorm_type`
+  (`vlak`, `lijn`, `vlak+lijn` of `punt`) in `public.bekendmakingen`; de view
+  `meldingen_kaart` levert `vorm_type` en `vorm_geojson`. Migratie: `sql/004_vormen.sql`.
+- Voor welke klassen: `config/vormen.json` (standaard `["hoog"]`). Uitbreiden naar bijv.
+  `middel`: zet de klasse in `config/vormen.json` én in `vormKlassen` in `config.js`, en draai
+  `python scripts/vormen.py` (of wacht op de dagelijkse job, die ontbrekende vormen bijvult).
+- De dagelijkse job slaat de vorm op bij nieuwe meldingen in die klassen en vult rijen zonder
+  `vorm_type` (bijv. na herklassificatie) aan via de SRU-API op kenmerk.
+- `data/meldingen_vormen.geojson`: de vormen als aparte laag (ook als terugval voor de website
+  en bruikbaar in QGIS).

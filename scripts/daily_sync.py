@@ -18,7 +18,9 @@ Stappen
      eerder (handmatig) oordeel wordt nooit overschreven.
   5. private.refresh_buffer_matches() via de wrapper public.sync_refresh_buffer_matches()
      (sql/002_sync_rpc.sql), daarna rijen met binnen_buffer_100m <> true verwijderen.
-  6. Optioneel GeoJSON-export van public.meldingen_kaart (nooit assets).
+  4c. Vormen (vlak/lijn uit de metadata) bijvullen voor klassen in config/vormen.json.
+  6. Optioneel GeoJSON-export van public.meldingen_kaart (nooit assets), plus
+     meldingen_vormen.geojson met de vlakken/lijnen.
 
 Gebruik (GitHub Action)
   SUPABASE_URL=... SUPABASE_SERVICE_ROLE_KEY=... python scripts/daily_sync.py --dagen 2 \\
@@ -45,6 +47,7 @@ from shapely.ops import nearest_points, unary_union
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import classify  # noqa: E402
 import sru  # noqa: E402
+import vormen  # noqa: E402
 from geo import naar_rd, naar_wgs  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -108,7 +111,7 @@ def bron_naam(rec: dict) -> str:
     return f"{blad} {org}".strip() if prefix in ("gmb", "prb", "wsb") else blad
 
 
-def bouw_rij(rec: dict, afstand: float, punt_rd, centroid_rd, tekst: str | None = None) -> dict:
+def bouw_rij(rec: dict, afstand: float, punt_rd, centroid_rd, tekst: str | None = None, g_rd=None) -> dict:
     if tekst is None:
         tekst = sru.fetch_text(rec.get("xml"))
     oordeel = classify.inschatting(rec, tekst)
@@ -125,7 +128,7 @@ def bouw_rij(rec: dict, afstand: float, punt_rd, centroid_rd, tekst: str | None 
         "punt": "dichtstbijzijnde punt van de publicatiegeometrie tot het net",
         "classificatie_bron": "automatisch-v1",
     }
-    return {
+    rij = {
         "kenmerk": rid,
         "datum": rec.get("date"),
         "inschatting": oordeel["inschatting"],
@@ -144,10 +147,13 @@ def bouw_rij(rec: dict, afstand: float, punt_rd, centroid_rd, tekst: str | None 
         "afstand_tot_asset_m": round(afstand, 1),
         "raw": raw,
     }
+    # originele vlak/lijn-geometrie voor de klassen in config/vormen.json (standaard: hoog)
+    rij.update(vormen.velden(rec, g_rd, oordeel["inschatting"]))
+    return rij
 
 
 # ---------------------------------------------------------------- export ------
-def export_geojson(rows: list[dict], pad: Path) -> bool:
+def export_geojson(rows: list[dict], pad: Path, vorm: bool = False) -> bool:
     rows = sorted(rows, key=lambda r: r["kenmerk"])
     rows.sort(key=lambda r: r.get("datum") or "", reverse=True)
     rows.sort(key=lambda r: -(r.get("relevantie_score") or 0))  # stabiel: score, dan nieuwste
@@ -157,10 +163,12 @@ def export_geojson(rows: list[dict], pad: Path) -> bool:
                                         "titel", "locatie", "toelichting", "waarom", "ontbreekt", "url",
                                         "uitgever", "binnen_buffer_100m", "afstand_tot_asset_m")}
         props["eerst_gezien"] = (r.get("first_seen") or "")[:10] or None
+        if vorm:
+            props["vorm_type"] = r.get("vorm_type")
         if props["afstand_tot_asset_m"] is not None:
             props["afstand_tot_asset_m"] = round(float(props["afstand_tot_asset_m"]), 1)
         feats.append({"type": "Feature", "geometry": r.get("geojson"), "properties": props})
-    fc = {"type": "FeatureCollection", "name": "meldingen_kaart", "features": feats}
+    fc = {"type": "FeatureCollection", "name": "meldingen_vormen" if vorm else "meldingen_kaart", "features": feats}
     nieuw = json.dumps(fc, ensure_ascii=False, indent=1) + "\n"
     oud = pad.read_text(encoding="utf-8") if pad.exists() else ""
     if nieuw != oud:
@@ -186,12 +194,14 @@ def schrijf_sql(rijen: list[dict], pad: Path) -> None:
     """Upsert-SQL (zelfde semantiek als de REST-weg) voor een handmatige backfill."""
     cols = ["kenmerk", "datum", "inschatting", "relevantie_score", "bron", "type", "titel", "locatie",
             "toelichting", "waarom", "ontbreekt", "url", "uitgever", "geom", "binnen_buffer_100m",
-            "afstand_tot_asset_m", "raw"]
+            "afstand_tot_asset_m", "raw", "geom_vorm", "vorm_type"]
     vals = []
     for r in rijen:
         v = [sql_literal(r[c]) for c in cols]
         v[cols.index("geom")] = f"extensions.ST_GeomFromEWKT({sql_literal(r['geom'])})"
         v[cols.index("raw")] = sql_literal(r["raw"]) + "::jsonb"
+        if r.get("geom_vorm"):
+            v[cols.index("geom_vorm")] = f"extensions.ST_GeomFromEWKT({sql_literal(r['geom_vorm'])})"
         vals.append("(" + ", ".join(v) + ")")
     sql = (f"INSERT INTO public.bekendmakingen ({', '.join(cols)}) VALUES\n" + ",\n".join(vals) +
            "\nON CONFLICT (kenmerk) DO UPDATE SET last_seen = now();\n")
@@ -258,7 +268,7 @@ def main() -> int:
             continue
         i = int(idx[int(dist.argmin())])
         p_pub, _ = nearest_points(g, geoms[i])
-        matches.append((rec, float(dist.min()), p_pub, g.centroid))
+        matches.append((rec, float(dist.min()), p_pub, g.centroid, g))
     tel["binnen_buffer"] = len(matches)
     log(f"Resultaat: {dict(tel)}")
 
@@ -267,7 +277,7 @@ def main() -> int:
     with ThreadPoolExecutor(max_workers=8) as pool:
         teksten = list(pool.map(lambda m: sru.fetch_text(m[0].get("xml")), matches))
     log(f"Tekst opgehaald voor {len(teksten)} matches")
-    rijen = [bouw_rij(rec, d, p, c, t) for (rec, d, p, c), t in zip(matches, teksten)]
+    rijen = [bouw_rij(rec, d, p, c, t, g) for (rec, d, p, c, g), t in zip(matches, teksten)]
     per_klasse = Counter(r["inschatting"] for r in rijen)
     samenvatting = {"periode": {"van": van, "tot": tot}, "hits_per_query": per_query,
                     "unieke_publicaties": len(recs), "telling": dict(tel), "per_klasse": dict(per_klasse)}
@@ -295,6 +305,14 @@ def main() -> int:
         sb.patch("bekendmakingen", {"kenmerk": f"in.({lst})"}, {"last_seen": nu})
     log(f"Upsert: {len(nieuw)} nieuw, {len(oud)} al bekend (last_seen bijgewerkt)")
 
+    # 4c. vormen bijvullen (herklassificeerde of oudere rijen in de vormklassen zonder vorm_type)
+    try:
+        samenvatting["vormen"] = vormen.vul_ontbrekend(sb)
+        log(f"Vormen ({', '.join(vormen.KLASSEN)}): {samenvatting['vormen']}")
+    except RuntimeError as exc:
+        log(f"WAARSCHUWING: vormen bijvullen mislukt ({exc}). Is sql/004_vormen.sql toegepast?")
+        samenvatting["vormen"] = "mislukt"
+
     # 5. refresh + opschonen
     try:
         sb.rpc("sync_refresh_buffer_matches")
@@ -318,6 +336,10 @@ def main() -> int:
         rows = sb.select_all("meldingen_kaart", "*", "kenmerk")
         veranderd = export_geojson(rows, Path(a.export))
         log(f"GeoJSON {'bijgewerkt' if veranderd else 'ongewijzigd'}: {a.export} ({len(rows)} features)")
+        pad_vormen = Path(a.export).with_name("meldingen_vormen.geojson")
+        veranderd = export_geojson([dict(r, geojson=r.get("vorm_geojson")) for r in rows if r.get("vorm_geojson")],
+                                   pad_vormen, vorm=True)
+        log(f"Vormen-GeoJSON {'bijgewerkt' if veranderd else 'ongewijzigd'}: {pad_vormen}")
 
     if a.summary:
         Path(a.summary).write_text(json.dumps(samenvatting, ensure_ascii=False, indent=1), encoding="utf-8")

@@ -9,5 +9,12 @@ window.MONITOR_CONFIG = {
   view: "meldingen_kaart",
   // Terugval als de API niet bereikbaar is: de dagelijks geëxporteerde GeoJSON.
   fallbackGeojson: "data/meldingen.geojson",
-  bufferMeters: 100
+  bufferMeters: 100,
+  // Klassen die (als de publicatie een vlak/lijn heeft) als vorm i.p.v. stip worden getekend.
+  // Houd gelijk aan config/vormen.json (die bepaalt voor welke klassen de vorm wordt opgeslagen).
+  vormKlassen: ["hoog"],
+  // Terugval voor de vormen als de API niet bereikbaar is.
+  fallbackVormen: "data/meldingen_vormen.geojson",
+  // Vorm pas tekenen als hij op het scherm minstens zo groot is (pixels); anders een stip.
+  vormMinPixels: 14
 };

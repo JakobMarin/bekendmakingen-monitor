@@ -1,7 +1,8 @@
 /* Bekendmakingen-monitor Stedin hoogspanning — kaart.
  * Leest live uit Supabase (view public.meldingen_kaart) met de publishable key.
  * Het Stedin-hoogspanningsnet en de zone van 100 m komen uit statische, vereenvoudigde GeoJSON
- * (data/hoogspanning.geojson en data/zone_100m.geojson); de tabel public.assets blijft afgeschermd. */
+ * (data/hoogspanning.geojson en data/zone_100m.geojson); de tabel public.assets blijft afgeschermd.
+ * Meldingen in CFG.vormKlassen met een vlak/lijn (vorm_geojson) worden als vorm getekend. */
 (function () {
   "use strict";
   const CFG = window.MONITOR_CONFIG;
@@ -13,6 +14,9 @@
 
   const visible = new Set(ORDE);
   const markersById = new Map();
+  const vormenById = new Map();   // kenmerk -> L.GeoJSON (alleen klassen in CFG.vormKlassen met vlak/lijn)
+  const VORM_KLASSEN = new Set(CFG.vormKlassen || ["hoog"]);
+  const VORM_MIN_PX = CFG.vormMinPixels || 14;
   let data = [];
   let modus = "alle";          // "buffer" of "alle"
   let bufferBeschikbaar = false;
@@ -39,10 +43,13 @@
     let lat = null, lon = null;
     if (g && g.type === "Point" && Array.isArray(g.coordinates)) { lon = +g.coordinates[0]; lat = +g.coordinates[1]; }
     const ok = Number.isFinite(lat) && Number.isFinite(lon);
+    let vorm = r.vorm_geojson;
+    if (typeof vorm === "string") { try { vorm = JSON.parse(vorm); } catch (e) { vorm = null; } }
+    if (!vorm || !vorm.type || vorm.type === "Point" || vorm.type === "MultiPoint") vorm = null;
     return Object.assign({}, r, {
       inschatting: ORDE.includes(r.inschatting) ? r.inschatting : "niet relevant",
       relevantie_score: r.relevantie_score == null ? 0 : r.relevantie_score,
-      lat: ok ? lat : null, lon: ok ? lon : null, heeft_coordinaat: ok,
+      lat: ok ? lat : null, lon: ok ? lon : null, heeft_coordinaat: ok, vorm: vorm,
       datum: r.datum || "", datum_nl: nlDatum(r.datum)
     });
   }
@@ -66,7 +73,12 @@
       const res = await fetch(CFG.fallbackGeojson, { cache: "no-store" });
       if (!res.ok) throw e;
       const fc = await res.json();
-      return { rows: fc.features.map(f => Object.assign({}, f.properties, { geojson: f.geometry })), bron: "geojson" };
+      const vormen = new Map();
+      try {
+        const rv = await fetch(CFG.fallbackVormen, { cache: "no-store" });
+        if (rv.ok) (await rv.json()).features.forEach(f => vormen.set(f.properties.kenmerk, f.geometry));
+      } catch (e2) { /* zonder vormen verder */ }
+      return { rows: fc.features.map(f => Object.assign({}, f.properties, { geojson: f.geometry, vorm_geojson: vormen.get(f.properties.kenmerk) || null })), bron: "geojson" };
     }
   }
 
@@ -80,6 +92,9 @@
   map.createPane("zonePane").style.zIndex = 410;
   map.createPane("lijnPane").style.zIndex = 420;
   map.getPane("zonePane").style.pointerEvents = "none";
+  map.createPane("vormPane").style.zIndex = 450;   // boven net/zone, onder de stippen (markerPane 600)
+  const vormRenderer = L.svg({ pane: "vormPane" });
+  const vormGroep = L.layerGroup().addTo(map);
   const zoneLaag = L.layerGroup().addTo(map);
   const lijnLaag = L.layerGroup().addTo(map);
   const netLagen = {};
@@ -135,6 +150,27 @@
     });
   }
 
+  function kleurDonker(hex) {
+    const n = parseInt(hex.slice(1), 16), f = 0.62;
+    return "rgb(" + Math.round((n >> 16) * f) + "," + Math.round(((n >> 8) & 255) * f) + "," + Math.round((n & 255) * f) + ")";
+  }
+  function stijlVorm(groep, klasse, actief) {
+    const kleur = KLEUR[klasse], rand = kleurDonker(kleur);
+    groep.eachLayer(function stijl(l) {
+      if (l.eachLayer && !(l instanceof L.Path)) { l.eachLayer(stijl); return; }
+      if (l instanceof L.Polygon) l.setStyle({ color: rand, weight: actief ? 3.5 : 1.5, opacity: 0.9, fillColor: kleur, fillOpacity: actief ? 0.5 : 0.35 });
+      else if (l instanceof L.Polyline) l.setStyle({ color: kleur, weight: actief ? 6 : 4, opacity: actief ? 1 : 0.8 });
+    });
+  }
+  // Toon de vorm alleen als die op het scherm groot genoeg is; anders blijft het een stip.
+  function alsVorm(d) {
+    const v = vormenById.get(d.kenmerk);
+    if (!v) return false;
+    const b = v.getBounds();
+    const a = map.project(b.getNorthWest()), c = map.project(b.getSouthEast());
+    return Math.max(Math.abs(c.x - a.x), Math.abs(c.y - a.y)) >= VORM_MIN_PX;
+  }
+
   const legend = L.control({ position: "bottomleft" });
   legend.onAdd = function () {
     const div = L.DomUtil.create("div", "legend");
@@ -144,7 +180,8 @@
       '<div class="row"><i style="width:13px;height:13px;background:#f9a825"></i> laag</div>' +
       '<div class="row"><i style="width:11px;height:11px;background:#78909c"></i> niet relevant</div>' +
       '<div class="row"><i class="lg-lijn"></i> Hoogspanningsverbinding</div>' +
-      '<div class="row"><i class="lg-zone"></i> Zone ' + CFG.bufferMeters + ' m</div>';
+      '<div class="row"><i class="lg-zone"></i> Zone ' + CFG.bufferMeters + ' m</div>' +
+      '<p class="note">' + escapeHtml(Array.from(VORM_KLASSEN).join(", ")) + ': als vlak of lijn uit de publicatie (bij inzoomen); zonder vlak/lijn of te klein: stip.</p>';
     return div;
   };
   legend.addTo(map);
@@ -193,16 +230,31 @@
       (u ? '<a class="officieel" href="' + escapeHtml(u) + '" target="_blank" rel="noopener noreferrer">Open officiële bekendmaking</a>' : "");
     $("btn-terug").addEventListener("click", sluitDetail);
     const marker = markersById.get(kenmerk);
-    if (marker) {
-      markersById.forEach((m, id) => { m._actief = id === kenmerk; m.setIcon(divIcon(m.options.klasse, m._actief)); });
+    markeerActief(kenmerk);
+    const vorm = vormenById.get(kenmerk);
+    if (vorm && vanLijst) {
+      map.once("moveend", () => {
+        if (alsVorm(d)) vorm.openPopup(vorm.getBounds().getCenter());
+        else if (marker) clusters.zoomToShowLayer(marker, () => marker.openPopup());
+      });
+      map.fitBounds(vorm.getBounds(), { padding: [60, 60], maxZoom: 17 });
+    } else if (vorm && alsVorm(d)) {
+      if (!vorm.isPopupOpen()) vorm.openPopup(vorm.getBounds().getCenter());
+    } else if (marker) {
       if (vanLijst) clusters.zoomToShowLayer(marker, () => marker.openPopup()); else marker.openPopup();
     }
+  }
+  let actiefId = null;
+  function markeerActief(kenmerk) {
+    actiefId = kenmerk;
+    markersById.forEach((m, id) => { const a = id === kenmerk; if (a !== !!m._actief) { m._actief = a; m.setIcon(divIcon(m.options.klasse, a)); } });
+    vormenById.forEach((v, id) => { const a = id === kenmerk; if (a !== !!v._actief) { v._actief = a; stijlVorm(v, v.options.klasse, a); if (a) v.bringToFront(); } });
   }
   function sluitDetail() {
     $("detail").classList.remove("is-open");
     $("detail").innerHTML = "";
     $("list-view").classList.remove("is-hidden");
-    markersById.forEach(m => { if (m._actief) { m._actief = false; m.setIcon(divIcon(m.options.klasse, false)); } });
+    markeerActief(null);
   }
 
   // ---------------------------------------------------------------- filters -
@@ -221,9 +273,19 @@
   }
   const sorteer = (a, b) => (b.relevantie_score - a.relevantie_score) || b.datum.localeCompare(a.datum) || a.kenmerk.localeCompare(b.kenmerk);
 
-  function render() {
+  // Kaartlagen: stip of vorm per melding, afhankelijk van filters en zoomniveau.
+  function renderKaart() {
+    const stippen = [];
+    markersById.forEach(m => { const d = m.options.rec; if (zichtbaar(d) && !alsVorm(d)) stippen.push(m); });
     clusters.clearLayers();
-    markersById.forEach(m => { if (zichtbaar(m.options.rec)) clusters.addLayer(m); });
+    clusters.addLayers(stippen);
+    vormGroep.clearLayers();
+    vormenById.forEach(v => { const d = v.options.rec; if (zichtbaar(d) && alsVorm(d)) vormGroep.addLayer(v); });
+  }
+  map.on("zoomend", renderKaart);
+
+  function render() {
+    renderKaart();
     const mShow = data.filter(d => d.heeft_coordinaat && zichtbaar(d)).sort(sorteer);
     const uShow = data.filter(d => !d.heeft_coordinaat && zichtbaar(d)).sort(sorteer);
     $("mapped-title").textContent = "Op de kaart (" + mShow.length + ")";
@@ -266,6 +328,16 @@
       m.bindPopup(popupHtml(d), { maxWidth: 340, autoPanPadding: [40, 40] });
       m.on("click", () => toonDetail(d.kenmerk, false));
       markersById.set(d.kenmerk, m);
+      if (d.vorm && VORM_KLASSEN.has(d.inschatting)) {
+        try {
+          const v = L.geoJSON(d.vorm, { pane: "vormPane", renderer: vormRenderer, klasse: d.inschatting, rec: d });
+          stijlVorm(v, d.inschatting, false);
+          v.bindPopup(popupHtml(d), { maxWidth: 340, autoPanPadding: [40, 40] });
+          v.on("click", () => toonDetail(d.kenmerk, false));
+          v.bindTooltip(escapeHtml(d.titel), { sticky: true, direction: "top", opacity: 0.9 });
+          vormenById.set(d.kenmerk, v);
+        } catch (e) { /* ongeldige vorm: stip blijft */ }
+      }
     });
     const nBuffer = data.filter(d => d.binnen_buffer_100m === true).length;
     const allesNull = data.every(d => d.binnen_buffer_100m == null);

@@ -17,7 +17,7 @@ on:
         default: "2"
 
 permissions:
-  contents: write   # om data/meldingen.geojson te committen
+  contents: write   # om data/meldingen.geojson en data/meldingen_vormen.geojson te committen
 
 concurrency:
   group: daily-sync
@@ -59,12 +59,13 @@ jobs:
 
       - name: GeoJSON committen als die veranderde
         run: |
-          if git diff --quiet -- data/meldingen.geojson && git ls-files --error-unmatch data/meldingen.geojson >/dev/null 2>&1; then
+          if git diff --quiet -- data/meldingen.geojson data/meldingen_vormen.geojson \
+             && git ls-files --error-unmatch data/meldingen.geojson data/meldingen_vormen.geojson >/dev/null 2>&1; then
             echo "GeoJSON ongewijzigd"
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/meldingen.geojson
+          git add data/meldingen.geojson data/meldingen_vormen.geojson
           git commit -m "Dagelijkse update meldingen.geojson ($(date -u +%Y-%m-%d))"
           git push

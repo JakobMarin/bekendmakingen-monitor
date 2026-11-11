@@ -1,0 +1,5 @@
+{
+  "_toelichting": "Klassen waarvan de originele publicatiegeometrie (vlak/lijn) wordt opgeslagen en op de kaart getekend. Uitbreiden met bijv. \"middel\" en daarna eenmalig 'python scripts/vormen.py' draaien (of de dagelijkse job laten bijvullen). Zet dezelfde lijst ook in config.js (vormKlassen).",
+  "klassen": ["hoog"],
+  "vereenvoudiging_m": 1.0
+}
