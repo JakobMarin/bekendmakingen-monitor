@@ -1,6 +1,7 @@
 /* Bekendmakingen-monitor Stedin hoogspanning — kaart.
  * Leest live uit Supabase (view public.meldingen_kaart) met de publishable key.
- * Toont NOOIT asset-geometrie: de tabel public.assets is voor deze key afgeschermd. */
+ * Het Stedin-hoogspanningsnet en de zone van 100 m komen uit statische, vereenvoudigde GeoJSON
+ * (data/hoogspanning.geojson en data/zone_100m.geojson); de tabel public.assets blijft afgeschermd. */
 (function () {
   "use strict";
   const CFG = window.MONITOR_CONFIG;
@@ -75,6 +76,45 @@
     maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>-bijdragers'
   }).addTo(map);
 
+  // Lagenvolgorde: achtergrond < zone 100 m < hoogspanningsverbinding < meldingen (markerPane, z 600).
+  map.createPane("zonePane").style.zIndex = 410;
+  map.createPane("lijnPane").style.zIndex = 420;
+  map.getPane("zonePane").style.pointerEvents = "none";
+  const zoneLaag = L.layerGroup().addTo(map);
+  const lijnLaag = L.layerGroup().addTo(map);
+  const netLagen = {};
+  netLagen['<span class="lc-lijn"></span> Hoogspanningsverbinding'] = lijnLaag;
+  netLagen['<span class="lc-zone"></span> Zone ' + CFG.bufferMeters + " m"] = zoneLaag;
+  L.control.layers(null, netLagen, { collapsed: false, position: "topright" }).addTo(map);
+
+  const NetLaden = L.Control.extend({
+    options: { position: "topright" },
+    onAdd: function () { const d = L.DomUtil.create("div", "net-laden"); d.textContent = "Net laden…"; return d; }
+  });
+  const netLaden = new NetLaden().addTo(map);
+
+  async function laadNet() {
+    const haal = url => fetch(url).then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); });
+    try {
+      const [zone, lijnen] = await Promise.all([haal("data/zone_100m.geojson"), haal("data/hoogspanning.geojson")]);
+      L.geoJSON(zone, {
+        pane: "zonePane", interactive: false, renderer: L.canvas({ pane: "zonePane" }),
+        style: { color: "#66bd63", weight: 1, opacity: 0.6, fillColor: "#a6d96a", fillOpacity: 0.35 }
+      }).addTo(zoneLaag);
+      L.geoJSON(lijnen, {
+        pane: "lijnPane", renderer: L.canvas({ pane: "lijnPane", tolerance: 4 }),
+        style: { color: "#1a9641", weight: 2.75, opacity: 0.9 },
+        onEachFeature: (f, l) => { if (f.properties && f.properties.naam) l.bindTooltip(escapeHtml(f.properties.naam), { sticky: true }); }
+      }).addTo(lijnLaag);
+      map.removeControl(netLaden);
+    } catch (e) {
+      const el = netLaden.getContainer();
+      el.textContent = "Net kon niet worden geladen (" + e.message + ")";
+      el.classList.add("err");
+    }
+  }
+  laadNet();
+
   const clusters = L.markerClusterGroup({
     maxClusterRadius: 36, spiderfyOnMaxZoom: true, spiderfyDistanceMultiplier: 1.7, showCoverageOnHover: false,
     iconCreateFunction: function (cluster) {
@@ -103,7 +143,8 @@
       '<div class="row"><i style="width:13px;height:13px;background:#ef6c00"></i> middel</div>' +
       '<div class="row"><i style="width:13px;height:13px;background:#f9a825"></i> laag</div>' +
       '<div class="row"><i style="width:11px;height:11px;background:#78909c"></i> niet relevant</div>' +
-      '<p class="note">Het hoogspanningsnet zelf wordt bewust niet getoond.</p>';
+      '<div class="row"><i class="lg-lijn"></i> Hoogspanningsverbinding</div>' +
+      '<div class="row"><i class="lg-zone"></i> Zone ' + CFG.bufferMeters + ' m</div>';
     return div;
   };
   legend.addTo(map);

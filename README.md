@@ -8,8 +8,11 @@ een PostGIS-database (Supabase), op een klikbare kaart (GitHub Pages) en als laa
 - GeoJSON-laag: <https://jakobmarin.github.io/bekendmakingen-monitor/data/meldingen.geojson>
 - Database: Supabase-project `bekendmakingen-monitor` (ref `faooiidlipaaowwjzpah`, regio eu-central-1)
 
-Het hoogspanningsnet zelf (tabel `public.assets`) is **privé**: het staat niet in deze repo,
-niet op de website en is niet leesbaar met de publieke sleutel.
+Het hoogspanningsnet en de zone van 100 m worden op de website **getoond** (groene lijn,
+lichtgroene doorzichtige zone), vanuit vereenvoudigde, statische GeoJSON in deze repo:
+`data/hoogspanning.geojson` en `data/zone_100m.geojson` (EPSG:4326, ca. 3 m vereenvoudigd).
+De volledige bronbestanden (shapefile/GeoPackage) en de databasetabel `public.assets`
+staan niet in de repo en zijn niet leesbaar met de publieke sleutel.
 
 ---
 
@@ -88,7 +91,9 @@ Lukt de API niet, dan valt de site terug op `data/meldingen.geojson`.
 - Standaard: meldingen **binnen 100 m van het net**; knop “Alle opgeslagen meldingen”.
 - Filters op inschatting (hoog rood, middel oranje, laag goud, niet relevant grijs).
 - Klik op een punt of in de lijst voor details en de link naar de officiële bekendmaking.
-- Het hoogspanningsnet zelf wordt niet getoond.
+- Het Stedin-hoogspanningsnet als groene lijn (tooltip met naam) en de zone van 100 m in
+  lichtgroen, doorzichtig; beide aan/uit te zetten via de laagschakelaar rechtsboven.
+  Lagenvolgorde: achtergrond < zone < lijn < meldingen, zodat punten klikbaar blijven.
 
 ---
 

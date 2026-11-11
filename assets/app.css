@@ -215,3 +215,11 @@ footer.bron {
 .status.err { background: #fde8e8; color: #8a1c1c; }
 .buffer-tag { display: inline-block; margin-left: 0.3rem; font-size: 0.68rem; padding: 0.05rem 0.4rem; border-radius: 999px; background: #1b2a4a; color: #fff; }
 footer.bron a { color: var(--link); }
+
+/* Hoogspanningsnet en zone 100 m */
+.legend i.lg-lijn { width: 22px; height: 0; border: 0; border-top: 3px solid #1a9641; border-radius: 0; box-shadow: none; }
+.legend i.lg-zone { width: 18px; height: 12px; border: 1px solid rgba(102, 189, 99, 0.6); border-radius: 2px; background: rgba(166, 217, 106, 0.35); box-shadow: none; }
+.leaflet-control-layers .lc-lijn { display: inline-block; width: 18px; height: 0; border-top: 3px solid #1a9641; vertical-align: middle; margin: 0 2px; }
+.leaflet-control-layers .lc-zone { display: inline-block; width: 14px; height: 10px; border: 1px solid rgba(102, 189, 99, 0.6); background: rgba(166, 217, 106, 0.35); vertical-align: middle; margin: 0 2px; }
+.net-laden { background: #fff; padding: 4px 8px; border-radius: 4px; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25); font-size: 0.78rem; color: #1a9641; }
+.net-laden.err { color: #c62828; }

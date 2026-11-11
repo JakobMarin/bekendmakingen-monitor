@@ -38,3 +38,7 @@ venv/
 *.qgs~
 *.qgz~
 .DS_Store
+
+# Web-versies van net en zone mogen wél gepubliceerd worden
+!data/hoogspanning.geojson
+!data/zone_100m.geojson
