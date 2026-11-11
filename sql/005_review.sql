@@ -24,8 +24,8 @@ CREATE TABLE IF NOT EXISTS private.reviewers (
 );
 REVOKE ALL ON private.reviewers FROM PUBLIC, anon, authenticated;
 
-INSERT INTO private.reviewers (email, naam) VALUES ('reviewer@example.nl', 'Reviewer')
-ON CONFLICT (email) DO NOTHING;
+-- De allowlist zelf staat alleen in de database (niet in deze publieke repo).
+-- Toevoegen: zie onderaan dit bestand.
 
 CREATE OR REPLACE FUNCTION public.is_reviewer()
 RETURNS boolean
