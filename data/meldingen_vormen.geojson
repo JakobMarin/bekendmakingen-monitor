@@ -9,6 +9,1053 @@
     "coordinates": [
      [
       [
+       3.800878,
+       51.230943
+      ],
+      [
+       3.80143,
+       51.231493
+      ],
+      [
+       3.801411,
+       51.231557
+      ],
+      [
+       3.801627,
+       51.23173
+      ],
+      [
+       3.801034,
+       51.23198
+      ],
+      [
+       3.801183,
+       51.232133
+      ],
+      [
+       3.799548,
+       51.232763
+      ],
+      [
+       3.799708,
+       51.232034
+      ],
+      [
+       3.799906,
+       51.232234
+      ],
+      [
+       3.800557,
+       51.231912
+      ],
+      [
+       3.800271,
+       51.23162
+      ],
+      [
+       3.800304,
+       51.231608
+      ],
+      [
+       3.800014,
+       51.23131
+      ],
+      [
+       3.799981,
+       51.231323
+      ],
+      [
+       3.799956,
+       51.231297
+      ],
+      [
+       3.800878,
+       51.230943
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-519030",
+    "datum": "2026-11-12",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Terneuzen",
+    "type": "omgevingsvergunning",
+    "titel": "Besluit - Westkade 114 in Sas van Gent",
+    "locatie": "Westkade 114 in Sas van Gent",
+    "toelichting": "de volgende onderdelen: • het bouwen van een bouwwerk • activiteit die betrekking heeft op een gemeentelijk archeologisch monument U kunt de ter inzage liggende stukken online inzien op: https://jeleefomgeving.",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-519030.html",
+    "uitgever": "Terneuzen",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 76.7,
+    "eerst_gezien": "2026-11-12",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "MultiLineString",
+    "coordinates": [
+     [
+      [
+       4.499513,
+       51.903164
+      ],
+      [
+       4.501647,
+       51.901681
+      ]
+     ],
+     [
+      [
+       4.501647,
+       51.901681
+      ],
+      [
+       4.501649,
+       51.901679
+      ]
+     ],
+     [
+      [
+       4.504187,
+       51.903433
+      ],
+      [
+       4.503944,
+       51.903216
+      ]
+     ],
+     [
+      [
+       4.503944,
+       51.903216
+      ],
+      [
+       4.504333,
+       51.903371
+      ]
+     ],
+     [
+      [
+       4.503944,
+       51.903216
+      ],
+      [
+       4.503657,
+       51.903034
+      ]
+     ],
+     [
+      [
+       4.503657,
+       51.903034
+      ],
+      [
+       4.504084,
+       51.903477
+      ]
+     ],
+     [
+      [
+       4.50391,
+       51.903467
+      ],
+      [
+       4.503981,
+       51.903531
+      ]
+     ],
+     [
+      [
+       4.502787,
+       51.902218
+      ],
+      [
+       4.503735,
+       51.902774
+      ]
+     ],
+     [
+      [
+       4.495965,
+       51.898868
+      ],
+      [
+       4.496431,
+       51.898835
+      ],
+      [
+       4.501647,
+       51.901681
+      ]
+     ],
+     [
+      [
+       4.501647,
+       51.901681
+      ],
+      [
+       4.502713,
+       51.902263
+      ],
+      [
+       4.503657,
+       51.903034
+      ]
+     ],
+     [
+      [
+       4.49876,
+       51.903006
+      ],
+      [
+       4.500428,
+       51.901715
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-524235",
+    "datum": "2026-11-12",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "omgevingsvergunning",
+    "titel": "KENNISGEVING OMGEVINGSWET GRAVEN IN BODEM BOTHASTRAAT/PAUL KRUGERSTRAAT/CRONJESTRAAT (OPENBARE WEG) TE ROTTERDAM",
+    "locatie": "Bothastraat, Rotterdam",
+    "toelichting": "KENNISGEVING OMGEVINGSWET GRAVEN IN BODEM BOTHASTRAAT/PAUL KRUGERSTRAAT/CRONJESTRAAT (OPENBARE WEG) TE ROTTERDAM",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-524235.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-12",
+    "vorm_type": "lijn"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "MultiLineString",
+    "coordinates": [
+     [
+      [
+       4.3288,
+       51.854882
+      ],
+      [
+       4.328853,
+       51.85508
+      ]
+     ],
+     [
+      [
+       4.328853,
+       51.85508
+      ],
+      [
+       4.32921,
+       51.854742
+      ]
+     ],
+     [
+      [
+       4.3249,
+       51.861445
+      ],
+      [
+       4.32533,
+       51.859813
+      ],
+      [
+       4.326511,
+       51.858385
+      ],
+      [
+       4.327314,
+       51.856936
+      ]
+     ],
+     [
+      [
+       4.327314,
+       51.856936
+      ],
+      [
+       4.328853,
+       51.85508
+      ]
+     ],
+     [
+      [
+       4.326778,
+       51.857525
+      ],
+      [
+       4.327314,
+       51.856936
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-526788",
+    "datum": "2026-11-12",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Nissewaard",
+    "type": "andere melding",
+    "titel": "KENNISGEVING OMGEVINGSWET GRAVEN IN BODEM MOLENDIJK TE SPIJKENISSE",
+    "locatie": "Molendijk, Spijkenisse",
+    "toelichting": "KENNISGEVING OMGEVINGSWET GRAVEN IN BODEM MOLENDIJK TE SPIJKENISSE",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-526788.html",
+    "uitgever": "Nissewaard",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 2.6,
+    "eerst_gezien": "2026-11-12",
+    "vorm_type": "lijn"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+     [
+      [
+       [
+        4.714807,
+        52.039419
+       ],
+       [
+        4.714804,
+        52.03943
+       ],
+       [
+        4.714809,
+        52.039431
+       ],
+       [
+        4.714807,
+        52.039419
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        4.714561,
+        52.039717
+       ],
+       [
+        4.714537,
+        52.039725
+       ],
+       [
+        4.714538,
+        52.039728
+       ],
+       [
+        4.714561,
+        52.039717
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        4.71308,
+        52.039746
+       ],
+       [
+        4.712979,
+        52.039769
+       ],
+       [
+        4.713085,
+        52.039748
+       ],
+       [
+        4.71308,
+        52.039746
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        4.714696,
+        52.039804
+       ],
+       [
+        4.714678,
+        52.039821
+       ],
+       [
+        4.714701,
+        52.039805
+       ],
+       [
+        4.714696,
+        52.039804
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        4.714195,
+        52.040325
+       ],
+       [
+        4.714149,
+        52.040293
+       ],
+       [
+        4.71417,
+        52.040293
+       ],
+       [
+        4.714329,
+        52.040199
+       ],
+       [
+        4.714386,
+        52.040234
+       ],
+       [
+        4.714334,
+        52.040196
+       ],
+       [
+        4.71443,
+        52.04014
+       ],
+       [
+        4.714489,
+        52.040173
+       ],
+       [
+        4.714436,
+        52.040136
+       ],
+       [
+        4.714629,
+        52.040022
+       ],
+       [
+        4.71469,
+        52.040028
+       ],
+       [
+        4.71483,
+        52.040133
+       ],
+       [
+        4.714847,
+        52.040126
+       ],
+       [
+        4.714681,
+        52.040015
+       ],
+       [
+        4.714645,
+        52.040007
+       ],
+       [
+        4.714168,
+        52.040288
+       ],
+       [
+        4.714086,
+        52.040235
+       ],
+       [
+        4.714536,
+        52.039971
+       ],
+       [
+        4.714568,
+        52.039933
+       ],
+       [
+        4.714563,
+        52.039874
+       ],
+       [
+        4.714534,
+        52.039847
+       ],
+       [
+        4.714248,
+        52.039663
+       ],
+       [
+        4.71417,
+        52.039643
+       ],
+       [
+        4.714093,
+        52.039643
+       ],
+       [
+        4.713127,
+        52.039816
+       ],
+       [
+        4.713105,
+        52.039771
+       ],
+       [
+        4.713134,
+        52.039741
+       ],
+       [
+        4.714977,
+        52.039413
+       ],
+       [
+        4.715009,
+        52.039485
+       ],
+       [
+        4.714839,
+        52.039515
+       ],
+       [
+        4.714783,
+        52.039541
+       ],
+       [
+        4.714825,
+        52.039553
+       ],
+       [
+        4.714816,
+        52.039536
+       ],
+       [
+        4.714843,
+        52.03952
+       ],
+       [
+        4.715016,
+        52.039488
+       ],
+       [
+        4.714981,
+        52.039408
+       ],
+       [
+        4.714875,
+        52.039426
+       ],
+       [
+        4.714869,
+        52.039406
+       ],
+       [
+        4.714868,
+        52.039428
+       ],
+       [
+        4.714823,
+        52.039436
+       ],
+       [
+        4.71481,
+        52.039416
+       ],
+       [
+        4.714816,
+        52.039437
+       ],
+       [
+        4.71428,
+        52.039531
+       ],
+       [
+        4.714241,
+        52.039497
+       ],
+       [
+        4.714273,
+        52.039532
+       ],
+       [
+        4.714029,
+        52.039576
+       ],
+       [
+        4.71399,
+        52.039538
+       ],
+       [
+        4.714022,
+        52.039577
+       ],
+       [
+        4.713532,
+        52.039666
+       ],
+       [
+        4.713493,
+        52.039635
+       ],
+       [
+        4.713525,
+        52.039667
+       ],
+       [
+        4.713287,
+        52.039709
+       ],
+       [
+        4.713199,
+        52.039636
+       ],
+       [
+        4.713279,
+        52.039711
+       ],
+       [
+        4.713086,
+        52.039746
+       ],
+       [
+        4.713097,
+        52.03977
+       ],
+       [
+        4.71307,
+        52.039795
+       ],
+       [
+        4.713115,
+        52.039821
+       ],
+       [
+        4.713078,
+        52.039794
+       ],
+       [
+        4.713099,
+        52.039775
+       ],
+       [
+        4.713131,
+        52.039834
+       ],
+       [
+        4.713139,
+        52.039819
+       ],
+       [
+        4.714095,
+        52.039648
+       ],
+       [
+        4.714168,
+        52.039648
+       ],
+       [
+        4.714243,
+        52.039667
+       ],
+       [
+        4.714512,
+        52.039839
+       ],
+       [
+        4.714438,
+        52.039886
+       ],
+       [
+        4.714518,
+        52.039843
+       ],
+       [
+        4.714564,
+        52.039906
+       ],
+       [
+        4.71453,
+        52.039968
+       ],
+       [
+        4.714233,
+        52.040143
+       ],
+       [
+        4.714179,
+        52.040109
+       ],
+       [
+        4.714222,
+        52.04015
+       ],
+       [
+        4.714076,
+        52.040239
+       ],
+       [
+        4.714024,
+        52.040208
+       ],
+       [
+        4.713939,
+        52.040247
+       ],
+       [
+        4.714019,
+        52.040241
+       ],
+       [
+        4.71397,
+        52.040242
+       ],
+       [
+        4.714025,
+        52.040213
+       ],
+       [
+        4.71411,
+        52.040257
+       ],
+       [
+        4.714048,
+        52.04029
+       ],
+       [
+        4.714054,
+        52.04027
+       ],
+       [
+        4.714025,
+        52.040305
+       ],
+       [
+        4.714069,
+        52.040287
+       ],
+       [
+        4.71404,
+        52.040315
+       ],
+       [
+        4.714081,
+        52.040295
+       ],
+       [
+        4.714157,
+        52.040344
+       ],
+       [
+        4.714126,
+        52.040371
+       ],
+       [
+        4.714195,
+        52.040325
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        4.715059,
+        52.040036
+       ],
+       [
+        4.715015,
+        52.040058
+       ],
+       [
+        4.71498,
+        52.040035
+       ],
+       [
+        4.715019,
+        52.040009
+       ],
+       [
+        4.714974,
+        52.040031
+       ],
+       [
+        4.714927,
+        52.040001
+       ],
+       [
+        4.71497,
+        52.039974
+       ],
+       [
+        4.714922,
+        52.039998
+       ],
+       [
+        4.71481,
+        52.039926
+       ],
+       [
+        4.714879,
+        52.039876
+       ],
+       [
+        4.714801,
+        52.03992
+       ],
+       [
+        4.71467,
+        52.039836
+       ],
+       [
+        4.714709,
+        52.039809
+       ],
+       [
+        4.714665,
+        52.039832
+       ],
+       [
+        4.714637,
+        52.039815
+       ],
+       [
+        4.714682,
+        52.039792
+       ],
+       [
+        4.714629,
+        52.03981
+       ],
+       [
+        4.714528,
+        52.039745
+       ],
+       [
+        4.714566,
+        52.039718
+       ],
+       [
+        4.714522,
+        52.039741
+       ],
+       [
+        4.714498,
+        52.039725
+       ],
+       [
+        4.714531,
+        52.039702
+       ],
+       [
+        4.71449,
+        52.039724
+       ],
+       [
+        4.715078,
+        52.040104
+       ],
+       [
+        4.715022,
+        52.040062
+       ],
+       [
+        4.715059,
+        52.040036
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        4.715013,
+        52.040009
+       ],
+       [
+        4.714984,
+        52.040018
+       ],
+       [
+        4.714985,
+        52.040021
+       ],
+       [
+        4.715013,
+        52.040009
+       ]
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-529530",
+    "datum": "2026-11-12",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Bodegraven-Reeuwijk",
+    "type": "omgevingsvergunning",
+    "titel": "Besluit reguliere omgevingsvergunning Leeghwaterstraat, Jan Tinbergenstraat in Reeuwijk",
+    "locatie": "Leeghwaterstraat, Jan Tinbergenstraat in Reeuwijk",
+    "toelichting": "Besluit reguliere omgevingsvergunning Leeghwaterstraat, Jan Tinbergenstraat in Reeuwijk",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-529530.html",
+    "uitgever": "Bodegraven-Reeuwijk",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 49.9,
+    "eerst_gezien": "2026-11-12",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       5.361768,
+       52.171617
+      ],
+      [
+       5.370102,
+       52.168204
+      ],
+      [
+       5.374488,
+       52.165867
+      ],
+      [
+       5.372296,
+       52.164249
+      ],
+      [
+       5.370542,
+       52.162631
+      ],
+      [
+       5.366742,
+       52.163529
+      ],
+      [
+       5.360749,
+       52.164517
+      ],
+      [
+       5.356657,
+       52.164696
+      ],
+      [
+       5.354757,
+       52.164515
+      ],
+      [
+       5.351834,
+       52.163975
+      ],
+      [
+       5.349935,
+       52.163256
+      ],
+      [
+       5.347159,
+       52.161817
+      ],
+      [
+       5.344673,
+       52.163613
+      ],
+      [
+       5.347882,
+       52.170715
+      ],
+      [
+       5.347004,
+       52.171254
+      ],
+      [
+       5.346858,
+       52.171703
+      ],
+      [
+       5.347588,
+       52.172333
+      ],
+      [
+       5.347295,
+       52.172782
+      ],
+      [
+       5.348757,
+       52.172962
+      ],
+      [
+       5.348464,
+       52.173501
+      ],
+      [
+       5.349926,
+       52.173861
+      ],
+      [
+       5.349048,
+       52.17467
+      ],
+      [
+       5.349924,
+       52.175569
+      ],
+      [
+       5.35358,
+       52.174581
+      ],
+      [
+       5.361768,
+       52.171617
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "prb-2026-19214",
+    "datum": "2026-11-12",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Provinciaal blad Utrecht",
+    "type": "andere beschikking",
+    "titel": "Intrekking besluit bevoegdheid inzake windpark Isselt",
+    "locatie": "Isselt Amersfoort",
+    "toelichting": "Intrekking besluit bevoegdheid inzake windpark Isselt",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/prb-2026-19214.html",
+    "uitgever": "Utrecht",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-12",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
        4.704382,
        52.004974
       ],
