@@ -9,6 +9,108 @@
     "coordinates": [
      [
       [
+       4.704382,
+       52.004974
+      ],
+      [
+       4.707745,
+       52.004784
+      ],
+      [
+       4.704379,
+       52.004977
+      ],
+      [
+       4.704382,
+       52.004974
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-524770",
+    "datum": "2026-11-11",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Gouda",
+    "type": "omgevingsvergunning",
+    "titel": "Aanvraag omgevingsvergunning Bosweg 1 in Gouda",
+    "locatie": "Bosweg 1 in Gouda",
+    "toelichting": "Aanvraag omgevingsvergunning Bosweg 1 in Gouda",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-524770.html",
+    "uitgever": "Gouda",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 58.6,
+    "eerst_gezien": "2026-11-12",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.443287,
+       52.006848
+      ],
+      [
+       4.444102,
+       52.005022
+      ],
+      [
+       4.444702,
+       52.005155
+      ],
+      [
+       4.444908,
+       52.005088
+      ],
+      [
+       4.445294,
+       52.005127
+      ],
+      [
+       4.444693,
+       52.007063
+      ],
+      [
+       4.443287,
+       52.006848
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "prb-2026-19099",
+    "datum": "2026-11-11",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Provinciaal blad Zuid-Holland",
+    "type": "omgevingsvergunning",
+    "titel": "Kennisgeving aanvraag omgevingsvergunning, Floralaan 16 t/m 306 te Pijnacker",
+    "locatie": "",
+    "toelichting": "Kennisgeving aanvraag omgevingsvergunning, Floralaan 16 t/m 306 te Pijnacker",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/prb-2026-19099.html",
+    "uitgever": "Zuid-Holland",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 18.0,
+    "eerst_gezien": "2026-11-12",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
        4.322293,
        51.701045
       ],
