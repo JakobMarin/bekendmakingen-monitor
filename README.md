@@ -94,6 +94,10 @@ Lukt de API niet, dan valt de site terug op `data/meldingen.geojson`.
 - Het Stedin-hoogspanningsnet als groene lijn (tooltip met naam) en de zone van 100 m in
   lichtgroen, doorzichtig; beide aan/uit te zetten via de laagschakelaar rechtsboven.
   Lagenvolgorde: achtergrond < zone < lijn < vormen < stippen, zodat alles klikbaar blijft.
+- **Achtergrondkaart** (radiokeuze in dezelfde lagenknop): *Kaart (PDOK BRT)* als standaard,
+  *Luchtfoto (PDOK Actueel)* en *Satelliet (Esri)* als alternatief. De keuze blijft bewaard
+  in deze browser (localStorage). Op de luchtfoto krijgt de hoogspanningslijn een witte rand
+  zodat die leesbaar blijft; de zone blijft lichtgroen en doorzichtig.
 - **Hoog-meldingen als vorm**: heeft de publicatie in de metadata een vlak of lijn
   (gebiedsmarkering), dan tekent de kaart die vorm in de klassekleur (rood, deels
   doorzichtig) in plaats van een stip, met dezelfde popup en hetzelfde detailpaneel.

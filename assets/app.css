@@ -223,3 +223,37 @@ footer.bron a { color: var(--link); }
 .leaflet-control-layers .lc-zone { display: inline-block; width: 14px; height: 10px; border: 1px solid rgba(102, 189, 99, 0.6); background: rgba(166, 217, 106, 0.35); vertical-align: middle; margin: 0 2px; }
 .net-laden { background: #fff; padding: 4px 8px; border-radius: 4px; box-shadow: 0 1px 4px rgba(0, 0, 0, 0.25); font-size: 0.78rem; color: #1a9641; }
 .net-laden.err { color: #c62828; }
+
+/* Basiskaarten in de lagenknop (radio) + net-overlays (vinkjes) */
+.leaflet-control-layers {
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.18);
+  font-size: 0.8rem;
+}
+.leaflet-control-layers-base::before,
+.leaflet-control-layers-overlays::before {
+  display: block;
+  font-size: 0.7rem;
+  font-weight: 650;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #3d4a66;
+  margin: 0 0 0.25rem;
+}
+.leaflet-control-layers-base::before { content: "Achtergrond"; }
+.leaflet-control-layers-overlays::before {
+  content: "Net";
+  margin-top: 0.35rem;
+  padding-top: 0.35rem;
+  border-top: 1px solid #e2e6ee;
+}
+.leaflet-control-layers-separator { display: none; }
+.leaflet-control-layers label { margin: 0.05rem 0; }
+/* Op luchtfoto/satelliet: witte rand om vormen (SVG) en extra contrast op stippen */
+.basiskaart-luchtfoto .leaflet-vormPane-pane path {
+  filter: drop-shadow(0 0 1px #fff) drop-shadow(0 0 1.5px #fff);
+}
+.basiskaart-luchtfoto .marker-core,
+.basiskaart-luchtfoto .cluster-icon {
+  box-shadow: 0 0 0 1px rgba(0,0,0,0.45), 0 1px 4px rgba(0,0,0,0.45);
+}

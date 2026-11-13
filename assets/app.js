@@ -86,12 +86,37 @@
   }
 
   // ---------------------------------------------------------------- kaart ---
-  const map = L.map("map", { zoomSnap: 0.25 }).setView([51.95, 4.5], 9);
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    maxZoom: 19, attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>-bijdragers'
-  }).addTo(map);
+  const map = L.map("map", { zoomSnap: 0.25, maxZoom: 21 }).setView([51.95, 4.5], 9);
 
-  // Lagenvolgorde: achtergrond < zone 100 m < hoogspanningsverbinding < meldingen (markerPane, z 600).
+  // Basiskaarten (radiokeuze in de lagenknop). Tegels gecontroleerd: BRT 0–19, luchtfoto 0–21, Esri tot 19 (daarna overzoom).
+  const BASISKAART_OPSLAAN = "monitor-basiskaart";
+  const BASISKAART_NAMEN = { brt: "Kaart (PDOK BRT)", luchtfoto: "Luchtfoto (PDOK)", esri: "Satelliet (Esri)" };
+  const LUCHTFOTO_IDS = new Set(["luchtfoto", "esri"]);
+  const BASISKAARTEN = {
+    brt: L.tileLayer("https://service.pdok.nl/brt/achtergrondkaart/wmts/v2_0/standaard/EPSG:3857/{z}/{x}/{y}.png", {
+      maxZoom: 21, maxNativeZoom: 19,
+      attribution: 'Kaart: <a href="https://www.pdok.nl/">PDOK</a> / <a href="https://www.kadaster.nl/">Kadaster</a> (BRT-Achtergrondkaart, <a href="https://creativecommons.org/licenses/by/4.0/deed.nl">CC BY 4.0</a>)'
+    }),
+    luchtfoto: L.tileLayer("https://service.pdok.nl/hwh/luchtfotorgb/wmts/v1_0/Actueel_orthoHR/EPSG:3857/{z}/{x}/{y}.jpeg", {
+      maxZoom: 21, maxNativeZoom: 21,
+      attribution: 'Luchtfoto: <a href="https://www.pdok.nl/">PDOK</a> / Beeldmateriaal Nederland (<a href="https://creativecommons.org/licenses/by/4.0/deed.nl">CC BY 4.0</a>)'
+    }),
+    esri: L.tileLayer("https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}", {
+      maxZoom: 21, maxNativeZoom: 19,
+      attribution: 'Beeld: Esri, Maxar, Earthstar Geographics en de GIS-gebruikersgemeenschap'
+    })
+  };
+  function basiskaartIdVanLaag(laag) {
+    return Object.keys(BASISKAARTEN).find(k => BASISKAARTEN[k] === laag);
+  }
+  let actieveBasiskaart = "brt";
+  try {
+    const opgeslagen = localStorage.getItem(BASISKAART_OPSLAAN);
+    if (opgeslagen && BASISKAARTEN[opgeslagen]) actieveBasiskaart = opgeslagen;
+  } catch (e) { /* privémodus */ }
+  BASISKAARTEN[actieveBasiskaart].addTo(map);
+
+  // Lagenvolgorde: achtergrond (tilePane 200) < zone 100 m < hoogspanningsverbinding < meldingen (markerPane, z 600).
   map.createPane("zonePane").style.zIndex = 410;
   map.createPane("lijnPane").style.zIndex = 420;
   map.getPane("zonePane").style.pointerEvents = "none";
@@ -103,7 +128,28 @@
   const netLagen = {};
   netLagen['<span class="lc-lijn"></span> Hoogspanningsverbinding'] = lijnLaag;
   netLagen['<span class="lc-zone"></span> Zone ' + CFG.bufferMeters + " m"] = zoneLaag;
-  L.control.layers(null, netLagen, { collapsed: false, position: "topright" }).addTo(map);
+  const basisLagen = {};
+  Object.keys(BASISKAART_NAMEN).forEach(k => { basisLagen[BASISKAART_NAMEN[k]] = BASISKAARTEN[k]; });
+  L.control.layers(basisLagen, netLagen, { collapsed: false, position: "topright" }).addTo(map);
+
+  let zoneGeo = null, lijnCasing = null, lijnKern = null;
+  function isLuchtfoto() { return LUCHTFOTO_IDS.has(actieveBasiskaart); }
+  function pasOverlayStijlAan() {
+    const lucht = isLuchtfoto();
+    map.getContainer().classList.toggle("basiskaart-luchtfoto", lucht);
+    if (zoneGeo) zoneGeo.setStyle({ color: "#66bd63", weight: lucht ? 1.25 : 1, opacity: lucht ? 0.85 : 0.6, fillColor: "#a6d96a", fillOpacity: lucht ? 0.4 : 0.35 });
+    if (lijnCasing) lijnCasing.setStyle({ color: "#ffffff", weight: lucht ? 7 : 5.5, opacity: lucht ? 0.95 : 0.8, lineCap: "round", lineJoin: "round" });
+    if (lijnKern) lijnKern.setStyle({ color: "#1a9641", weight: lucht ? 3.1 : 2.75, opacity: 0.95, lineCap: "round", lineJoin: "round" });
+    vormenById.forEach(v => stijlVorm(v, v.options.klasse, !!v._actief));
+  }
+  map.on("baselayerchange", function (e) {
+    const id = basiskaartIdVanLaag(e.layer);
+    if (!id) return;
+    actieveBasiskaart = id;
+    try { localStorage.setItem(BASISKAART_OPSLAAN, id); } catch (err) { /* privémodus */ }
+    pasOverlayStijlAan();
+  });
+  map.getContainer().classList.toggle("basiskaart-luchtfoto", isLuchtfoto());
 
   const NetLaden = L.Control.extend({
     options: { position: "topright" },
@@ -115,13 +161,19 @@
     const haal = url => fetch(url).then(r => { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); });
     try {
       const [zone, lijnen] = await Promise.all([haal("data/zone_100m.geojson"), haal("data/hoogspanning.geojson")]);
-      L.geoJSON(zone, {
+      const lucht = isLuchtfoto();
+      zoneGeo = L.geoJSON(zone, {
         pane: "zonePane", interactive: false, renderer: L.canvas({ pane: "zonePane" }),
-        style: { color: "#66bd63", weight: 1, opacity: 0.6, fillColor: "#a6d96a", fillOpacity: 0.35 }
+        style: { color: "#66bd63", weight: lucht ? 1.25 : 1, opacity: lucht ? 0.85 : 0.6, fillColor: "#a6d96a", fillOpacity: lucht ? 0.4 : 0.35 }
       }).addTo(zoneLaag);
-      L.geoJSON(lijnen, {
+      // Witte rand onder de groene lijn, zodat die op de luchtfoto leesbaar blijft.
+      lijnCasing = L.geoJSON(lijnen, {
+        pane: "lijnPane", interactive: false, renderer: L.canvas({ pane: "lijnPane" }),
+        style: { color: "#ffffff", weight: lucht ? 7 : 5.5, opacity: lucht ? 0.95 : 0.8, lineCap: "round", lineJoin: "round" }
+      }).addTo(lijnLaag);
+      lijnKern = L.geoJSON(lijnen, {
         pane: "lijnPane", renderer: L.canvas({ pane: "lijnPane", tolerance: 4 }),
-        style: { color: "#1a9641", weight: 2.75, opacity: 0.9 },
+        style: { color: "#1a9641", weight: lucht ? 3.1 : 2.75, opacity: 0.95, lineCap: "round", lineJoin: "round" },
         onEachFeature: (f, l) => { if (f.properties && f.properties.naam) l.bindTooltip(escapeHtml(f.properties.naam), { sticky: true }); }
       }).addTo(lijnLaag);
       map.removeControl(netLaden);
@@ -158,11 +210,11 @@
     return "rgb(" + Math.round((n >> 16) * f) + "," + Math.round(((n >> 8) & 255) * f) + "," + Math.round((n & 255) * f) + ")";
   }
   function stijlVorm(groep, klasse, actief) {
-    const kleur = KLEUR[klasse], rand = kleurDonker(kleur);
+    const kleur = KLEUR[klasse], rand = kleurDonker(kleur), lucht = isLuchtfoto();
     groep.eachLayer(function stijl(l) {
       if (l.eachLayer && !(l instanceof L.Path)) { l.eachLayer(stijl); return; }
-      if (l instanceof L.Polygon) l.setStyle({ color: rand, weight: actief ? 3.5 : 1.5, opacity: 0.9, fillColor: kleur, fillOpacity: actief ? 0.5 : 0.35 });
-      else if (l instanceof L.Polyline) l.setStyle({ color: kleur, weight: actief ? 6 : 4, opacity: actief ? 1 : 0.8 });
+      if (l instanceof L.Polygon) l.setStyle({ color: lucht ? "#fff" : rand, weight: actief ? 3.5 : (lucht ? 2.2 : 1.5), opacity: 0.95, fillColor: kleur, fillOpacity: actief ? 0.5 : (lucht ? 0.42 : 0.35) });
+      else if (l instanceof L.Polyline) l.setStyle({ color: kleur, weight: actief ? 6 : (lucht ? 5 : 4), opacity: actief ? 1 : 0.85 });
     });
   }
   // Toon de vorm alleen als die op het scherm groot genoeg is; anders blijft het een stip.
