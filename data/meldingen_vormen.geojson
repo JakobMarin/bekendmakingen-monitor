@@ -5,6 +5,764 @@
   {
    "type": "Feature",
    "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+     [
+      [
+       [
+        4.599951,
+        51.912246
+       ],
+       [
+        4.599966,
+        51.912236
+       ],
+       [
+        4.599946,
+        51.912225
+       ],
+       [
+        4.599931,
+        51.912235
+       ],
+       [
+        4.599951,
+        51.912246
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        4.622047,
+        51.914779
+       ],
+       [
+        4.622097,
+        51.914742
+       ],
+       [
+        4.622058,
+        51.914721
+       ],
+       [
+        4.622007,
+        51.914757
+       ],
+       [
+        4.622047,
+        51.914779
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        4.612388,
+        51.916837
+       ],
+       [
+        4.61235,
+        51.916815
+       ],
+       [
+        4.612306,
+        51.916846
+       ],
+       [
+        4.612344,
+        51.916867
+       ],
+       [
+        4.612388,
+        51.916837
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        4.615603,
+        51.918113
+       ],
+       [
+        4.6156,
+        51.918081
+       ],
+       [
+        4.61551,
+        51.918085
+       ],
+       [
+        4.615514,
+        51.918117
+       ],
+       [
+        4.615603,
+        51.918113
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        4.612899,
+        51.919857
+       ],
+       [
+        4.612896,
+        51.919825
+       ],
+       [
+        4.612819,
+        51.919828
+       ],
+       [
+        4.612822,
+        51.91986
+       ],
+       [
+        4.612899,
+        51.919857
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        4.629693,
+        51.920085
+       ],
+       [
+        4.629665,
+        51.920048
+       ],
+       [
+        4.629618,
+        51.920062
+       ],
+       [
+        4.629646,
+        51.920099
+       ],
+       [
+        4.629693,
+        51.920085
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        4.621206,
+        51.920563
+       ],
+       [
+        4.621148,
+        51.920532
+       ],
+       [
+        4.621114,
+        51.920556
+       ],
+       [
+        4.621172,
+        51.920587
+       ],
+       [
+        4.621206,
+        51.920563
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        4.624472,
+        51.922413
+       ],
+       [
+        4.624523,
+        51.922417
+       ],
+       [
+        4.624532,
+        51.922377
+       ],
+       [
+        4.62448,
+        51.922373
+       ],
+       [
+        4.624472,
+        51.922413
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        4.622931,
+        51.923875
+       ],
+       [
+        4.622873,
+        51.923844
+       ],
+       [
+        4.622838,
+        51.923868
+       ],
+       [
+        4.622896,
+        51.9239
+       ],
+       [
+        4.622931,
+        51.923875
+       ]
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-530140",
+    "datum": "2026-11-13",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Krimpen aan den IJssel",
+    "type": "andere voorlichtingsinformatie",
+    "titel": "Bekendmaking voorgenomen grondverkoop",
+    "locatie": "Perceel Krimpen aan den IJssel (KPN02) C 8768",
+    "toelichting": "Bekendmaking voorgenomen grondverkoop",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-530140.html",
+    "uitgever": "Krimpen aan den IJssel",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 91.3,
+    "eerst_gezien": "2026-11-13",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.912804,
+       52.196031
+      ],
+      [
+       4.912904,
+       52.195785
+      ],
+      [
+       4.913387,
+       52.195793
+      ],
+      [
+       4.912804,
+       52.196031
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-530345",
+    "datum": "2026-11-13",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad De Ronde Venen",
+    "type": "andere melding",
+    "titel": "Kennisgeving melding milieubelastende activiteit -Oudhuijzerweg 99 3648AB Wilnis",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Kennisgeving melding milieubelastende activiteit -Oudhuijzerweg 99 3648AB Wilnis",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-530345.html",
+    "uitgever": "De Ronde Venen",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 74.7,
+    "eerst_gezien": "2026-11-13",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.355888,
+       52.002498
+      ],
+      [
+       4.356555,
+       52.001924
+      ],
+      [
+       4.357007,
+       52.002092
+      ],
+      [
+       4.35662,
+       52.003344
+      ],
+      [
+       4.35591,
+       52.003033
+      ],
+      [
+       4.356309,
+       52.002657
+      ],
+      [
+       4.355888,
+       52.002498
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "prb-2026-19320",
+    "datum": "2026-11-13",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Provinciaal blad Zuid-Holland",
+    "type": "omgevingsvergunning",
+    "titel": "Kennisgeving aanvraag omgevingsvergunning, Nieuw Delft, kavel 8.1 en 8.2 te Delft",
+    "locatie": "",
+    "toelichting": "Kennisgeving aanvraag omgevingsvergunning, Nieuw Delft, kavel 8.1 en 8.2 te Delft",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/prb-2026-19320.html",
+    "uitgever": "Zuid-Holland",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-13",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "GeometryCollection",
+    "geometries": [
+     {
+      "type": "LineString",
+      "coordinates": [
+       [
+        4.494979,
+        51.965043
+       ],
+       [
+        4.495457,
+        51.965002
+       ]
+      ]
+     },
+     {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         4.495547,
+         51.964933
+        ],
+        [
+         4.49495,
+         51.964983
+        ],
+        [
+         4.495547,
+         51.964933
+        ],
+        [
+         4.495547,
+         51.964933
+        ]
+       ]
+      ]
+     }
+    ]
+   },
+   "properties": {
+    "kenmerk": "wsb-2026-29955",
+    "datum": "2026-11-13",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Waterschapsblad Hoogheemraadschap van Schieland en de Krimpenerwaard",
+    "type": "vergunning voor activiteiten op of in oppervlaktewater",
+    "titel": "Aanvraag vergunning voorhet aanbrengen van een kabel of leiding nabij Grindweg 99 in Rotterdam",
+    "locatie": "Grindweg 97B, 3054VJ Rotterdam",
+    "toelichting": "Aanvraag vergunning voorhet aanbrengen van een kabel of leiding nabij Grindweg 99 in Rotterdam",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/wsb-2026-29955.html",
+    "uitgever": "Hoogheemraadschap van Schieland en de Krimpenerwaard",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 73.5,
+    "eerst_gezien": "2026-11-13",
+    "vorm_type": "vlak+lijn"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "GeometryCollection",
+    "geometries": [
+     {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         4.540811,
+         52.028781
+        ],
+        [
+         4.540807,
+         52.028772
+        ],
+        [
+         4.540807,
+         52.028772
+        ],
+        [
+         4.540791,
+         52.028775
+        ],
+        [
+         4.540778,
+         52.028777
+        ],
+        [
+         4.540778,
+         52.028777
+        ],
+        [
+         4.540826,
+         52.028879
+        ],
+        [
+         4.540721,
+         52.028898
+        ],
+        [
+         4.540197,
+         52.028992
+        ],
+        [
+         4.540169,
+         52.028973
+        ],
+        [
+         4.54014,
+         52.028961
+        ],
+        [
+         4.540102,
+         52.028955
+        ],
+        [
+         4.540085,
+         52.028955
+        ],
+        [
+         4.540056,
+         52.028956
+        ],
+        [
+         4.540056,
+         52.028956
+        ],
+        [
+         4.539857,
+         52.028991
+        ],
+        [
+         4.539857,
+         52.028991
+        ],
+        [
+         4.539838,
+         52.028996
+        ],
+        [
+         4.539829,
+         52.029
+        ],
+        [
+         4.539829,
+         52.029
+        ],
+        [
+         4.539819,
+         52.029009
+        ],
+        [
+         4.539818,
+         52.029011
+        ],
+        [
+         4.539817,
+         52.029011
+        ],
+        [
+         4.539766,
+         52.029102
+        ],
+        [
+         4.539843,
+         52.029271
+        ],
+        [
+         4.539767,
+         52.029102
+        ],
+        [
+         4.539818,
+         52.029011
+        ],
+        [
+         4.539829,
+         52.029001
+        ],
+        [
+         4.539857,
+         52.028991
+        ],
+        [
+         4.539903,
+         52.028983
+        ],
+        [
+         4.540056,
+         52.028956
+        ],
+        [
+         4.540102,
+         52.028955
+        ],
+        [
+         4.540197,
+         52.028992
+        ],
+        [
+         4.540721,
+         52.028898
+        ],
+        [
+         4.540827,
+         52.028879
+        ],
+        [
+         4.540779,
+         52.028777
+        ],
+        [
+         4.540789,
+         52.028775
+        ],
+        [
+         4.540806,
+         52.028772
+        ],
+        [
+         4.540811,
+         52.028781
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "LineString",
+      "coordinates": [
+       [
+        4.541203,
+        52.02866
+       ],
+       [
+        4.540791,
+        52.028775
+       ]
+      ]
+     },
+     {
+      "type": "LineString",
+      "coordinates": [
+       [
+        4.540789,
+        52.028775
+       ],
+       [
+        4.540779,
+        52.028778
+       ]
+      ]
+     },
+     {
+      "type": "LineString",
+      "coordinates": [
+       [
+        4.540779,
+        52.028778
+       ],
+       [
+        4.540674,
+        52.028807
+       ],
+       [
+        4.540721,
+        52.028898
+       ]
+      ]
+     },
+     {
+      "type": "LineString",
+      "coordinates": [
+       [
+        4.540721,
+        52.028898
+       ],
+       [
+        4.540756,
+        52.028966
+       ],
+       [
+        4.540166,
+        52.029098
+       ],
+       [
+        4.540085,
+        52.028955
+       ]
+      ]
+     },
+     {
+      "type": "LineString",
+      "coordinates": [
+       [
+        4.540085,
+        52.028955
+       ],
+       [
+        4.540071,
+        52.028931
+       ],
+       [
+        4.539905,
+        52.028983
+       ]
+      ]
+     },
+     {
+      "type": "LineString",
+      "coordinates": [
+       [
+        4.539903,
+        52.028983
+       ],
+       [
+        4.53982,
+        52.029009
+       ]
+      ]
+     },
+     {
+      "type": "LineString",
+      "coordinates": [
+       [
+        4.539819,
+        52.029009
+       ],
+       [
+        4.539714,
+        52.029042
+       ],
+       [
+        4.539784,
+        52.029261
+       ]
+      ]
+     }
+    ]
+   },
+   "properties": {
+    "kenmerk": "wsb-2026-29973",
+    "datum": "2026-11-13",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Waterschapsblad Hoogheemraadschap van Schieland en de Krimpenerwaard",
+    "type": "vergunning voor activiteiten op of in oppervlaktewater",
+    "titel": "Aanvraag vergunning voor het aanbrengen van een kabel of leiding nabij Klappolder 130 in Bleiswijk",
+    "locatie": "Klappolder 130, 2665LP Bleiswijk",
+    "toelichting": "Aanvraag vergunning voor het aanbrengen van een kabel of leiding nabij Klappolder 130 in Bleiswijk",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/wsb-2026-29973.html",
+    "uitgever": "Hoogheemraadschap van Schieland en de Krimpenerwaard",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 14.7,
+    "eerst_gezien": "2026-11-13",
+    "vorm_type": "vlak+lijn"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.845606,
+       51.823999
+      ],
+      [
+       4.844965,
+       51.823925
+      ],
+      [
+       4.84496,
+       51.823727
+      ],
+      [
+       4.845603,
+       51.823722
+      ],
+      [
+       4.845606,
+       51.823999
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "wsb-2026-29977",
+    "datum": "2026-11-13",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Waterschapsblad Waterschap Rivierenland",
+    "type": "omgevingsvergunning",
+    "titel": "Waterschap Rivierenland - verlenen omgevingsvergunning voor het nieuw plaatsen van een damwand t.p.v. Nieuweweg 57 te Hardinxveld Giessendam",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "verlenen omgevingsvergunning voor het nieuw plaatsen van een damwand t.p.v. Nieuweweg 57 te Hardinxveld Giessendam",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/wsb-2026-29977.html",
+    "uitgever": "Waterschap Rivierenland",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 3.4,
+    "eerst_gezien": "2026-11-13",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
