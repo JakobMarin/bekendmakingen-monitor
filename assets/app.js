@@ -116,7 +116,9 @@
   } catch (e) { /* privémodus */ }
   BASISKAARTEN[actieveBasiskaart].addTo(map);
 
-  // Lagenvolgorde: achtergrond (tilePane 200) < zone 100 m < hoogspanningsverbinding < meldingen (markerPane, z 600).
+  // Lagenvolgorde: achtergrond (tilePane 200) < kadastrale kaart < zone 100 m < lijn < meldingen (markerPane, z 600).
+  map.createPane("kadasterPane").style.zIndex = 350;
+  map.getPane("kadasterPane").style.pointerEvents = "none";
   map.createPane("zonePane").style.zIndex = 410;
   map.createPane("lijnPane").style.zIndex = 420;
   map.getPane("zonePane").style.pointerEvents = "none";
@@ -125,12 +127,59 @@
   const vormGroep = L.layerGroup().addTo(map);
   const zoneLaag = L.layerGroup().addTo(map);
   const lijnLaag = L.layerGroup().addTo(map);
-  const netLagen = {};
-  netLagen['<span class="lc-lijn"></span> Hoogspanningsverbinding'] = lijnLaag;
-  netLagen['<span class="lc-zone"></span> Zone ' + CFG.bufferMeters + " m"] = zoneLaag;
+
+  // Kadastrale kaart (BRK): PDOK WMTS, laag Kadastralekaart, PNG, pas inhoud vanaf zoom 17 (0–16 zijn lege tegels).
+  const KADASTER_MIN_ZOOM = 17;
+  const KADASTER_OPSLAAN = "monitor-kadaster";
+  const kadasterLaag = L.tileLayer(
+    "https://service.pdok.nl/kadaster/brk-kadastrale-kaart/wmts/v5_0/Kadastralekaart/EPSG:3857/{z}/{x}/{y}.png",
+    {
+      pane: "kadasterPane",
+      // Geen minZoom op de laag: anders zet Leaflet het vinkje uit tot je al op z17 bent.
+      // Tegels onder z17 zijn transparant; de hint wijst erop dat je verder moet inzoomen.
+      maxZoom: 21,
+      maxNativeZoom: 21,
+      attribution: 'Kadastrale kaart: <a href="https://www.pdok.nl/">PDOK</a> / <a href="https://www.kadaster.nl/">Kadaster</a> (<a href="https://creativecommons.org/publicdomain/zero/1.0/deed.nl">CC0</a>)'
+    }
+  );
+  try {
+    if (localStorage.getItem(KADASTER_OPSLAAN) === "1") kadasterLaag.addTo(map);
+  } catch (e) { /* privémodus */ }
+
+  const overlayLagen = {};
+  overlayLagen['<span class="lc-lijn"></span> Hoogspanningsverbinding'] = lijnLaag;
+  overlayLagen['<span class="lc-zone"></span> Zone ' + CFG.bufferMeters + " m"] = zoneLaag;
+  overlayLagen['<span class="lc-kadaster"></span> <span title="Zichtbaar vanaf zoomniveau 17.">Kadastrale kaart (PDOK)</span>'] = kadasterLaag;
   const basisLagen = {};
   Object.keys(BASISKAART_NAMEN).forEach(k => { basisLagen[BASISKAART_NAMEN[k]] = BASISKAARTEN[k]; });
-  L.control.layers(basisLagen, netLagen, { collapsed: false, position: "topright" }).addTo(map);
+  L.control.layers(basisLagen, overlayLagen, { collapsed: false, position: "topright" }).addTo(map);
+
+  const KadasterHint = L.Control.extend({
+    options: { position: "topright" },
+    onAdd: function () {
+      const d = L.DomUtil.create("div", "kadaster-hint");
+      d.setAttribute("role", "status");
+      d.textContent = "Zoom verder in (vanaf niveau 17) om de kadastrale kaart te zien.";
+      d.hidden = true;
+      return d;
+    }
+  });
+  const kadasterHint = new KadasterHint().addTo(map);
+  function updateKadasterHint() {
+    const aan = map.hasLayer(kadasterLaag);
+    const teVer = map.getZoom() < KADASTER_MIN_ZOOM;
+    const el = kadasterHint.getContainer();
+    if (el) el.hidden = !(aan && teVer);
+  }
+  function zetKadasterAan(aan) {
+    try { localStorage.setItem(KADASTER_OPSLAAN, aan ? "1" : "0"); } catch (err) { /* privémodus */ }
+    updateKadasterHint();
+  }
+  map.on("overlayadd", function (e) { if (e.layer === kadasterLaag) zetKadasterAan(true); });
+  map.on("overlayremove", function (e) { if (e.layer === kadasterLaag) zetKadasterAan(false); });
+  map.on("zoomend", updateKadasterHint);
+  updateKadasterHint();
+  window.MONITOR.map = map;
 
   let zoneGeo = null, lijnCasing = null, lijnKern = null;
   function isLuchtfoto() { return LUCHTFOTO_IDS.has(actieveBasiskaart); }
@@ -236,6 +285,7 @@
       '<div class="row"><i style="width:11px;height:11px;background:#78909c"></i> niet relevant</div>' +
       '<div class="row"><i class="lg-lijn"></i> Hoogspanningsverbinding</div>' +
       '<div class="row"><i class="lg-zone"></i> Zone ' + CFG.bufferMeters + ' m</div>' +
+      '<div class="row"><i class="lg-kadaster"></i> Kadastrale kaart (vanaf zoom 17)</div>' +
       '<p class="note">' + escapeHtml(Array.from(VORM_KLASSEN).join(", ")) + ': als vlak of lijn uit de publicatie (bij inzoomen); zonder vlak/lijn of te klein: stip.</p>';
     return div;
   };
