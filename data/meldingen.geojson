@@ -7,6 +7,314 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     4.3774454,
+     52.0549473
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535004",
+    "datum": "2026-11-17",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsmelding",
+    "titel": "Kennisgeving melding milieubelastende activiteit(en), Valutapad te Den Haag",
+    "locatie": "",
+    "toelichting": "Kennisgeving melding milieubelastende activiteit(en), Valutapad te Den Haag",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535004.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.0880155,
+     51.5452215
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535156",
+    "datum": "2026-11-17",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Tholen",
+    "type": "omgevingsvergunning",
+    "titel": "Aanvraag omgevingsvergunning, het aanleggen van een LS-kabel, ter hoogte van Schakelweg 8 te Sint-Maartensdijk",
+    "locatie": "ter hoogte van Schakelweg 8 te Sint-Maartensdijk",
+    "toelichting": "Aanvraag omgevingsvergunning, het aanleggen van een LS-kabel, ter hoogte van Schakelweg 8 te Sint-Maartensdijk",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535156.html",
+    "uitgever": "Tholen",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 37.7,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.4483038,
+     51.8753505
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535669",
+    "datum": "2026-11-17",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "omgevingsvergunning",
+    "titel": "Aangevraagde omgevingsvergunning, Anthony Fokkerweg 40 3088GG Rotterdam",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Aangevraagde omgevingsvergunning, Anthony Fokkerweg 40 3088GG Rotterdam",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535669.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 11.3,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.264941,
+     52.0580777
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535900",
+    "datum": "2026-11-17",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsvergunning",
+    "titel": "Kennisgeving beschikking maatwerkvoorschrift(en), Wormerveerstraat 5 t/m 261, Ilpendamstraat 92 t/m 96 en Heiloostraat 923 t/m 945 te Den Haag",
+    "locatie": "Wormerveerstraat, 's-Gravenhage",
+    "toelichting": "Kennisgeving beschikking maatwerkvoorschrift(en), Wormerveerstraat 5 t/m 261, Ilpendamstraat 92 t/m 96 en Heiloostraat 923 t/m 945 te Den Haag",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535900.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 2.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.5791004,
+     51.9390279
+    ]
+   },
+   "properties": {
+    "kenmerk": "wsb-2026-30151",
+    "datum": "2026-11-17",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Waterschapsblad Hoogheemraadschap van Schieland en de Krimpenerwaard",
+    "type": "vergunning voor activiteiten op of in oppervlaktewater",
+    "titel": "Aanvraag vergunning voorhet aanbrengen van een kabel of leiding nabij Schinkelsveen in Capelle aan den IJssel",
+    "locatie": "",
+    "toelichting": "Aanvraag vergunning voorhet aanbrengen van een kabel of leiding nabij Schinkelsveen in Capelle aan den IJssel",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/wsb-2026-30151.html",
+    "uitgever": "Hoogheemraadschap van Schieland en de Krimpenerwaard",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 8.3,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.4761704,
+     52.0330979
+    ]
+   },
+   "properties": {
+    "kenmerk": "wsb-2026-30178",
+    "datum": "2026-11-17",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Waterschapsblad Hoogheemraadschap van Schieland en de Krimpenerwaard",
+    "type": "vergunning voor activiteiten op of in oppervlaktewater",
+    "titel": "Aanvraag vergunning voorhet aanbrengen van een kabel of leiding nabij Berkelseweg ter hoogte van Sieraadpad in Zoetermeer",
+    "locatie": "",
+    "toelichting": "Aanvraag vergunning voorhet aanbrengen van een kabel of leiding nabij Berkelseweg ter hoogte van Sieraadpad in Zoetermeer",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/wsb-2026-30178.html",
+    "uitgever": "Hoogheemraadschap van Schieland en de Krimpenerwaard",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 20.8,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.7170682,
+     51.8288409
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-532786",
+    "datum": "2026-11-16",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Papendrecht",
+    "type": "ander besluit van algemene strekking",
+    "titel": "Verleende instemming kabels en leidingen MOOR 668770 voor Rietgorsweg 26 te Papendrecht, Circet Nederland B.V. i.o. Delta Fiber Netwerk B.V.",
+    "locatie": "",
+    "toelichting": "Verleende instemming kabels en leidingen MOOR 668770 voor Rietgorsweg 26 te Papendrecht, Circet Nederland B.V. i.o. Delta Fiber Netwerk B.V.",
+    "waarom": "Graafwerk door netbeheerder: vrijwel zeker werk aan kabels/leidingen. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé, uitvoeringsdatum en soort kabel/leiding.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-532786.html",
+    "uitgever": "Papendrecht",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 62.6,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.6842071,
+     51.8367798
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-532802",
+    "datum": "2026-11-16",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Papendrecht",
+    "type": "ander besluit van algemene strekking",
+    "titel": "Verleende vergunning kabels en leidingen MOOR 668564 Jan Steenlaan t.h.v. huisnummer 26, Aanleggen laagspanningskabel openbare verlichting.",
+    "locatie": "",
+    "toelichting": "Verleende vergunning kabels en leidingen MOOR 668564 Jan Steenlaan t.h.v. huisnummer 26, Aanleggen laagspanningskabel openbare verlichting.",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-532802.html",
+    "uitgever": "Papendrecht",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 6.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.9992474,
+     52.0548107
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534766",
+    "datum": "2026-11-16",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Montfoort",
+    "type": "omgevingsvergunning",
+    "titel": "Aanvraag omgevingsvergunning (reguliere procedure) voor het verwijderen van laagspanningskabels, laagspanningskasten en het aanleggen van een laagspanningskabel en mantelbuis op de locatie nabij Achthoven-Oost 13-15 en kadastrale percelen (LST00-F-671) en (LST00-F-858).",
+    "locatie": "Perceel Linschoten (LST00) F 671",
+    "toelichting": "Aanvraag omgevingsvergunning (reguliere procedure) voor het verwijderen van laagspanningskabels, laagspanningskasten en het aanleggen van een laagspanningskabel en mantelbuis op de locatie nabij Achthoven-Oost 13-15 en kadastrale percelen (LST00-F-671) en (LST00-F-858).",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534766.html",
+    "uitgever": "Montfoort",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.6798897,
+     51.7951028
+    ]
+   },
+   "properties": {
+    "kenmerk": "stcrt-2026-40626",
+    "datum": "2026-11-16",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Staatscourant",
+    "type": "omgevingsmelding",
+    "titel": "Kennisgeving melding voor het -Kabels en leidingen leggen in het beperkingengebied van een Rijksweg te Laan der Verenigde Naties Dordrecht",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Kennisgeving melding voor het -Kabels en leidingen leggen in het beperkingengebied van een Rijksweg te Laan der Verenigde Naties Dordrecht",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/stcrt-2026-40626.html",
+    "uitgever": "Rijkswaterstaat",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 10.8,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.809942,
+     52.0278532
+    ]
+   },
+   "properties": {
+    "kenmerk": "wsb-2026-30115",
+    "datum": "2026-11-16",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Waterschapsblad Hoogheemraadschap De Stichtse Rijnlanden",
+    "type": "omgevingsvergunning",
+    "titel": "Hoogheemraadschap De Stichtse Rijnlanden – Nieuwe aanvraag omgevingsvergunning voor een wateractiviteit voor het plaatsen van een stalen damwand langs de Dubbele Wiericke bij locatie Hogebrug te Oudewater met code HDSR772830.",
+    "locatie": "Hogebrug 19, 3421TE Oudewater",
+    "toelichting": "Hoogheemraadschap De Stichtse Rijnlanden – Nieuwe aanvraag omgevingsvergunning voor een wateractiviteit voor het plaatsen van een stalen damwand langs de Dubbele Wiericke bij locatie Hogebrug te Oudewater met code HDSR772830.",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/wsb-2026-30115.html",
+    "uitgever": "Hoogheemraadschap De Stichtse Rijnlanden",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 89.1,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      4.6123499,
      51.9168155
     ]
@@ -4235,6 +4543,370 @@
    "geometry": {
     "type": "Point",
     "coordinates": [
+     4.5133474,
+     52.0481186
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534964",
+    "datum": "2026-11-17",
+    "inschatting": "middel",
+    "relevantie_score": 2,
+    "bron": "Gemeenteblad Zoetermeer",
+    "type": "omgevingsvergunning",
+    "titel": "Kennisgeving verlenging beslistermijn omgevingsvergunning voor werkzaamheden i.v.m. reconstructie Bleiswijkseweg (fietspad), Bleiswijkseweg e.o. in Zoetermeer",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Kennisgeving verlenging beslistermijn omgevingsvergunning voor werkzaamheden i.v.m. reconstructie Bleiswijkseweg (fietspad), Bleiswijkseweg e.o. in Zoetermeer",
+    "waarom": "Mogelijk grondwerk (bouw, sloop of herinrichting), maar zonder details over diepte of tracé. (automatische inschatting)",
+    "ontbreekt": "Omvang en diepte van het grondwerk.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534964.html",
+    "uitgever": "Zoetermeer",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.6310048,
+     51.7845849
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534983",
+    "datum": "2026-11-17",
+    "inschatting": "middel",
+    "relevantie_score": 2,
+    "bron": "Gemeenteblad Dordrecht",
+    "type": "omgevingsvergunning",
+    "titel": "Aanvraag vergunning voor het verbouwen van een schuur tot een woning op de locatie Amstelwijckweg 52 te Dordrecht zaaknummer 9003743844",
+    "locatie": "",
+    "toelichting": "Aanvraag vergunning voor het verbouwen van een schuur tot een woning op de locatie Amstelwijckweg 52 te Dordrecht zaaknummer 9003743844",
+    "waarom": "Mogelijk grondwerk (bouw, sloop of herinrichting), maar zonder details over diepte of tracé. (automatische inschatting)",
+    "ontbreekt": "Omvang en diepte van het grondwerk.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534983.html",
+    "uitgever": "Dordrecht",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 18.2,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.6310048,
+     51.7845849
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534985",
+    "datum": "2026-11-17",
+    "inschatting": "middel",
+    "relevantie_score": 2,
+    "bron": "Gemeenteblad Dordrecht",
+    "type": "omgevingsvergunning",
+    "titel": "Geen toestemming voor het verbouwen van een schuur tot een woning op de locatie Amstelwijckweg 52 te Dordrecht zaaknummer 9003743844",
+    "locatie": "",
+    "toelichting": "Geen toestemming voor het verbouwen van een schuur tot een woning op de locatie Amstelwijckweg 52 te Dordrecht zaaknummer 9003743844",
+    "waarom": "Mogelijk grondwerk (bouw, sloop of herinrichting), maar zonder details over diepte of tracé. (automatische inschatting)",
+    "ontbreekt": "Omvang en diepte van het grondwerk.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534985.html",
+    "uitgever": "Dordrecht",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 18.2,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.6793842,
+     51.7944191
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534987",
+    "datum": "2026-11-17",
+    "inschatting": "middel",
+    "relevantie_score": 2,
+    "bron": "Gemeenteblad Dordrecht",
+    "type": "omgevingsvergunning",
+    "titel": "Toestemming voor het uitvoeren van constructieve beheersmaatregelen op de locatie Fanny Blankers-Koenweg 10-20 te Dordrecht zaaknummer 9003725356",
+    "locatie": "",
+    "toelichting": "Toestemming voor het uitvoeren van constructieve beheersmaatregelen op de locatie Fanny Blankers-Koenweg 10-20 te Dordrecht zaaknummer 9003725356",
+    "waarom": "Mogelijk grondwerk (bouw, sloop of herinrichting), maar zonder details over diepte of tracé. (automatische inschatting)",
+    "ontbreekt": "Omvang en diepte van het grondwerk.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534987.html",
+    "uitgever": "Dordrecht",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 18.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.8139746,
+     51.8225753
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534992",
+    "datum": "2026-11-17",
+    "inschatting": "middel",
+    "relevantie_score": 2,
+    "bron": "Gemeenteblad Hardinxveld-Giessendam",
+    "type": "andere melding",
+    "titel": "Melding voor het mobiel breken van bouw- en sloopafval op de locatie Industriestraat, Ambachtsstraat te Hardinxveld-Giessendam zaaknummer 9003747357",
+    "locatie": "",
+    "toelichting": "Melding voor het mobiel breken van bouw- en sloopafval op de locatie Industriestraat, Ambachtsstraat te Hardinxveld-Giessendam zaaknummer 9003747357",
+    "waarom": "Mogelijk grondwerk (bouw, sloop of herinrichting), maar zonder details over diepte of tracé. (automatische inschatting)",
+    "ontbreekt": "Omvang en diepte van het grondwerk.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534992.html",
+    "uitgever": "Hardinxveld-Giessendam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 93.2,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.735893,
+     51.8148457
+    ]
+   },
+   "properties": {
+    "kenmerk": "prb-2026-19530",
+    "datum": "2026-11-17",
+    "inschatting": "middel",
+    "relevantie_score": 2,
+    "bron": "Provinciaal blad Zuid-Holland",
+    "type": "omgevingsvergunning",
+    "titel": "Aanvraag vergunning voor Plaatsen shock pulse generatoren HVC Afvalenergiecentrale Dordrecht op de locatie Baanhoekweg 40 te Dordrecht zaaknummer 9003749948",
+    "locatie": "",
+    "toelichting": "Aanvraag vergunning voor Plaatsen shock pulse generatoren HVC Afvalenergiecentrale Dordrecht op de locatie Baanhoekweg 40 te Dordrecht zaaknummer 9003749948",
+    "waarom": "Mogelijk grondwerk (bouw, sloop of herinrichting), maar zonder details over diepte of tracé. (automatische inschatting)",
+    "ontbreekt": "Omvang en diepte van het grondwerk.",
+    "url": "https://zoek.officielebekendmakingen.nl/prb-2026-19530.html",
+    "uitgever": "Zuid-Holland",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 8.6,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3008004,
+     52.0833989
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-532190",
+    "datum": "2026-11-16",
+    "inschatting": "middel",
+    "relevantie_score": 2,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsmelding",
+    "titel": "Meldingen - , Anna Paulownastraat 11, 2518 BA 's-Gravenhage",
+    "locatie": "Anna Paulownastraat 11 te 's-Gravenhage",
+    "toelichting": ", Anna Paulownastraat 11, 2518 BA 's-Gravenhage",
+    "waarom": "Mogelijk grondwerk (bouw, sloop of herinrichting), maar zonder details over diepte of tracé. (automatische inschatting)",
+    "ontbreekt": "Omvang en diepte van het grondwerk.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-532190.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 98.7,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.2822729,
+     52.0668364
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-533580",
+    "datum": "2026-11-16",
+    "inschatting": "middel",
+    "relevantie_score": 2,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsmelding",
+    "titel": "Meldingen - , Apeldoornselaan 240, 2573 LV 's-Gravenhage",
+    "locatie": "Apeldoornselaan 240 te 's-Gravenhage",
+    "toelichting": ", Apeldoornselaan 240, 2573 LV 's-Gravenhage",
+    "waarom": "Mogelijk grondwerk (bouw, sloop of herinrichting), maar zonder details over diepte of tracé. (automatische inschatting)",
+    "ontbreekt": "Omvang en diepte van het grondwerk.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-533580.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 22.9,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.2822461,
+     52.0665
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-533687",
+    "datum": "2026-11-16",
+    "inschatting": "middel",
+    "relevantie_score": 2,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsmelding",
+    "titel": "Meldingen - , Apeldoornselaan 242, 2573 LV 's-Gravenhage, Dierenselaan 195, 2573 KG 's-Gravenhage",
+    "locatie": "Apeldoornselaan 242 te 's-Gravenhage",
+    "toelichting": ", Apeldoornselaan 242, 2573 LV 's-Gravenhage, Dierenselaan 195, 2573 KG 's-Gravenhage",
+    "waarom": "Mogelijk grondwerk (bouw, sloop of herinrichting), maar zonder details over diepte of tracé. (automatische inschatting)",
+    "ontbreekt": "Omvang en diepte van het grondwerk.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-533687.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 50.3,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.8480338,
+     51.8306877
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534256",
+    "datum": "2026-11-16",
+    "inschatting": "middel",
+    "relevantie_score": 2,
+    "bron": "Gemeenteblad Hardinxveld-Giessendam",
+    "type": "omgevingsvergunning",
+    "titel": "Aanvraag vergunning voor het slopen en bouwen van een woning op de locatie Parallelweg 43 te Hardinxveld-Giessendam zaaknummer 9003744521",
+    "locatie": "",
+    "toelichting": "Aanvraag vergunning voor het slopen en bouwen van een woning op de locatie Parallelweg 43 te Hardinxveld-Giessendam zaaknummer 9003744521",
+    "waarom": "Mogelijk grondwerk (bouw, sloop of herinrichting), maar zonder details over diepte of tracé. (automatische inschatting)",
+    "ontbreekt": "Omvang en diepte van het grondwerk.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534256.html",
+    "uitgever": "Hardinxveld-Giessendam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 42.1,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.2765671,
+     52.0443614
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534761",
+    "datum": "2026-11-16",
+    "inschatting": "middel",
+    "relevantie_score": 2,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsvergunning",
+    "titel": "Omgevingsvergunning - Beschikking Verleend, Melis Stokelaan 1348 t/m 1580 en Leggelostraat 2 t/m 54",
+    "locatie": "Melis Stokelaan 1348 t/m 1580 en Leggelostraat 2 t/m 54",
+    "toelichting": "Beschikking Verleend, Melis Stokelaan 1348 t/m 1580 en Leggelostraat 2 t/m 54",
+    "waarom": "Mogelijk grondwerk (bouw, sloop of herinrichting), maar zonder details over diepte of tracé. (automatische inschatting)",
+    "ontbreekt": "Omvang en diepte van het grondwerk.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534761.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 23.1,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.8593682,
+     51.824962
+    ]
+   },
+   "properties": {
+    "kenmerk": "wsb-2026-30019",
+    "datum": "2026-11-16",
+    "inschatting": "middel",
+    "relevantie_score": 2,
+    "bron": "Waterschapsblad Waterschap Rivierenland",
+    "type": "andere beschikking",
+    "titel": "Waterschap Rivierenland - aanvraag omgevingsvergunning voor het dempen en graven van een watergang rondom A15 ter hoogte van Kanaaldijk-Noord te Hardinxveld-Giessendam",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "aanvraag omgevingsvergunning voor het dempen en graven van een watergang rondom A15 ter hoogte van Kanaaldijk-Noord te Hardinxveld-Giessendam",
+    "waarom": "Mogelijk grondwerk (bouw, sloop of herinrichting), maar zonder details over diepte of tracé. (automatische inschatting)",
+    "ontbreekt": "Omvang en diepte van het grondwerk.",
+    "url": "https://zoek.officielebekendmakingen.nl/wsb-2026-30019.html",
+    "uitgever": "Waterschap Rivierenland",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.0425807,
+     52.1208534
+    ]
+   },
+   "properties": {
+    "kenmerk": "wsb-2026-30095",
+    "datum": "2026-11-16",
+    "inschatting": "middel",
+    "relevantie_score": 2,
+    "bron": "Waterschapsblad Hoogheemraadschap De Stichtse Rijnlanden",
+    "type": "omgevingsvergunning",
+    "titel": "Hoogheemraadschap De Stichtse Rijnlanden – Verleende omgevingsvergunning voor het plaatsen van een hekwerk bij een watergang op de locatie bij Sterrebaan 10 in Utrecht (code HDSR768529)",
+    "locatie": "",
+    "toelichting": "Hoogheemraadschap De Stichtse Rijnlanden – Verleende omgevingsvergunning voor het plaatsen van een hekwerk bij een watergang op de locatie bij Sterrebaan 10 in Utrecht (code HDSR768529)",
+    "waarom": "Mogelijk grondwerk (bouw, sloop of herinrichting), maar zonder details over diepte of tracé. (automatische inschatting)",
+    "ontbreekt": "Omvang en diepte van het grondwerk.",
+    "url": "https://zoek.officielebekendmakingen.nl/wsb-2026-30095.html",
+    "uitgever": "Hoogheemraadschap De Stichtse Rijnlanden",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 47.4,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
      4.2864694,
      52.0723661
     ]
@@ -8204,6 +8876,762 @@
     "binnen_buffer_100m": true,
     "afstand_tot_asset_m": 75.1,
     "eerst_gezien": "2026-11-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3789648,
+     52.0540931
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535073",
+    "datum": "2026-11-17",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsmelding",
+    "titel": "Kennisgeving melding milieubelastende activiteit(en), Valutapad te Den Haag",
+    "locatie": "",
+    "toelichting": "Kennisgeving melding milieubelastende activiteit(en), Valutapad te Den Haag",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535073.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.9739101,
+     51.8503567
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535429",
+    "datum": "2026-11-17",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad Gorinchem",
+    "type": "omgevingsvergunning",
+    "titel": "Aanvraag vergunning voor het plaatsen van een hoogspanningsstation aan Haarweg te Gorinchem",
+    "locatie": "Haarweg, Gorinchem",
+    "toelichting": "Aanvraag vergunning voor het plaatsen van een hoogspanningsstation aan Haarweg te Gorinchem",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535429.html",
+    "uitgever": "Gorinchem",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.0902489,
+     52.0906684
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535597",
+    "datum": "2026-11-17",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad Utrecht",
+    "type": "omgevingsvergunning",
+    "titel": "Aanvraag omgevingsvergunning, het splitsen van winkel en woning en toevoegen van een bijzondere bouwlaag, Groeneweg 109, 3531VD Utrecht, GU-Z2026-0073382",
+    "locatie": "Groeneweg 109, 3531VD Utrecht",
+    "toelichting": "Aanvraag omgevingsvergunning, het splitsen van winkel en woning en toevoegen van een bijzondere bouwlaag, Groeneweg 109, 3531VD Utrecht, GU-Z2026-0073382",
+    "waarom": "Klein of ondiep werk dat assets licht kan raken (bv. fundering, poeren of nieuwe aansluiting). (automatische inschatting)",
+    "ontbreekt": "Plek op het perceel en funderingswijze.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535597.html",
+    "uitgever": "Utrecht",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 44.7,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.2898923,
+     52.0591585
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535608",
+    "datum": "2026-11-17",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad Utrechtse Heuvelrug",
+    "type": "omgevingsvergunning",
+    "titel": "Gemeente Utrechtse Heuvelrug, verleende omgevingsvergunning - Gezichtslaan 2, 3971 BJ Driebergen-Rijsenburg, uitbreiden/verbouwen van de bestaande woning (RX2026-00001939, 13 november 2026)",
+    "locatie": "Gezichtslaan 2, 3971BJ Driebergen-Rijsenburg",
+    "toelichting": "Gezichtslaan 2, 3971 BJ Driebergen-Rijsenburg, uitbreiden/verbouwen van de bestaande woning (RX2026-00001939, 13 november 2026)",
+    "waarom": "Klein of ondiep werk dat assets licht kan raken (bv. fundering, poeren of nieuwe aansluiting). (automatische inschatting)",
+    "ontbreekt": "Plek op het perceel en funderingswijze.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535608.html",
+    "uitgever": "Utrechtse Heuvelrug",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 12.4,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.0858076,
+     52.1078282
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535817",
+    "datum": "2026-11-17",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad Utrecht",
+    "type": "omgevingsvergunning",
+    "titel": "Aanvraag omgevingsvergunning, het verbouwen (splitsen) van 1 woning naar 2 appartementen, Julianaparklaan 3, 3553HK Utrecht, GU-Z2026-0073528",
+    "locatie": "Julianaparklaan 3, 3553HK Utrecht",
+    "toelichting": "Aanvraag omgevingsvergunning, het verbouwen (splitsen) van 1 woning naar 2 appartementen, Julianaparklaan 3, 3553HK Utrecht, GU-Z2026-0073528",
+    "waarom": "Klein of ondiep werk dat assets licht kan raken (bv. fundering, poeren of nieuwe aansluiting). (automatische inschatting)",
+    "ontbreekt": "Plek op het perceel en funderingswijze.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535817.html",
+    "uitgever": "Utrecht",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 2.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3353952,
+     51.98386
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535876",
+    "datum": "2026-11-17",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad Delft",
+    "type": "omgevingsmelding",
+    "titel": "Kennisgeving melding milieubelastende activiteit(en), nabij Keenpad te Delft",
+    "locatie": "Keenpadweg, Delft",
+    "toelichting": "Kennisgeving melding milieubelastende activiteit(en), nabij Keenpad te Delft",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535876.html",
+    "uitgever": "Delft",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 77.5,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.2612974,
+     52.0692791
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535913",
+    "datum": "2026-11-17",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsvergunning",
+    "titel": "Kennisgeving beschikking maatwerkvoorschrift(en), Pomonaplein 71 te Den Haag",
+    "locatie": "",
+    "toelichting": "Kennisgeving beschikking maatwerkvoorschrift(en), Pomonaplein 71 te Den Haag",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535913.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 81.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.0275738,
+     51.9423018
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535931",
+    "datum": "2026-11-17",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "omgevingsvergunning",
+    "titel": "Aangevraagde omgevingsvergunning, nabij Magallanesstraat 55 3199LP Maasvlakte Rotterdam",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Aangevraagde omgevingsvergunning, nabij Magallanesstraat 55 3199LP Maasvlakte Rotterdam",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535931.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 64.8,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.5189935,
+     51.9547009
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-536073",
+    "datum": "2026-11-17",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "omgevingsvergunning",
+    "titel": "Aangevraagde omgevingsvergunning, Bergse Linker Rottekade 294A 3056LJ Rotterdam",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Aangevraagde omgevingsvergunning, Bergse Linker Rottekade 294A 3056LJ Rotterdam",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-536073.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 63.7,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.5127974,
+     51.8850939
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-536132",
+    "datum": "2026-11-17",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "omgevingsvergunning",
+    "titel": "Aangevraagde omgevingsvergunning, Groenezoom 204 3075GK Rotterdam",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Aangevraagde omgevingsvergunning, Groenezoom 204 3075GK Rotterdam",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-536132.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 4.7,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3972509,
+     51.9971452
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-536222",
+    "datum": "2026-11-17",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad Pijnacker-Nootdorp",
+    "type": "omgevingsvergunning",
+    "titel": "Ingediende aanvraag omgevingsvergunning: 2026111300914, Importweg 1 2645EC Delfgauw",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Ingediende aanvraag omgevingsvergunning: 2026111300914, Importweg 1 2645EC Delfgauw",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-536222.html",
+    "uitgever": "Pijnacker-Nootdorp",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 12.9,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.1423818,
+     51.9376473
+    ]
+   },
+   "properties": {
+    "kenmerk": "prb-2026-19176",
+    "datum": "2026-11-17",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Provinciaal blad Zuid-Holland",
+    "type": "omgevingsvergunning",
+    "titel": "Kennisgeving toestemming om vergunningen voor de verhoging van de maximale jaarproductie aan de Moezelweg 15, Rotterdam-Europoort 3888014/RWSZ2025-00011754",
+    "locatie": "Moezelweg, Europoort Rotterdam",
+    "toelichting": "Kennisgeving toestemming om vergunningen voor de verhoging van de maximale jaarproductie aan de Moezelweg 15, Rotterdam-Europoort 3888014/RWSZ2025-00011754",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/prb-2026-19176.html",
+    "uitgever": "Zuid-Holland",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.2758284,
+     52.0914916
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-532390",
+    "datum": "2026-11-16",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsvergunning",
+    "titel": "Omgevingsvergunning - Aangevraagd, Jacob Hopstraat 1, 's-Gravenhage",
+    "locatie": "Jacob Hopstraat 1 te 's-Gravenhage",
+    "toelichting": "Aangevraagd, Jacob Hopstraat 1, 's-Gravenhage",
+    "waarom": "Klein of ondiep werk dat assets licht kan raken (bv. fundering, poeren of nieuwe aansluiting). (automatische inschatting)",
+    "ontbreekt": "Plek op het perceel en funderingswijze.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-532390.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 49.3,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.2520549,
+     52.0412684
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-532467",
+    "datum": "2026-11-16",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsmelding",
+    "titel": "Meldingen - , Hoogveen 132, 2544 SX 's-Gravenhage, Dalveen 22, 2544 SE 's-Gravenhage, Dalveen 26, 2544 SE 's-Gravenhage, Dalveen 28, 2544 SE 's-Gravenhage, Dalveen 32, 2544 SE 's-Gravenhage, Dalveen 3",
+    "locatie": "Hoogveen 132 te 's-Gravenhage",
+    "toelichting": ", Hoogveen 132, 2544 SX 's-Gravenhage, Dalveen 22, 2544 SE 's-Gravenhage, Dalveen 26, 2544 SE 's-Gravenhage, Dalveen 28, 2544 SE 's-Gravenhage, Dalveen 32, 2544 SE 's-Gravenhage, Dalveen 3",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-532467.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 18.3,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.2852198,
+     52.0784785
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-532474",
+    "datum": "2026-11-16",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsvergunning",
+    "titel": "Omgevingsvergunning - Aangevraagd, Van Bylandtstraat 99, 2562 GA 's-Gravenhage",
+    "locatie": "Van Bylandtstraat 99 te 's-Gravenhage",
+    "toelichting": "Aangevraagd, Van Bylandtstraat 99, 2562 GA 's-Gravenhage",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-532474.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 33.5,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.5138392,
+     52.0494767
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-533177",
+    "datum": "2026-11-16",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad Zoetermeer",
+    "type": "omgevingsvergunning",
+    "titel": "Kennisgeving besluit omgevingsvergunning (Opa -binnenplans) voor het bouwen van een nieuw trafogebouw en schakelgebouw aan de Wiltonstraat naast nummer 14 (ZTM2) te Zoetermeer",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Kennisgeving besluit omgevingsvergunning (Opa -binnenplans) voor het bouwen van een nieuw trafogebouw en schakelgebouw aan de Wiltonstraat naast nummer 14 (ZTM2) te Zoetermeer",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-533177.html",
+    "uitgever": "Zoetermeer",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.2736108,
+     52.0489942
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-533252",
+    "datum": "2026-11-16",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsmelding",
+    "titel": "Meldingen - , Vledderstraat 61, 2545 RJ 's-Gravenhage",
+    "locatie": "Vledderstraat 61 te 's-Gravenhage",
+    "toelichting": ", Vledderstraat 61, 2545 RJ 's-Gravenhage",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-533252.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 94.8,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.4936198,
+     52.0606857
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-533306",
+    "datum": "2026-11-16",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad Zoetermeer",
+    "type": "omgevingsvergunning",
+    "titel": "Kennisgeving verlenging beslistermijn omgevingsvergunning voor het verbouwen en herinrichten van twee bestaande gebouwen tot het Nationaal Videogamemuseum, op de locatie Stadhuisplein 21, 2711EC Zoetermeer",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Kennisgeving verlenging beslistermijn omgevingsvergunning voor het verbouwen en herinrichten van twee bestaande gebouwen tot het Nationaal Videogamemuseum, op de locatie Stadhuisplein 21, 2711EC Zoetermeer",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-533306.html",
+    "uitgever": "Zoetermeer",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.4771601,
+     51.9177271
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-533679",
+    "datum": "2026-11-16",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "omgevingsvergunning",
+    "titel": "Aangevraagde omgevingsvergunning, Karel Doormanstraat 396 3012GR Rotterdam",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Aangevraagde omgevingsvergunning, Karel Doormanstraat 396 3012GR Rotterdam",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-533679.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 2.3,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.2921612,
+     52.0684892
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-533805",
+    "datum": "2026-11-16",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsmelding",
+    "titel": "Meldingen - , Paul Krugerlaan 238, 2571 HR 's-Gravenhage",
+    "locatie": "Paul Krugerlaan 238 te 's-Gravenhage",
+    "toelichting": ", Paul Krugerlaan 238, 2571 HR 's-Gravenhage",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-533805.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 76.7,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.2554762,
+     52.0416312
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-533876",
+    "datum": "2026-11-16",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsmelding",
+    "titel": "Meldingen - , Plantenoord 278 t/m 324",
+    "locatie": "Plantenoord 278 t/m 324",
+    "toelichting": ", Plantenoord 278 t/m 324",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-533876.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 40.8,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.2895188,
+     52.0446432
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534179",
+    "datum": "2026-11-16",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsmelding",
+    "titel": "Meldingen - , Loevesteinlaan 891 A t/m F en 893 A t/m F",
+    "locatie": "Loevesteinlaan 891 A t/m F en 893 A t/m F",
+    "toelichting": ", Loevesteinlaan 891 A t/m F en 893 A t/m F",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534179.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 9.2,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.440309,
+     52.0141497
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534203",
+    "datum": "2026-11-16",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad Pijnacker-Nootdorp",
+    "type": "omgevingsvergunning",
+    "titel": "Ingediende aanvraag omgevingsvergunning: 2026111200869, Nijverheidsweg 10 2641RL Pijnacker",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Ingediende aanvraag omgevingsvergunning: 2026111200869, Nijverheidsweg 10 2641RL Pijnacker",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534203.html",
+    "uitgever": "Pijnacker-Nootdorp",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.3,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.4666032,
+     52.0406004
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534301",
+    "datum": "2026-11-16",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad Zoetermeer",
+    "type": "omgevingsvergunning",
+    "titel": "Kennisgeving besluit Omgevingsvergunning voor het vervangen van de bergingen aan de Floriant en Waterlelie, Florasingel 17-17A 2719HP Zoetermeer en Goudenregenzoom 73 2719HE Zoetermeer",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Kennisgeving besluit Omgevingsvergunning voor het vervangen van de bergingen aan de Floriant en Waterlelie, Florasingel 17-17A 2719HP Zoetermeer en Goudenregenzoom 73 2719HE Zoetermeer",
+    "waarom": "Klein of ondiep werk dat assets licht kan raken (bv. fundering, poeren of nieuwe aansluiting). (automatische inschatting)",
+    "ontbreekt": "Plek op het perceel en funderingswijze.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534301.html",
+    "uitgever": "Zoetermeer",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 58.2,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.0534883,
+     52.0700512
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534444",
+    "datum": "2026-11-16",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Gemeenteblad Utrecht",
+    "type": "omgevingsmelding",
+    "titel": "Bekendmaking melding toepassen van grond of baggerspecie op de Strijkviertel Utrecht",
+    "locatie": "Strijkviertel, Utrecht",
+    "toelichting": "Bekendmaking melding toepassen van grond of baggerspecie op de Strijkviertel Utrecht",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534444.html",
+    "uitgever": "Utrecht",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 5.5,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.1858595,
+     51.9192709
+    ]
+   },
+   "properties": {
+    "kenmerk": "prb-2026-19455",
+    "datum": "2026-11-16",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Provinciaal blad Zuid-Holland",
+    "type": "omgevingsvergunning",
+    "titel": "Kennisgeving aanvraag vergunning voor Project T400 aan de Moezelweg 151 te Rotterdam Europoort",
+    "locatie": "",
+    "toelichting": "Kennisgeving aanvraag vergunning voor Project T400 aan de Moezelweg 151 te Rotterdam Europoort",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/prb-2026-19455.html",
+    "uitgever": "Zuid-Holland",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 76.7,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.2635895,
+     51.8771385
+    ]
+   },
+   "properties": {
+    "kenmerk": "stcrt-2026-40499",
+    "datum": "2026-11-16",
+    "inschatting": "laag",
+    "relevantie_score": 1,
+    "bron": "Staatscourant",
+    "type": "omgevingsvergunning",
+    "titel": "Aanvraag omgevingsvergunning beperkingengebiedactiviteit hoofdspoorwegen",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Aanvraag omgevingsvergunning beperkingengebiedactiviteit hoofdspoorwegen",
+    "waarom": "Omgevingsvergunning/-melding die niet automatisch te duiden is; handmatig nakijken. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/stcrt-2026-40499.html",
+    "uitgever": "Ministerie van Infrastructuur en Waterstaat",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-17"
    }
   },
   {
@@ -22904,6 +24332,1518 @@
     "binnen_buffer_100m": true,
     "afstand_tot_asset_m": 9.8,
     "eerst_gezien": "2026-11-10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.7138218,
+     52.025702
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-532336",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Gouda",
+    "type": "andere voorlichtingsinformatie",
+    "titel": "Voornemen tot gronduitgifte in het kader van het project Grondgebruik",
+    "locatie": "Perceel Gouda (GDA01) I 3917",
+    "toelichting": "Voornemen tot gronduitgifte in het kader van het project Grondgebruik",
+    "waarom": "Geen aanwijzing voor grondroering gevonden in titel of tekst. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-532336.html",
+    "uitgever": "Gouda",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 13.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.5544417,
+     51.9494265
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534708",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "exploitatievergunning",
+    "titel": "Exploitatie - Poolsterstraat 46",
+    "locatie": "Exploitatie",
+    "toelichting": "Poolsterstraat 46",
+    "waarom": "Evenement/horeca, geen grondroering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534708.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 79.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.5544417,
+     51.9494265
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534710",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "exploitatievergunning",
+    "titel": "Exploitatie - Poolsterstraat 64",
+    "locatie": "Exploitatie",
+    "toelichting": "Poolsterstraat 64",
+    "waarom": "Evenement/horeca, geen grondroering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534710.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 79.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.0821351,
+     52.1024296
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534958",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Utrecht",
+    "type": "omgevingsvergunning",
+    "titel": "Verleende Omgevingsvergunning, Gemeentelijke Vellijst najaar 2026: het kappen en herplanten van 357  bomen, Tractieweg 2, 3534AP Utrecht, GU-Z2026-0069749",
+    "locatie": "Tractieweg 2, 3534AP Utrecht",
+    "toelichting": "Verleende Omgevingsvergunning, Gemeentelijke Vellijst najaar 2026: het kappen en herplanten van 357  bomen, Tractieweg 2, 3534AP Utrecht, GU-Z2026-0069749",
+    "waarom": "Bouwkundig, planologisch of verkeersbesluit zonder genoemd graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534958.html",
+    "uitgever": "Utrecht",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.6002521,
+     51.8725551
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535316",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Ridderkerk",
+    "type": "evenementenvergunning",
+    "titel": "Op grond van de Algemene Plaatselijke Verordening is vergunning verleend voor:",
+    "locatie": "",
+    "toelichting": "Op grond van de Algemene Plaatselijke Verordening is vergunning verleend voor:",
+    "waarom": "Evenement/horeca, geen grondroering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535316.html",
+    "uitgever": "Ridderkerk",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.9457477,
+     51.8354631
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535449",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Gorinchem",
+    "type": "omgevingsvergunning",
+    "titel": "Aanvraag vergunning voor het kapen van bomen langs A27 te Gorinchem",
+    "locatie": "A27, Gorinchem",
+    "toelichting": "Aanvraag vergunning voor het kapen van bomen langs A27 te Gorinchem",
+    "waarom": "Bouwkundig, planologisch of verkeersbesluit zonder genoemd graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535449.html",
+    "uitgever": "Gorinchem",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.2891419,
+     52.0809993
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535583",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "andere beschikking",
+    "titel": "APV vergunning - Besluiten, Waldeck Pyrmontkade 683, 2518 KH 's-Gravenhage",
+    "locatie": "Waldeck Pyrmontkade 683 te 's-Gravenhage",
+    "toelichting": "Besluiten, Waldeck Pyrmontkade 683, 2518 KH 's-Gravenhage",
+    "waarom": "Beleid/regelgeving zonder fysieke uitvoering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535583.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 40.5,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.2767129,
+     52.0497913
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535592",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "andere beschikking",
+    "titel": "APV vergunning - Besluiten, Leyweg 930, 2545 GV 's-Gravenhage",
+    "locatie": "Leyweg 930 te 's-Gravenhage",
+    "toelichting": "Besluiten, Leyweg 930, 2545 GV 's-Gravenhage",
+    "waarom": "Standplaatsvergunning (kraam/verkoopwagen), tijdelijk, geen grondroering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535592.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 87.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.5208177,
+     51.886232
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535733",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "omgevingsvergunning",
+    "titel": "Verleende omgevingsvergunning (kappen), Berkendaal 132 3075XK Rotterdam",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Verleende omgevingsvergunning (kappen), Berkendaal 132 3075XK Rotterdam",
+    "waarom": "Bouwkundig, planologisch of verkeersbesluit zonder genoemd graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535733.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.3906333,
+     52.1609734
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535793",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Amersfoort",
+    "type": "verkeersbesluit of -mededeling",
+    "titel": "Verkeersbesluit gemeente Amersfoort wijk: Kruiskamp, het aanwijzen van een gehandicaptenparkeerplaats op kenteken op de Kruiskamp ter hoogte van nummer 20 2",
+    "locatie": "",
+    "toelichting": "Verkeersbesluit gemeente Amersfoort wijk: Kruiskamp, het aanwijzen van een gehandicaptenparkeerplaats op kenteken op de Kruiskamp ter hoogte van nummer 20 2",
+    "waarom": "Bouwkundig, planologisch of verkeersbesluit zonder genoemd graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535793.html",
+    "uitgever": "Amersfoort",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 49.2,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.0380229,
+     52.1171125
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535805",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Utrecht",
+    "type": "omgevingsvergunning",
+    "titel": "Aanvraag omgevingsvergunning, het aanbrengen van lichtreclame, Zonnebaan 9, 3542EA Utrecht, GU-Z2026-0073511",
+    "locatie": "Zonnebaan 9, 3542EA Utrecht",
+    "toelichting": "Aanvraag omgevingsvergunning, het aanbrengen van lichtreclame, Zonnebaan 9, 3542EA Utrecht, GU-Z2026-0073511",
+    "waarom": "Reclame aan de gevel, geen grondroering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535805.html",
+    "uitgever": "Utrecht",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 13.7,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.5163163,
+     51.8850447
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535848",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "verkeersbesluit of -mededeling",
+    "titel": "BESLUIT VERKEERSMAATREGEL     Olmendaal (ROTTERDAM)",
+    "locatie": "",
+    "toelichting": "BESLUIT VERKEERSMAATREGEL     Olmendaal (ROTTERDAM)",
+    "waarom": "Bouwkundig, planologisch of verkeersbesluit zonder genoemd graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535848.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 80.9,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.349679,
+     52.0721748
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535890",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Leidschendam-Voorburg",
+    "type": "andere vergunning",
+    "titel": "Aanvraag vergunning voor het plaatsen van een container van 13 november tot en met 20 november 2026, van Halewijnlaan 107, 2274 TE Voorburg - kenmerk 00002483185",
+    "locatie": "van Halewijnlaan 107 te Voorburg",
+    "toelichting": "kenmerk 00002483185",
+    "waarom": "Tijdelijk obstakel op de openbare weg, geen graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535890.html",
+    "uitgever": "Leidschendam-Voorburg",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 71.1,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3763094,
+     52.0825859
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535961",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Leidschendam-Voorburg",
+    "type": "evenementenvergunning",
+    "titel": "Evenementenvergunning verleend voor het organiseren van lichtjesavond aan de Oosterbegraafplaats op 9 december 2026, Rodelaan 64, 2272 BB Voorburg - kenmerk 00002464574",
+    "locatie": "Rodelaan 64 te Voorburg",
+    "toelichting": "kenmerk 00002464574",
+    "waarom": "Evenement/horeca, geen grondroering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535961.html",
+    "uitgever": "Leidschendam-Voorburg",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 66.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3464296,
+     52.0785252
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535983",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Leidschendam-Voorburg",
+    "type": "andere vergunning",
+    "titel": "Wijzigingsbesluit ontheffing geluidshinder verleend voor wijzigingsverzoek datum de nacht van 13 december 2026 op 14 december 2026 , Laan van Nieuw Oosteinde 291, 2274 GE Voorburg - kenmerk 2482139",
+    "locatie": "Laan van Nieuw Oosteinde 291 te Voorburg",
+    "toelichting": "kenmerk 2482139",
+    "waarom": "Bouwkundig, planologisch of verkeersbesluit zonder genoemd graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535983.html",
+    "uitgever": "Leidschendam-Voorburg",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 83.4,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3448135,
+     52.0754037
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-536046",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Leidschendam-Voorburg",
+    "type": "andere vergunning",
+    "titel": "Vergunning verleend voor het plaatsen van een steiger van 1 november tot en met 30 november 2026, van Wassenaerstraat 3, 2274 RB Voorburg - kenmerk 00002469211",
+    "locatie": "van Wassenaerstraat 3 te Voorburg",
+    "toelichting": "kenmerk 00002469211",
+    "waarom": "Tijdelijk obstakel op de openbare weg, geen graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-536046.html",
+    "uitgever": "Leidschendam-Voorburg",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 64.4,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.4671659,
+     51.9352615
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-536065",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "omgevingsvergunning",
+    "titel": "Verleende omgevingsvergunning, Abraham Kuyperlaan 12A 3038PK Rotterdam, Abraham Kuyperlaan 12B-01 3038PK Rotterdam, Abraham Kuyperlaan 12B-02 3038PK Rotterdam",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Verleende omgevingsvergunning, Abraham Kuyperlaan 12A 3038PK Rotterdam, Abraham Kuyperlaan 12B-01 3038PK Rotterdam, Abraham Kuyperlaan 12B-02 3038PK Rotterdam",
+    "waarom": "Bouwkundig, planologisch of verkeersbesluit zonder genoemd graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-536065.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 93.4,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.383315,
+     52.0877886
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-536078",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Leidschendam-Voorburg",
+    "type": "andere vergunning",
+    "titel": "Ontheffing geluidshinder verleend voor nachtelijke werkzaamheden, het aanbrengen en verwijderen van wintersfeerverlichting, Liguster 202, 2262 AC Leidschendam - kenmerk 00002467835",
+    "locatie": "Liguster 202 te Leidschendam",
+    "toelichting": "kenmerk 00002467835",
+    "waarom": "Bouwkundig, planologisch of verkeersbesluit zonder genoemd graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-536078.html",
+    "uitgever": "Leidschendam-Voorburg",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 92.2,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.2707403,
+     52.0586114
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-536095",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Utrechtse Heuvelrug",
+    "type": "andere vergunning",
+    "titel": "Gemeente Utrechtse Heuvelrug, ingediende aanvraag APV/Bijzondere wetten - Nieuw Nijendal 1 t/m Nieuw Nijendal 33, 3972KG Driebergen-Rijsenburg, Splitsingsvergunning in 32 woonruimten (RX2026-00002867, 13 november 2026)",
+    "locatie": "Nieuw Nijendal 1 t/m Nieuw Nijendal 33, 3972KG Driebergen-Rijsenburg",
+    "toelichting": "Nieuw Nijendal 1 t/m Nieuw Nijendal 33, 3972KG Driebergen-Rijsenburg, Splitsingsvergunning in 32 woonruimten (RX2026-00002867, 13 november 2026)",
+    "waarom": "Geen aanwijzing voor grondroering gevonden in titel of tekst. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-536095.html",
+    "uitgever": "Utrechtse Heuvelrug",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 36.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.0342555,
+     52.0225781
+    ]
+   },
+   "properties": {
+    "kenmerk": "prb-2026-19550",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Provinciaal blad Utrecht",
+    "type": "omgevingsvergunning",
+    "titel": "Ontvangen aanvraag voor een BRO-Omgevingsvergunning evenement - tramhaltes Binnenstad, Clinckhoeff, Eiteren, Achterveld en IJsselstein Zuid",
+    "locatie": "tramhaltes Binnenstad, Clinckhoeff, Eiteren, Achterveld en IJsselstein Zuid",
+    "toelichting": "tramhaltes Binnenstad, Clinckhoeff, Eiteren, Achterveld en IJsselstein Zuid",
+    "waarom": "Evenement/horeca, geen grondroering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/prb-2026-19550.html",
+    "uitgever": "Utrecht",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.6650681,
+     51.8271653
+    ]
+   },
+   "properties": {
+    "kenmerk": "prb-2026-19564",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Provinciaal blad Zuid-Holland",
+    "type": "omgevingsvergunning",
+    "titel": "Kennisgeving beschikking omgevingsvergunning, Noordoevers Ringdijk te Zwijndrecht",
+    "locatie": "",
+    "toelichting": "Kennisgeving beschikking omgevingsvergunning, Noordoevers Ringdijk te Zwijndrecht",
+    "waarom": "Beleid/regelgeving zonder fysieke uitvoering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/prb-2026-19564.html",
+    "uitgever": "Zuid-Holland",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 66.6,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.6055323,
+     51.878129
+    ]
+   },
+   "properties": {
+    "kenmerk": "prb-2026-19565",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Provinciaal blad Zuid-Holland",
+    "type": "omgevingsvergunning",
+    "titel": "Kennisgeving aanvraag omgevingsvergunning, Benedenrijweg 70 te Ridderkerk",
+    "locatie": "",
+    "toelichting": "Kennisgeving aanvraag omgevingsvergunning, Benedenrijweg 70 te Ridderkerk",
+    "waarom": "Beleid/regelgeving zonder fysieke uitvoering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/prb-2026-19565.html",
+    "uitgever": "Zuid-Holland",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 83.1,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3608417,
+     52.0056807
+    ]
+   },
+   "properties": {
+    "kenmerk": "prb-2026-19584",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Provinciaal blad Zuid-Holland",
+    "type": "andere vergunning",
+    "titel": "Omgevingsvergunning voor het stremmen van de scheepvaat op de Delfse Schie en het Rijn-Schiekanaal op 21 november 2026 ten behoeve van het houden van de Sinterklaasintocht in Delft (250306)",
+    "locatie": "",
+    "toelichting": "Omgevingsvergunning voor het stremmen van de scheepvaat op de Delfse Schie en het Rijn-Schiekanaal op 21 november 2026 ten behoeve van het houden van de Sinterklaasintocht in Delft (250306)",
+    "waarom": "Geen aanwijzing voor grondroering gevonden in titel of tekst. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/prb-2026-19584.html",
+    "uitgever": "Zuid-Holland",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 18.1,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.6289899,
+     51.9733682
+    ]
+   },
+   "properties": {
+    "kenmerk": "wsb-2026-30174",
+    "datum": "2026-11-17",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Waterschapsblad Hoogheemraadschap van Schieland en de Krimpenerwaard",
+    "type": "vergunning voor activiteiten op of in oppervlaktewater",
+    "titel": "Aanvraag vergunning voor het aanbrengen van oeverconstructie nabij Van Gennepweg 1 in Nieuwerkerk aan den IJssel",
+    "locatie": "van Gennepweg 1, 2911BS Nieuwerkerk aan den IJssel",
+    "toelichting": "Aanvraag vergunning voor het aanbrengen van oeverconstructie nabij Van Gennepweg 1 in Nieuwerkerk aan den IJssel",
+    "waarom": "Geen aanwijzing voor grondroering gevonden in titel of tekst. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/wsb-2026-30174.html",
+    "uitgever": "Hoogheemraadschap van Schieland en de Krimpenerwaard",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 8.4,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3532342,
+     51.9254922
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-530966",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Vlaardingen",
+    "type": "andere beschikking",
+    "titel": "Opleggen bestuursdwang voor een grijs voertuig aan Koninginnelaan te Vlaardingen",
+    "locatie": "Koninginnelaan, Vlaardingen",
+    "toelichting": "Opleggen bestuursdwang voor een grijs voertuig aan Koninginnelaan te Vlaardingen",
+    "waarom": "Beleid/regelgeving zonder fysieke uitvoering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-530966.html",
+    "uitgever": "Vlaardingen",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 4.2,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3538734,
+     51.9052818
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-531054",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Vlaardingen",
+    "type": "andere beschikking",
+    "titel": "Opleggen bestuursdwang voor een zwarte Volvo met kenteken SD 6813F aan Koningin Wilhelminahaven NZ te Vlaardingen",
+    "locatie": "Koningin Wilhelminahaven NZ, Vlaardingen",
+    "toelichting": "Opleggen bestuursdwang voor een zwarte Volvo met kenteken SD 6813F aan Koningin Wilhelminahaven NZ te Vlaardingen",
+    "waarom": "Beleid/regelgeving zonder fysieke uitvoering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-531054.html",
+    "uitgever": "Vlaardingen",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 55.5,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3327123,
+     52.0765506
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-532384",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "andere vergunning",
+    "titel": "APV Vergunning - Besluiten, Schenkkade 1, 's-Gravenhage",
+    "locatie": "Schenkkade 1 te 's-Gravenhage",
+    "toelichting": "Besluiten, Schenkkade 1, 's-Gravenhage",
+    "waarom": "Beleid/regelgeving zonder fysieke uitvoering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-532384.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 37.6,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3188815,
+     52.0759027
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-532406",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "andere vergunning",
+    "titel": "APV Vergunning - Besluiten, Ammunitiehof 11, 2511 XK 's-Gravenhage",
+    "locatie": "Ammunitiehof 11 te 's-Gravenhage",
+    "toelichting": "Besluiten, Ammunitiehof 11, 2511 XK 's-Gravenhage",
+    "waarom": "Beleid/regelgeving zonder fysieke uitvoering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-532406.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 91.4,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.3452848,
+     52.162617
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-532419",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Amersfoort",
+    "type": "andere voorlichtingsinformatie",
+    "titel": "Bekendmaking voorgenomen uitgifte in erfpacht gronden Middelhoefseweg 12 en 12A",
+    "locatie": "",
+    "toelichting": "Bekendmaking voorgenomen uitgifte in erfpacht gronden Middelhoefseweg 12 en 12A",
+    "waarom": "Bouwkundig, planologisch of verkeersbesluit zonder genoemd graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-532419.html",
+    "uitgever": "Amersfoort",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 84.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.2822947,
+     52.066925
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-532433",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "andere vergunning",
+    "titel": "APV Vergunning - Besluiten, Apeldoornselaan 240, 's-Gravenhage",
+    "locatie": "Apeldoornselaan 240 te 's-Gravenhage",
+    "toelichting": "Besluiten, Apeldoornselaan 240, 's-Gravenhage",
+    "waarom": "Beleid/regelgeving zonder fysieke uitvoering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-532433.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 12.9,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3024505,
+     52.0762512
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-532453",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "evenementenvergunning",
+    "titel": "Evenementenvergunning - Aanvraag evenement klein, Westeinde, 2512 GV 's-Gravenhage",
+    "locatie": "Westeinde 99 te 's-Gravenhage",
+    "toelichting": "Aanvraag evenement klein, Westeinde, 2512 GV 's-Gravenhage",
+    "waarom": "Evenement/horeca, geen grondroering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-532453.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 72.1,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.5473916,
+     51.9488435
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-532523",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "andere vergunning",
+    "titel": "Verleende Inname Openbare Grond vergunning Tinstraat 16",
+    "locatie": "",
+    "toelichting": "Verleende Inname Openbare Grond vergunning Tinstraat 16",
+    "waarom": "Tijdelijk obstakel op de openbare weg, geen graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-532523.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 19.7,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3577069,
+     52.0731249
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-532612",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Leidschendam-Voorburg",
+    "type": "omgevingsvergunning",
+    "titel": "Omgevingsvergunning aanvraag voor het plaatsen van een tijdelijk hekwerk rond tijdelijke huisvesting Sint-Maartenscollege, Louis Couperusstraat Voorburg - kenmerk 2482329",
+    "locatie": "Louis Couperusstraat Voorburg",
+    "toelichting": "kenmerk 2482329",
+    "waarom": "Bouwkundig, planologisch of verkeersbesluit zonder genoemd graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-532612.html",
+    "uitgever": "Leidschendam-Voorburg",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 99.2,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.4784815,
+     51.9170077
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-532687",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "andere vergunning",
+    "titel": "Verleende Inname Openbare Grond vergunning Westblaak 24",
+    "locatie": "",
+    "toelichting": "Verleende Inname Openbare Grond vergunning Westblaak 24",
+    "waarom": "Tijdelijk obstakel op de openbare weg, geen graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-532687.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 89.6,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.275595,
+     52.0731098
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-532717",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "andere beschikking",
+    "titel": "Woningomzetting - Beschikking Verleend, Valkenboslaan 180, 2563 CS 's-Gravenhage",
+    "locatie": "Valkenboslaan 180 te 's-Gravenhage",
+    "toelichting": "Beschikking Verleend, Valkenboslaan 180, 2563 CS 's-Gravenhage",
+    "waarom": "Bouwkundig, planologisch of verkeersbesluit zonder genoemd graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-532717.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 35.2,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3961052,
+     51.9922256
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-532889",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Pijnacker-Nootdorp",
+    "type": "omgevingsvergunning",
+    "titel": "Verleende omgevingsvergunning: 2026080700343, Zuideindseweg Delfgauw Pijnacker",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Verleende omgevingsvergunning: 2026080700343, Zuideindseweg Delfgauw Pijnacker",
+    "waarom": "Bouwkundig, planologisch of verkeersbesluit zonder genoemd graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-532889.html",
+    "uitgever": "Pijnacker-Nootdorp",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 12.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.4885906,
+     52.0644088
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-533093",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Zoetermeer",
+    "type": "omgevingsvergunning",
+    "titel": "Kennisgeving besluit Omgevingsvergunning voor het vervangen van de kozijnen, Pierre Kemphove 99-137 (oneven) 2726BG Zoetermeer",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Kennisgeving besluit Omgevingsvergunning voor het vervangen van de kozijnen, Pierre Kemphove 99-137 (oneven) 2726BG Zoetermeer",
+    "waarom": "Puur bouwkundige wijziging aan bestaand pand, geen grondroering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-533093.html",
+    "uitgever": "Zoetermeer",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 91.4,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3126806,
+     52.0737245
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-533271",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsvergunning",
+    "titel": "Omgevingsvergunning - Beschikking Verleend, Paviljoensgracht 37, 2512 BL 's-Gravenhage, Paviljoensgracht 35, 2512 BL 's-Gravenhage",
+    "locatie": "Paviljoensgracht 37 te 's-Gravenhage",
+    "toelichting": "Beschikking Verleend, Paviljoensgracht 37, 2512 BL 's-Gravenhage, Paviljoensgracht 35, 2512 BL 's-Gravenhage",
+    "waarom": "Reclame aan de gevel, geen grondroering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-533271.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 6.8,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.3670784,
+     52.1637661
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-533407",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Amersfoort",
+    "type": "omgevingsvergunning",
+    "titel": "Verleende omgevingsvergunning voor het bouwen van een kantoorpand en bedrijfsverzamelgebouw  op het perceel Amsterdamseweg 43 A t/m H, 3812 RP Amersfoort",
+    "locatie": "Amsterdamseweg 43 A te Amersfoort",
+    "toelichting": "Verleende omgevingsvergunning voor het bouwen van een kantoorpand en bedrijfsverzamelgebouw  op het perceel Amsterdamseweg 43 A t/m H, 3812 RP Amersfoort",
+    "waarom": "Bouwkundig, planologisch of verkeersbesluit zonder genoemd graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-533407.html",
+    "uitgever": "Amersfoort",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 15.9,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.502982,
+     51.8767636
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-533562",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "omgevingsvergunning",
+    "titel": "Aangevraagde omgevingsvergunning (kappen), in de omgeving van Rietdijk 4A-01 3082DS Rotterdam",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Aangevraagde omgevingsvergunning (kappen), in de omgeving van Rietdijk 4A-01 3082DS Rotterdam",
+    "waarom": "Standplaatsvergunning (kraam/verkoopwagen), tijdelijk, geen grondroering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-533562.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 4.9,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.3723589,
+     52.0870607
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-533583",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Leidschendam-Voorburg",
+    "type": "andere vergunning",
+    "titel": "Aanvraag ontheffing geluidshinder voor nachtelijke slijpwerkzaamheden aan het spoor door HTM van 25 januari 2027 tot en met 14 februari 2027, splitsing van de Hofzichtlaan en Monseigneur van Steelaan in Voorburg - kenmerk 00002482157",
+    "locatie": "splitsing van de Hofzichtlaan en Monseigneur van Steelaan in Voorburg",
+    "toelichting": "kenmerk 00002482157",
+    "waarom": "Geen aanwijzing voor grondroering gevonden in titel of tekst. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-533583.html",
+    "uitgever": "Leidschendam-Voorburg",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.0870598,
+     52.0376177
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-533652",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Nieuwegein",
+    "type": "omgevingsvergunning",
+    "titel": "Omgevingsvergunning, het plaatsen van een dakkapel in het voorgeveldakvlak van de woning, Prof. Dr. Ornsteinlaan 24, 3431EP Nieuwegein, Z2026-00002054",
+    "locatie": "Prof. Dr. Ornsteinlaan 24, 3431EP Nieuwegein",
+    "toelichting": "Omgevingsvergunning, het plaatsen van een dakkapel in het voorgeveldakvlak van de woning, Prof. Dr. Ornsteinlaan 24, 3431EP Nieuwegein, Z2026-00002054",
+    "waarom": "Puur bouwkundige wijziging aan bestaand pand, geen grondroering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-533652.html",
+    "uitgever": "Nieuwegein",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.2,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.2725278,
+     52.0506527
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-533678",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsvergunning",
+    "titel": "Omgevingsvergunning - Aanvraag niet-vergunningplichtig, Leyweg 523 C, 2545 GD 's-Gravenhage",
+    "locatie": "Leyweg 523 C te 's-Gravenhage",
+    "toelichting": "Aanvraag niet-vergunningplichtig, Leyweg 523 C, 2545 GD 's-Gravenhage",
+    "waarom": "Reclame aan de gevel, geen grondroering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-533678.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 58.8,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.7138977,
+     51.8307692
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-533706",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Papendrecht",
+    "type": "andere vergunning",
+    "titel": "Verlenging opslagdepot Nanengat",
+    "locatie": "Ingetekende geometrie",
+    "toelichting": "Verlenging opslagdepot Nanengat",
+    "waarom": "Tijdelijk obstakel op de openbare weg, geen graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-533706.html",
+    "uitgever": "Papendrecht",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 17.6,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.2928266,
+     52.0716046
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-533819",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "verkeersbesluit of -mededeling",
+    "titel": "Verkeersbesluit – Aanwijzen elektrische oplaadplekken voor elektrische voertuigen batch 320",
+    "locatie": "",
+    "toelichting": "Verkeersbesluit – Aanwijzen elektrische oplaadplekken voor elektrische voertuigen batch 320",
+    "waarom": "Bouwkundig, planologisch of verkeersbesluit zonder genoemd graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-533819.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 1.1,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.4821995,
+     52.0609291
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-533922",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Zoetermeer",
+    "type": "omgevingsvergunning",
+    "titel": "Kennisgeving termijnverlenging omgevingsvergunning voor het vervangen van de huidige dak reclame aan de Centrum West 31 Zoetermeer",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Kennisgeving termijnverlenging omgevingsvergunning voor het vervangen van de huidige dak reclame aan de Centrum West 31 Zoetermeer",
+    "waarom": "Reclame aan de gevel, geen grondroering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-533922.html",
+    "uitgever": "Zoetermeer",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 74.6,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.0058076,
+     51.8759225
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534010",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Vijfheerenlanden",
+    "type": "andere melding",
+    "titel": "Kennisgeving melding milieubelastende activiteit",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Kennisgeving melding milieubelastende activiteit",
+    "waarom": "Geen aanwijzing voor grondroering gevonden in titel of tekst. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534010.html",
+    "uitgever": "Vijfheerenlanden",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.641693,
+     51.8746798
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534021",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Alblasserdam",
+    "type": "omgevingsvergunning",
+    "titel": "Toestemming voor het verwijderen van een vissteiger op de locatie Gruttostraat thv 18 te Alblasserdam zaaknummer 9003742073",
+    "locatie": "",
+    "toelichting": "Toestemming voor het verwijderen van een vissteiger op de locatie Gruttostraat thv 18 te Alblasserdam zaaknummer 9003742073",
+    "waarom": "Tijdelijk obstakel op de openbare weg, geen graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534021.html",
+    "uitgever": "Alblasserdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 10.8,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.6851678,
+     51.9993152
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534052",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Gouda",
+    "type": "andere beschikking",
+    "titel": "Beslistermijn verlengen aanvraag het bouwen van 39 grondgebonden woningen De Goudse Linie in Gouda, Westergouwe fase 3 en 3B",
+    "locatie": "De Goudse Linie in Gouda, Westergouwe fase 3 en 3B",
+    "toelichting": "Beslistermijn verlengen aanvraag het bouwen van 39 grondgebonden woningen De Goudse Linie in Gouda, Westergouwe fase 3 en 3B",
+    "waarom": "Geen aanwijzing voor grondroering gevonden in titel of tekst. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534052.html",
+    "uitgever": "Gouda",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 39.0,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.1160595,
+     52.1043409
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534545",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Utrecht",
+    "type": "omgevingsvergunning",
+    "titel": "Verleende Omgevingsvergunning, het isoleren van daken als aanvulling op omgevingsvergunning GU-Z2026-0043173, Samuel van Houtenstraat 1, 3515EA Utrecht, GU-Z2026-0071692",
+    "locatie": "Samuel van Houtenstraat 1, 3515EA Utrecht",
+    "toelichting": "Verleende Omgevingsvergunning, het isoleren van daken als aanvulling op omgevingsvergunning GU-Z2026-0043173, Samuel van Houtenstraat 1, 3515EA Utrecht, GU-Z2026-0071692",
+    "waarom": "Bouwkundig, planologisch of verkeersbesluit zonder genoemd graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534545.html",
+    "uitgever": "Utrecht",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.7,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.3124442,
+     52.1671631
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534704",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Soest",
+    "type": "omgevingsvergunning",
+    "titel": "Aanvraag omgevingsvergunning, van Lenneplaan 2 3768 XK Soest, plaatsen van een dakkapel aan de voorzijde van de woning",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Aanvraag omgevingsvergunning, van Lenneplaan 2 3768 XK Soest, plaatsen van een dakkapel aan de voorzijde van de woning",
+    "waarom": "Puur bouwkundige wijziging aan bestaand pand, geen grondroering. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534704.html",
+    "uitgever": "Soest",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 71.5,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.2849688,
+     52.0984492
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534760",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsvergunning",
+    "titel": "Omgevingsvergunning - Beschikking Verleend, Van Stolkweg 7, 2585 JL 's-Gravenhage",
+    "locatie": "Van Stolkweg 7 te 's-Gravenhage",
+    "toelichting": "Beschikking Verleend, Van Stolkweg 7, 2585 JL 's-Gravenhage",
+    "waarom": "Bouwkundig, planologisch of verkeersbesluit zonder genoemd graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534760.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 58.7,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     4.9391102,
+     52.0460266
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534767",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Montfoort",
+    "type": "omgevingsvergunning",
+    "titel": "Aanvraag omgevingsvergunning (reguliere procedure) voor het wijzigen van de gevel op de locatie Vlasakker 12, 3417 XT Montfoort.",
+    "locatie": "",
+    "toelichting": "Aanvraag omgevingsvergunning (reguliere procedure) voor het wijzigen van de gevel op de locatie Vlasakker 12, 3417 XT Montfoort.",
+    "waarom": "Bouwkundig, planologisch of verkeersbesluit zonder genoemd graafwerk. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534767.html",
+    "uitgever": "Montfoort",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 52.4,
+    "eerst_gezien": "2026-11-17"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     5.2640339,
+     52.0587044
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534796",
+    "datum": "2026-11-16",
+    "inschatting": "niet relevant",
+    "relevantie_score": 0,
+    "bron": "Gemeenteblad Utrechtse Heuvelrug",
+    "type": "andere vergunning",
+    "titel": "Gemeente Utrechtse Heuvelrug, verleende ontheffing APV/Bijzondere wetten - de Woerd 1, 3972KD Driebergen-Rijsenburg, Ontheffing schenktijden van 19 op 20 december van 0:00 uur tot 03:00 uur (RX2026-00002759, 12 november 2026)",
+    "locatie": "de Woerd 1, 3972KD Driebergen-Rijsenburg",
+    "toelichting": "de Woerd 1, 3972KD Driebergen-Rijsenburg, Ontheffing schenktijden van 19 op 20 december van 0:00 uur tot 03:00 uur (RX2026-00002759, 12 november 2026)",
+    "waarom": "Geen aanwijzing voor grondroering gevonden in titel of tekst. (automatische inschatting)",
+    "ontbreekt": "",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534796.html",
+    "uitgever": "Utrechtse Heuvelrug",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 66.2,
+    "eerst_gezien": "2026-11-17"
    }
   },
   {

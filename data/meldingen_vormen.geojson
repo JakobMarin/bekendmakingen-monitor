@@ -5,6 +5,1188 @@
   {
    "type": "Feature",
    "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.377359,
+       52.0549
+      ],
+      [
+       4.377537,
+       52.054998
+      ],
+      [
+       4.373046,
+       52.058045
+      ],
+      [
+       4.372297,
+       52.057694
+      ],
+      [
+       4.372564,
+       52.057475
+      ],
+      [
+       4.373099,
+       52.057684
+      ],
+      [
+       4.377359,
+       52.0549
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535004",
+    "datum": "2026-11-17",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsmelding",
+    "titel": "Kennisgeving melding milieubelastende activiteit(en), Valutapad te Den Haag",
+    "locatie": "",
+    "toelichting": "Kennisgeving melding milieubelastende activiteit(en), Valutapad te Den Haag",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535004.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-17",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.088275,
+       51.545976
+      ],
+      [
+       4.088005,
+       51.545973
+      ],
+      [
+       4.087986,
+       51.545674
+      ],
+      [
+       4.087446,
+       51.545685
+      ],
+      [
+       4.08744,
+       51.54551
+      ],
+      [
+       4.087996,
+       51.54551
+      ],
+      [
+       4.088016,
+       51.545221
+      ],
+      [
+       4.088203,
+       51.545224
+      ],
+      [
+       4.088163,
+       51.545834
+      ],
+      [
+       4.088273,
+       51.545842
+      ],
+      [
+       4.088275,
+       51.545976
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535156",
+    "datum": "2026-11-17",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Tholen",
+    "type": "omgevingsvergunning",
+    "titel": "Aanvraag omgevingsvergunning, het aanleggen van een LS-kabel, ter hoogte van Schakelweg 8 te Sint-Maartensdijk",
+    "locatie": "ter hoogte van Schakelweg 8 te Sint-Maartensdijk",
+    "toelichting": "Aanvraag omgevingsvergunning, het aanleggen van een LS-kabel, ter hoogte van Schakelweg 8 te Sint-Maartensdijk",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535156.html",
+    "uitgever": "Tholen",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 37.7,
+    "eerst_gezien": "2026-11-17",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.447969,
+       51.875333
+      ],
+      [
+       4.447969,
+       51.875311
+      ],
+      [
+       4.447969,
+       51.875333
+      ],
+      [
+       4.447969,
+       51.875333
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535669",
+    "datum": "2026-11-17",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "omgevingsvergunning",
+    "titel": "Aangevraagde omgevingsvergunning, Anthony Fokkerweg 40 3088GG Rotterdam",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Aangevraagde omgevingsvergunning, Anthony Fokkerweg 40 3088GG Rotterdam",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535669.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 11.3,
+    "eerst_gezien": "2026-11-17",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "MultiLineString",
+    "coordinates": [
+     [
+      [
+       4.265085,
+       52.058142
+      ],
+      [
+       4.267148,
+       52.05933
+      ]
+     ],
+     [
+      [
+       4.267148,
+       52.05933
+      ],
+      [
+       4.269335,
+       52.06059
+      ]
+     ],
+     [
+      [
+       4.269335,
+       52.06059
+      ],
+      [
+       4.270591,
+       52.061313
+      ],
+      [
+       4.271218,
+       52.06131
+      ],
+      [
+       4.271588,
+       52.06108
+      ]
+     ],
+     [
+      [
+       4.264941,
+       52.058078
+      ],
+      [
+       4.265013,
+       52.058105
+      ]
+     ],
+     [
+      [
+       4.267442,
+       52.061859
+      ],
+      [
+       4.265886,
+       52.061691
+      ]
+     ],
+     [
+      [
+       4.268703,
+       52.061008
+      ],
+      [
+       4.269335,
+       52.06059
+      ]
+     ],
+     [
+      [
+       4.269335,
+       52.06059
+      ],
+      [
+       4.269978,
+       52.060166
+      ]
+     ],
+     [
+      [
+       4.267293,
+       52.063161
+      ],
+      [
+       4.267602,
+       52.061878
+      ]
+     ],
+     [
+      [
+       4.267602,
+       52.061878
+      ],
+      [
+       4.267561,
+       52.061779
+      ]
+     ],
+     [
+      [
+       4.267561,
+       52.061779
+      ],
+      [
+       4.268599,
+       52.061079
+      ]
+     ],
+     [
+      [
+       4.267484,
+       52.062524
+      ],
+      [
+       4.267531,
+       52.062399
+      ]
+     ],
+     [
+      [
+       4.267561,
+       52.061779
+      ],
+      [
+       4.267442,
+       52.061859
+      ]
+     ],
+     [
+      [
+       4.267442,
+       52.061859
+      ],
+      [
+       4.267602,
+       52.061878
+      ]
+     ],
+     [
+      [
+       4.26585,
+       52.064289
+      ],
+      [
+       4.267103,
+       52.063168
+      ],
+      [
+       4.267442,
+       52.061859
+      ]
+     ],
+     [
+      [
+       4.267207,
+       52.062495
+      ],
+      [
+       4.26724,
+       52.062369
+      ]
+     ],
+     [
+      [
+       4.266518,
+       52.059747
+      ],
+      [
+       4.267148,
+       52.05933
+      ]
+     ],
+     [
+      [
+       4.267148,
+       52.05933
+      ],
+      [
+       4.267778,
+       52.058914
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-535900",
+    "datum": "2026-11-17",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsvergunning",
+    "titel": "Kennisgeving beschikking maatwerkvoorschrift(en), Wormerveerstraat 5 t/m 261, Ilpendamstraat 92 t/m 96 en Heiloostraat 923 t/m 945 te Den Haag",
+    "locatie": "Wormerveerstraat, 's-Gravenhage",
+    "toelichting": "Kennisgeving beschikking maatwerkvoorschrift(en), Wormerveerstraat 5 t/m 261, Ilpendamstraat 92 t/m 96 en Heiloostraat 923 t/m 945 te Den Haag",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-535900.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 2.0,
+    "eerst_gezien": "2026-11-17",
+    "vorm_type": "lijn"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "GeometryCollection",
+    "geometries": [
+     {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         4.580272,
+         51.938097
+        ],
+        [
+         4.580124,
+         51.938228
+        ],
+        [
+         4.580111,
+         51.93824
+        ],
+        [
+         4.580162,
+         51.938196
+        ],
+        [
+         4.58025,
+         51.93812
+        ],
+        [
+         4.580273,
+         51.938097
+        ],
+        [
+         4.580318,
+         51.938063
+        ],
+        [
+         4.580272,
+         51.938097
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         4.579423,
+         51.938126
+        ],
+        [
+         4.579307,
+         51.938211
+        ],
+        [
+         4.57883,
+         51.938602
+        ],
+        [
+         4.579307,
+         51.938211
+        ],
+        [
+         4.579423,
+         51.938126
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         4.579733,
+         51.938558
+        ],
+        [
+         4.57932,
+         51.938901
+        ],
+        [
+         4.579277,
+         51.938881
+        ],
+        [
+         4.579235,
+         51.938916
+        ],
+        [
+         4.579277,
+         51.938882
+        ],
+        [
+         4.579576,
+         51.939018
+        ],
+        [
+         4.57932,
+         51.938901
+        ],
+        [
+         4.579516,
+         51.938741
+        ],
+        [
+         4.579733,
+         51.938558
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "LineString",
+      "coordinates": [
+       [
+        4.578788,
+        51.938674
+       ],
+       [
+        4.579544,
+        51.938091
+       ]
+      ]
+     },
+     {
+      "type": "LineString",
+      "coordinates": [
+       [
+        4.580277,
+        51.938081
+       ],
+       [
+        4.579856,
+        51.938425
+       ]
+      ]
+     },
+     {
+      "type": "LineString",
+      "coordinates": [
+       [
+        4.57968,
+        51.938688
+       ],
+       [
+        4.579378,
+        51.938927
+       ]
+      ]
+     },
+     {
+      "type": "LineString",
+      "coordinates": [
+       [
+        4.579378,
+        51.938927
+       ],
+       [
+        4.579283,
+        51.939002
+       ]
+      ]
+     },
+     {
+      "type": "LineString",
+      "coordinates": [
+       [
+        4.579434,
+        51.939105
+       ],
+       [
+        4.579192,
+        51.938983
+       ],
+       [
+        4.5791,
+        51.939028
+       ]
+      ]
+     }
+    ]
+   },
+   "properties": {
+    "kenmerk": "wsb-2026-30151",
+    "datum": "2026-11-17",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Waterschapsblad Hoogheemraadschap van Schieland en de Krimpenerwaard",
+    "type": "vergunning voor activiteiten op of in oppervlaktewater",
+    "titel": "Aanvraag vergunning voorhet aanbrengen van een kabel of leiding nabij Schinkelsveen in Capelle aan den IJssel",
+    "locatie": "",
+    "toelichting": "Aanvraag vergunning voorhet aanbrengen van een kabel of leiding nabij Schinkelsveen in Capelle aan den IJssel",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/wsb-2026-30151.html",
+    "uitgever": "Hoogheemraadschap van Schieland en de Krimpenerwaard",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 8.3,
+    "eerst_gezien": "2026-11-17",
+    "vorm_type": "vlak+lijn"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.47617,
+      52.033098
+     ],
+     [
+      4.476251,
+      52.033049
+     ],
+     [
+      4.476366,
+      52.033107
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "wsb-2026-30178",
+    "datum": "2026-11-17",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Waterschapsblad Hoogheemraadschap van Schieland en de Krimpenerwaard",
+    "type": "vergunning voor activiteiten op of in oppervlaktewater",
+    "titel": "Aanvraag vergunning voorhet aanbrengen van een kabel of leiding nabij Berkelseweg ter hoogte van Sieraadpad in Zoetermeer",
+    "locatie": "",
+    "toelichting": "Aanvraag vergunning voorhet aanbrengen van een kabel of leiding nabij Berkelseweg ter hoogte van Sieraadpad in Zoetermeer",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/wsb-2026-30178.html",
+    "uitgever": "Hoogheemraadschap van Schieland en de Krimpenerwaard",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 20.8,
+    "eerst_gezien": "2026-11-17",
+    "vorm_type": "lijn"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.716511,
+      51.827368
+     ],
+     [
+      4.716868,
+      51.827368
+     ],
+     [
+      4.716912,
+      51.828499
+     ],
+     [
+      4.717068,
+      51.828841
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-532786",
+    "datum": "2026-11-16",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Papendrecht",
+    "type": "ander besluit van algemene strekking",
+    "titel": "Verleende instemming kabels en leidingen MOOR 668770 voor Rietgorsweg 26 te Papendrecht, Circet Nederland B.V. i.o. Delta Fiber Netwerk B.V.",
+    "locatie": "",
+    "toelichting": "Verleende instemming kabels en leidingen MOOR 668770 voor Rietgorsweg 26 te Papendrecht, Circet Nederland B.V. i.o. Delta Fiber Netwerk B.V.",
+    "waarom": "Graafwerk door netbeheerder: vrijwel zeker werk aan kabels/leidingen. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé, uitvoeringsdatum en soort kabel/leiding.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-532786.html",
+    "uitgever": "Papendrecht",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 62.6,
+    "eerst_gezien": "2026-11-17",
+    "vorm_type": "lijn"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.684216,
+      51.836934
+     ],
+     [
+      4.684283,
+      51.836906
+     ],
+     [
+      4.684207,
+      51.83678
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-532802",
+    "datum": "2026-11-16",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Papendrecht",
+    "type": "ander besluit van algemene strekking",
+    "titel": "Verleende vergunning kabels en leidingen MOOR 668564 Jan Steenlaan t.h.v. huisnummer 26, Aanleggen laagspanningskabel openbare verlichting.",
+    "locatie": "",
+    "toelichting": "Verleende vergunning kabels en leidingen MOOR 668564 Jan Steenlaan t.h.v. huisnummer 26, Aanleggen laagspanningskabel openbare verlichting.",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-532802.html",
+    "uitgever": "Papendrecht",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 6.0,
+    "eerst_gezien": "2026-11-17",
+    "vorm_type": "lijn"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "MultiPolygon",
+    "coordinates": [
+     [
+      [
+       [
+        5.008506,
+        52.056512
+       ],
+       [
+        5.008274,
+        52.056997
+       ],
+       [
+        5.009062,
+        52.056844
+       ],
+       [
+        5.009619,
+        52.05655
+       ],
+       [
+        5.008506,
+        52.056512
+       ]
+      ]
+     ],
+     [
+      [
+       [
+        5.006546,
+        52.055935
+       ],
+       [
+        5.006155,
+        52.055846
+       ],
+       [
+        5.006142,
+        52.055896
+       ],
+       [
+        5.005939,
+        52.055889
+       ],
+       [
+        5.005713,
+        52.05594
+       ],
+       [
+        5.005463,
+        52.055949
+       ],
+       [
+        5.004955,
+        52.055919
+       ],
+       [
+        5.004459,
+        52.055837
+       ],
+       [
+        5.004184,
+        52.055724
+       ],
+       [
+        5.004172,
+        52.055745
+       ],
+       [
+        5.003053,
+        52.055278
+       ],
+       [
+        5.002435,
+        52.05506
+       ],
+       [
+        5.001635,
+        52.054917
+       ],
+       [
+        5.001624,
+        52.054988
+       ],
+       [
+        5.001136,
+        52.054901
+       ],
+       [
+        5.001161,
+        52.05484
+       ],
+       [
+        5.001151,
+        52.054848
+       ],
+       [
+        5.000588,
+        52.054773
+       ],
+       [
+        4.999927,
+        52.054648
+       ],
+       [
+        4.999461,
+        52.054584
+       ],
+       [
+        4.999437,
+        52.054548
+       ],
+       [
+        4.99923,
+        52.054484
+       ],
+       [
+        4.998991,
+        52.054478
+       ],
+       [
+        4.998656,
+        52.05453
+       ],
+       [
+        4.99434,
+        52.054572
+       ],
+       [
+        4.994395,
+        52.05476
+       ],
+       [
+        4.998433,
+        52.054724
+       ],
+       [
+        4.999271,
+        52.054813
+       ],
+       [
+        5.0001,
+        52.054951
+       ],
+       [
+        5.00011,
+        52.054986
+       ],
+       [
+        5.00064,
+        52.055106
+       ],
+       [
+        5.001138,
+        52.055247
+       ],
+       [
+        5.001443,
+        52.055355
+       ],
+       [
+        5.003338,
+        52.055914
+       ],
+       [
+        5.003884,
+        52.056037
+       ],
+       [
+        5.004449,
+        52.056139
+       ],
+       [
+        5.004876,
+        52.056191
+       ],
+       [
+        5.007295,
+        52.056321
+       ],
+       [
+        5.008423,
+        52.056362
+       ],
+       [
+        5.00909,
+        52.056401
+       ],
+       [
+        5.009382,
+        52.056399
+       ],
+       [
+        5.009638,
+        52.056415
+       ],
+       [
+        5.0099,
+        52.056407
+       ],
+       [
+        5.010766,
+        52.056289
+       ],
+       [
+        5.011206,
+        52.056262
+       ],
+       [
+        5.011639,
+        52.056299
+       ],
+       [
+        5.011931,
+        52.056367
+       ],
+       [
+        5.012171,
+        52.056464
+       ],
+       [
+        5.012338,
+        52.056586
+       ],
+       [
+        5.013397,
+        52.057726
+       ],
+       [
+        5.013767,
+        52.058189
+       ],
+       [
+        5.013893,
+        52.058159
+       ],
+       [
+        5.015066,
+        52.05944
+       ],
+       [
+        5.01509,
+        52.059528
+       ],
+       [
+        5.015969,
+        52.060428
+       ],
+       [
+        5.016612,
+        52.060996
+       ],
+       [
+        5.016936,
+        52.06132
+       ],
+       [
+        5.017081,
+        52.061266
+       ],
+       [
+        5.017074,
+        52.061143
+       ],
+       [
+        5.016428,
+        52.060625
+       ],
+       [
+        5.016404,
+        52.060639
+       ],
+       [
+        5.01636,
+        52.06061
+       ],
+       [
+        5.016356,
+        52.060581
+       ],
+       [
+        5.015967,
+        52.060231
+       ],
+       [
+        5.01511,
+        52.059306
+       ],
+       [
+        5.015148,
+        52.059294
+       ],
+       [
+        5.014403,
+        52.058505
+       ],
+       [
+        5.014437,
+        52.058495
+       ],
+       [
+        5.014104,
+        52.058158
+       ],
+       [
+        5.013722,
+        52.057726
+       ],
+       [
+        5.013585,
+        52.057563
+       ],
+       [
+        5.013563,
+        52.057496
+       ],
+       [
+        5.012288,
+        52.056052
+       ],
+       [
+        5.011786,
+        52.056038
+       ],
+       [
+        5.011331,
+        52.056097
+       ],
+       [
+        5.010742,
+        52.056137
+       ],
+       [
+        5.010462,
+        52.056197
+       ],
+       [
+        5.009842,
+        52.056246
+       ],
+       [
+        5.009828,
+        52.056204
+       ],
+       [
+        5.009154,
+        52.05621
+       ],
+       [
+        5.008822,
+        52.056197
+       ],
+       [
+        5.006987,
+        52.056088
+       ],
+       [
+        5.006546,
+        52.055935
+       ]
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534766",
+    "datum": "2026-11-16",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Montfoort",
+    "type": "omgevingsvergunning",
+    "titel": "Aanvraag omgevingsvergunning (reguliere procedure) voor het verwijderen van laagspanningskabels, laagspanningskasten en het aanleggen van een laagspanningskabel en mantelbuis op de locatie nabij Achthoven-Oost 13-15 en kadastrale percelen (LST00-F-671) en (LST00-F-858).",
+    "locatie": "Perceel Linschoten (LST00) F 671",
+    "toelichting": "Aanvraag omgevingsvergunning (reguliere procedure) voor het verwijderen van laagspanningskabels, laagspanningskasten en het aanleggen van een laagspanningskabel en mantelbuis op de locatie nabij Achthoven-Oost 13-15 en kadastrale percelen (LST00-F-671) en (LST00-F-858).",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534766.html",
+    "uitgever": "Montfoort",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-17",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.679889,
+       51.795103
+      ],
+      [
+       4.680164,
+       51.795298
+      ],
+      [
+       4.680007,
+       51.79538
+      ],
+      [
+       4.679758,
+       51.795454
+      ],
+      [
+       4.679367,
+       51.79566
+      ],
+      [
+       4.679274,
+       51.795736
+      ],
+      [
+       4.679205,
+       51.795777
+      ],
+      [
+       4.679214,
+       51.795806
+      ],
+      [
+       4.679199,
+       51.795775
+      ],
+      [
+       4.679363,
+       51.795657
+      ],
+      [
+       4.679754,
+       51.79545
+      ],
+      [
+       4.680003,
+       51.795377
+      ],
+      [
+       4.680158,
+       51.795296
+      ],
+      [
+       4.679889,
+       51.795103
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "stcrt-2026-40626",
+    "datum": "2026-11-16",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Staatscourant",
+    "type": "omgevingsmelding",
+    "titel": "Kennisgeving melding voor het -Kabels en leidingen leggen in het beperkingengebied van een Rijksweg te Laan der Verenigde Naties Dordrecht",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Kennisgeving melding voor het -Kabels en leidingen leggen in het beperkingengebied van een Rijksweg te Laan der Verenigde Naties Dordrecht",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/stcrt-2026-40626.html",
+    "uitgever": "Rijkswaterstaat",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 10.8,
+    "eerst_gezien": "2026-11-17",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
     "type": "MultiPolygon",
     "coordinates": [
      [
