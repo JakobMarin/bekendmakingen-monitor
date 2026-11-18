@@ -9,6 +9,151 @@
     "coordinates": [
      [
       [
+       4.453798,
+       51.767978
+      ],
+      [
+       4.453388,
+       51.76793
+      ],
+      [
+       4.453158,
+       51.76793
+      ],
+      [
+       4.453157,
+       51.76796
+      ],
+      [
+       4.453264,
+       51.767992
+      ],
+      [
+       4.453282,
+       51.76802
+      ],
+      [
+       4.453291,
+       51.768056
+      ],
+      [
+       4.453299,
+       51.768069
+      ],
+      [
+       4.453312,
+       51.768072
+      ],
+      [
+       4.453349,
+       51.768073
+      ],
+      [
+       4.453441,
+       51.768072
+      ],
+      [
+       4.45346,
+       51.768094
+      ],
+      [
+       4.453441,
+       51.768072
+      ],
+      [
+       4.453299,
+       51.768069
+      ],
+      [
+       4.453283,
+       51.76802
+      ],
+      [
+       4.453264,
+       51.767992
+      ],
+      [
+       4.453157,
+       51.76796
+      ],
+      [
+       4.453158,
+       51.76793
+      ],
+      [
+       4.453388,
+       51.767931
+      ],
+      [
+       4.453575,
+       51.767961
+      ],
+      [
+       4.453798,
+       51.767978
+      ],
+      [
+       4.453985,
+       51.76798
+      ],
+      [
+       4.453992,
+       51.768071
+      ],
+      [
+       4.453986,
+       51.76798
+      ],
+      [
+       4.454025,
+       51.76798
+      ],
+      [
+       4.45422,
+       51.767977
+      ],
+      [
+       4.454224,
+       51.768064
+      ],
+      [
+       4.45422,
+       51.767977
+      ],
+      [
+       4.453798,
+       51.767978
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "wsb-2026-30299",
+    "datum": "2026-11-18",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Waterschapsblad Waterschap Hollandse Delta",
+    "type": "omgevingsvergunning",
+    "titel": "Kennisgeving aanvraag omgevingsvergunning voor het leggen van een glasvezelkabel nabij Oud-Cromstrijensedijk OZ 75 in Klaaswaal",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Kennisgeving aanvraag omgevingsvergunning voor het leggen van een glasvezelkabel nabij Oud-Cromstrijensedijk OZ 75 in Klaaswaal",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/wsb-2026-30299.html",
+    "uitgever": "Waterschap Hollandse Delta",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 10.5,
+    "eerst_gezien": "2026-11-18",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
        4.377359,
        52.0549
       ],
