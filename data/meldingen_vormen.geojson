@@ -5,6 +5,479 @@
   {
    "type": "Feature",
    "geometry": {
+    "type": "MultiLineString",
+    "coordinates": [
+     [
+      [
+       4.468552,
+       51.89365
+      ],
+      [
+       4.470215,
+       51.894751
+      ]
+     ],
+     [
+      [
+       4.466457,
+       51.893067
+      ],
+      [
+       4.469439,
+       51.89505
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534303",
+    "datum": "2026-11-19",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "omgevingsvergunning",
+    "titel": "KENNISGEVING OMGEVINGSWET GRAVEN IN BODEM WESTDUËLSTRAAT/CLEMENSSTRAAT (BINNENTUINEN) TE ROTTERDAM",
+    "locatie": "Westduëlstraat, Rotterdam",
+    "toelichting": "KENNISGEVING OMGEVINGSWET GRAVEN IN BODEM WESTDUËLSTRAAT/CLEMENSSTRAAT (BINNENTUINEN) TE ROTTERDAM",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534303.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-19",
+    "vorm_type": "lijn"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "MultiLineString",
+    "coordinates": [
+     [
+      [
+       4.47714,
+       51.911515
+      ],
+      [
+       4.476554,
+       51.912481
+      ]
+     ],
+     [
+      [
+       4.476554,
+       51.912481
+      ],
+      [
+       4.477241,
+       51.911542
+      ]
+     ],
+     [
+      [
+       4.473528,
+       51.916197
+      ],
+      [
+       4.473765,
+       51.915947
+      ]
+     ],
+     [
+      [
+       4.473765,
+       51.915947
+      ],
+      [
+       4.475517,
+       51.913435
+      ],
+      [
+       4.476554,
+       51.912481
+      ]
+     ],
+     [
+      [
+       4.474274,
+       51.915942
+      ],
+      [
+       4.474167,
+       51.916193
+      ]
+     ],
+     [
+      [
+       4.473501,
+       51.916062
+      ],
+      [
+       4.473765,
+       51.915947
+      ]
+     ],
+     [
+      [
+       4.471295,
+       51.920925
+      ],
+      [
+       4.471813,
+       51.918323
+      ],
+      [
+       4.47261,
+       51.917007
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534319",
+    "datum": "2026-11-19",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "omgevingsvergunning",
+    "titel": "KENNISGEVING OMGEVINGSWET GRAVEN IN BODEM WESTERSINGEL TEN NOORDEN VAN DE NIEUWE BINNENWEG TE ROTTERDAM",
+    "locatie": "Westersingel, Rotterdam",
+    "toelichting": "KENNISGEVING OMGEVINGSWET GRAVEN IN BODEM WESTERSINGEL TEN NOORDEN VAN DE NIEUWE BINNENWEG TE ROTTERDAM",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534319.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 11.3,
+    "eerst_gezien": "2026-11-19",
+    "vorm_type": "lijn"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "MultiLineString",
+    "coordinates": [
+     [
+      [
+       4.437232,
+       51.874911
+      ],
+      [
+       4.441629,
+       51.875029
+      ]
+     ],
+     [
+      [
+       4.441629,
+       51.875029
+      ],
+      [
+       4.443953,
+       51.875091
+      ]
+     ],
+     [
+      [
+       4.441328,
+       51.879061
+      ],
+      [
+       4.441629,
+       51.875029
+      ]
+     ],
+     [
+      [
+       4.441629,
+       51.875029
+      ],
+      [
+       4.441853,
+       51.872027
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-534501",
+    "datum": "2026-11-19",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "omgevingsvergunning",
+    "titel": "KENNISGEVING OMGEVINGSWET GRAVEN IN BODEM VAN WEERDEN POELMANWEG EN VAN MAASDIJKWEG 0NGENUMMERD TE WAALHAVEN ROTTERDAM",
+    "locatie": "Van Weerden Poelmanweg, Rotterdam",
+    "toelichting": "KENNISGEVING OMGEVINGSWET GRAVEN IN BODEM VAN WEERDEN POELMANWEG EN VAN MAASDIJKWEG 0NGENUMMERD TE WAALHAVEN ROTTERDAM",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-534501.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-19",
+    "vorm_type": "lijn"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       5.268852,
+       52.058397
+      ],
+      [
+       5.268379,
+       52.058759
+      ],
+      [
+       5.268193,
+       52.058644
+      ],
+      [
+       5.268656,
+       52.058288
+      ],
+      [
+       5.268852,
+       52.058397
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-540606",
+    "datum": "2026-11-19",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Utrechtse Heuvelrug",
+    "type": "andere melding",
+    "titel": "Kennisgeving melding milieubelastende activiteit -Kleinloolaan 7 3972KB Driebergen-Rijsenburg",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Kennisgeving melding milieubelastende activiteit -Kleinloolaan 7 3972KB Driebergen-Rijsenburg",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-540606.html",
+    "uitgever": "Utrechtse Heuvelrug",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 30.8,
+    "eerst_gezien": "2026-11-19",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.414416,
+       51.92219
+      ],
+      [
+       4.41441,
+       51.922166
+      ],
+      [
+       4.414419,
+       51.922185
+      ],
+      [
+       4.414756,
+       51.922163
+      ],
+      [
+       4.416377,
+       51.922186
+      ],
+      [
+       4.41641,
+       51.92214
+      ],
+      [
+       4.416379,
+       51.922191
+      ],
+      [
+       4.414756,
+       51.922168
+      ],
+      [
+       4.414416,
+       51.92219
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "stcrt-2026-41283",
+    "datum": "2026-11-19",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Staatscourant",
+    "type": "omgevingsmelding",
+    "titel": "Kennisgeving melding voor het -Kabels en leidingen leggen in het beperkingengebied van een Rijksweg nabij Parallelweg 403 Schiedam",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Kennisgeving melding voor het -Kabels en leidingen leggen in het beperkingengebied van een Rijksweg nabij Parallelweg 403 Schiedam",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/stcrt-2026-41283.html",
+    "uitgever": "Rijkswaterstaat",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-19",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.04567,
+       51.501546
+      ],
+      [
+       4.045701,
+       51.501563
+      ],
+      [
+       4.046046,
+       51.501256
+      ],
+      [
+       4.046698,
+       51.50055
+      ],
+      [
+       4.049281,
+       51.501065
+      ],
+      [
+       4.049274,
+       51.5011
+      ],
+      [
+       4.049342,
+       51.5011
+      ],
+      [
+       4.049354,
+       51.501058
+      ],
+      [
+       4.04674,
+       51.500522
+      ],
+      [
+       4.046641,
+       51.500541
+      ],
+      [
+       4.046198,
+       51.501051
+      ],
+      [
+       4.04567,
+       51.501546
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "wsb-2026-30403",
+    "datum": "2026-11-19",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Waterschapsblad Waterschap Scheldestromen",
+    "type": "omgevingsvergunning",
+    "titel": "Aanvraag vergunning aanpassing bestaande glasvezelvoorziening Groeninx van Zoelenstraat 37 in Yerseke",
+    "locatie": "",
+    "toelichting": "Aanvraag vergunning aanpassing bestaande glasvezelvoorziening Groeninx van Zoelenstraat 37 in Yerseke",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/wsb-2026-30403.html",
+    "uitgever": "Waterschap Scheldestromen",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 6.7,
+    "eerst_gezien": "2026-11-19",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "GeometryCollection",
+    "geometries": [
+     {
+      "type": "Polygon",
+      "coordinates": [
+       [
+        [
+         4.51359,
+         52.004856
+        ],
+        [
+         4.513718,
+         52.005131
+        ],
+        [
+         4.51359,
+         52.004856
+        ],
+        [
+         4.51359,
+         52.004856
+        ]
+       ]
+      ]
+     },
+     {
+      "type": "LineString",
+      "coordinates": [
+       [
+        4.513692,
+        52.005151
+       ],
+       [
+        4.513609,
+        52.005015
+       ]
+      ]
+     }
+    ]
+   },
+   "properties": {
+    "kenmerk": "wsb-2026-30509",
+    "datum": "2026-11-19",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Waterschapsblad Hoogheemraadschap van Schieland en de Krimpenerwaard",
+    "type": "vergunning voor activiteiten op of in oppervlaktewater",
+    "titel": "Aanvraag vergunning voor het aanbrengen van een kabel of leiding nabij Anthuriumweg 23 in Bleiswijk",
+    "locatie": "Anthuriumweg 23, 2665KV Bleiswijk",
+    "toelichting": "Aanvraag vergunning voor het aanbrengen van een kabel of leiding nabij Anthuriumweg 23 in Bleiswijk",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/wsb-2026-30509.html",
+    "uitgever": "Hoogheemraadschap van Schieland en de Krimpenerwaard",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-19",
+    "vorm_type": "vlak+lijn"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
     "type": "Polygon",
     "coordinates": [
      [
