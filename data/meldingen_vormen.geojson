@@ -9,6 +9,152 @@
     "coordinates": [
      [
       [
+       4.232857,
+       51.869799
+      ],
+      [
+       4.236606,
+       51.871427
+      ]
+     ],
+     [
+      [
+       4.185881,
+       51.849669
+      ],
+      [
+       4.198152,
+       51.854962
+      ],
+      [
+       4.199477,
+       51.855353
+      ],
+      [
+       4.20042,
+       51.855938
+      ],
+      [
+       4.221237,
+       51.864893
+      ],
+      [
+       4.222419,
+       51.865219
+      ],
+      [
+       4.224611,
+       51.866347
+      ]
+     ],
+     [
+      [
+       4.22567,
+       51.866393
+      ],
+      [
+       4.225145,
+       51.866505
+      ]
+     ],
+     [
+      [
+       4.225145,
+       51.866505
+      ],
+      [
+       4.225946,
+       51.866396
+      ]
+     ],
+     [
+      [
+       4.224611,
+       51.866347
+      ],
+      [
+       4.225145,
+       51.866505
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-542954",
+    "datum": "2026-11-20",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Nissewaard",
+    "type": "omgevingsvergunning",
+    "titel": "KENNISGEVING OMGEVINGSWET GRAVEN IN BODEM HAASDIJK NAAR DE KANAALDIJK OOST TE HEENVLIET",
+    "locatie": "Kanaaldijk Oost, Heenvliet",
+    "toelichting": "KENNISGEVING OMGEVINGSWET GRAVEN IN BODEM HAASDIJK NAAR DE KANAALDIJK OOST TE HEENVLIET",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-542954.html",
+    "uitgever": "Nissewaard",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-20",
+    "vorm_type": "lijn"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.032574,
+       51.932396
+      ],
+      [
+       4.033407,
+       51.931104
+      ],
+      [
+       4.033978,
+       51.93116
+      ],
+      [
+       4.033191,
+       51.932501
+      ],
+      [
+       4.032574,
+       51.932396
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-543010",
+    "datum": "2026-11-20",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "omgevingsvergunning",
+    "titel": "Verleende omgevingsvergunning, Malakkastraat 7 3199LK Maasvlakte Rotterdam",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Verleende omgevingsvergunning, Malakkastraat 7 3199LK Maasvlakte Rotterdam",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-543010.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 86.9,
+    "eerst_gezien": "2026-11-20",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "MultiLineString",
+    "coordinates": [
+     [
+      [
        4.468552,
        51.89365
       ],
