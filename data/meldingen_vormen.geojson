@@ -5,6 +5,189 @@
   {
    "type": "Feature",
    "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.883424,
+       51.821111
+      ],
+      [
+       4.88525,
+       51.82127
+      ],
+      [
+       4.884998,
+       51.822009
+      ],
+      [
+       4.885765,
+       51.823141
+      ],
+      [
+       4.885649,
+       51.824787
+      ],
+      [
+       4.883546,
+       51.831996
+      ],
+      [
+       4.880776,
+       51.831229
+      ],
+      [
+       4.882019,
+       51.824665
+      ],
+      [
+       4.881467,
+       51.821757
+      ],
+      [
+       4.883424,
+       51.821111
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-544174",
+    "datum": "2026-11-23",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Hardinxveld-Giessendam",
+    "type": "andere melding",
+    "titel": "Melding voor het graven in bodem op de locatie Koningin Wilhelminalaan e.o. te Hardinxveld-Giessendam zaaknummer 9003752339",
+    "locatie": "",
+    "toelichting": "Melding voor het graven in bodem op de locatie Koningin Wilhelminalaan e.o. te Hardinxveld-Giessendam zaaknummer 9003752339",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-544174.html",
+    "uitgever": "Hardinxveld-Giessendam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-23",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.660787,
+       51.867502
+      ],
+      [
+       4.660304,
+       51.867198
+      ],
+      [
+       4.66028,
+       51.867163
+      ],
+      [
+       4.660568,
+       51.866963
+      ],
+      [
+       4.660929,
+       51.866779
+      ],
+      [
+       4.661237,
+       51.8671
+      ],
+      [
+       4.661268,
+       51.867213
+      ],
+      [
+       4.661187,
+       51.867308
+      ],
+      [
+       4.660787,
+       51.867502
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-544445",
+    "datum": "2026-11-23",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Alblasserdam",
+    "type": "andere melding",
+    "titel": "Melding voor het realiseren van meerdere gesloten bodemenergiesysteem (1) op de locatie Parallelweg 7 te Alblasserdam zaaknummer 9003746032",
+    "locatie": "",
+    "toelichting": "Melding voor het realiseren van meerdere gesloten bodemenergiesysteem (1) op de locatie Parallelweg 7 te Alblasserdam zaaknummer 9003746032",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-544445.html",
+    "uitgever": "Alblasserdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-23",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.701122,
+       52.007293
+      ],
+      [
+       4.701622,
+       52.006931
+      ],
+      [
+       4.701846,
+       52.007041
+      ],
+      [
+       4.701358,
+       52.007406
+      ],
+      [
+       4.701122,
+       52.007293
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-545545",
+    "datum": "2026-11-23",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Gouda",
+    "type": "andere melding",
+    "titel": "Melding milieubelastende activiteit (bodem) Lethmaetstraat 47, 2802KB Gouda",
+    "locatie": "Lethmaetstraat 47, 2802KB Gouda",
+    "toelichting": "Melding milieubelastende activiteit (bodem) Lethmaetstraat 47, 2802KB Gouda",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-545545.html",
+    "uitgever": "Gouda",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 55.9,
+    "eerst_gezien": "2026-11-23",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
     "type": "MultiLineString",
     "coordinates": [
      [
