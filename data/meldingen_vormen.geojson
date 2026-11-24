@@ -9,6 +9,144 @@
     "coordinates": [
      [
       [
+       4.704179,
+       51.83177
+      ],
+      [
+       4.706512,
+       51.830974
+      ],
+      [
+       4.705241,
+       51.82872
+      ],
+      [
+       4.705267,
+       51.827012
+      ],
+      [
+       4.703816,
+       51.827003
+      ],
+      [
+       4.699592,
+       51.828147
+      ],
+      [
+       4.696115,
+       51.827857
+      ],
+      [
+       4.695092,
+       51.828301
+      ],
+      [
+       4.69966,
+       51.833181
+      ],
+      [
+       4.704179,
+       51.83177
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-547321",
+    "datum": "2026-11-24",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Papendrecht",
+    "type": "ander besluit van algemene strekking",
+    "titel": "Verleende vergunning kabels en leidingen MOOR 644015 Staatsliedenbuurt, vervanging waterleidingen, Oasen.",
+    "locatie": "Staatsliedenbuurt Papendrecht",
+    "toelichting": "Verleende vergunning kabels en leidingen MOOR 644015 Staatsliedenbuurt, vervanging waterleidingen, Oasen.",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-547321.html",
+    "uitgever": "Papendrecht",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 2.7,
+    "eerst_gezien": "2026-11-24",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.704179,
+       51.83177
+      ],
+      [
+       4.706512,
+       51.830974
+      ],
+      [
+       4.705241,
+       51.82872
+      ],
+      [
+       4.705267,
+       51.827012
+      ],
+      [
+       4.703816,
+       51.827003
+      ],
+      [
+       4.699592,
+       51.828147
+      ],
+      [
+       4.696115,
+       51.827857
+      ],
+      [
+       4.695092,
+       51.828301
+      ],
+      [
+       4.69966,
+       51.833181
+      ],
+      [
+       4.704179,
+       51.83177
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-547351",
+    "datum": "2026-11-24",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Papendrecht",
+    "type": "ander besluit van algemene strekking",
+    "titel": "Verleende vergunning kabels en leidingen MOOR 668462 Staatsliedenbuurt, vervanging gasleidingen, Stedin.",
+    "locatie": "Staatsliedenbuurt Papendrecht",
+    "toelichting": "Verleende vergunning kabels en leidingen MOOR 668462 Staatsliedenbuurt, vervanging gasleidingen, Stedin.",
+    "waarom": "Graafwerk door netbeheerder: vrijwel zeker werk aan kabels/leidingen. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé, uitvoeringsdatum en soort kabel/leiding.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-547351.html",
+    "uitgever": "Papendrecht",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 2.7,
+    "eerst_gezien": "2026-11-24",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
        4.883424,
        51.821111
       ],
