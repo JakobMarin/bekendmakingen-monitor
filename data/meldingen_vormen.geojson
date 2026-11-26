@@ -5,6 +5,614 @@
   {
    "type": "Feature",
    "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.46063,
+      51.886091
+     ],
+     [
+      4.464556,
+      51.892297
+     ],
+     [
+      4.464815,
+      51.892398
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-545693",
+    "datum": "2026-11-26",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "omgevingsvergunning",
+    "titel": "KENNISGEVING OMGEVINGSWET GRAVEN IN BODEM ZUIDHOEK T.H.V. NUMMERS  77-318 TE ROTTERDAM",
+    "locatie": "Zuidhoek, Rotterdam",
+    "toelichting": "KENNISGEVING OMGEVINGSWET GRAVEN IN BODEM ZUIDHOEK T.H.V. NUMMERS  77-318 TE ROTTERDAM",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-545693.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 1.6,
+    "eerst_gezien": "2026-11-26",
+    "vorm_type": "lijn"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "MultiLineString",
+    "coordinates": [
+     [
+      [
+       4.513194,
+       51.919977
+      ],
+      [
+       4.512362,
+       51.920168
+      ]
+     ],
+     [
+      [
+       4.512362,
+       51.920168
+      ],
+      [
+       4.511559,
+       51.920351
+      ]
+     ],
+     [
+      [
+       4.511559,
+       51.920351
+      ],
+      [
+       4.510143,
+       51.920646
+      ]
+     ],
+     [
+      [
+       4.510143,
+       51.920646
+      ],
+      [
+       4.513167,
+       51.919914
+      ]
+     ],
+     [
+      [
+       4.510143,
+       51.920646
+      ],
+      [
+       4.509164,
+       51.9209
+      ]
+     ],
+     [
+      [
+       4.509164,
+       51.9209
+      ],
+      [
+       4.510359,
+       51.920765
+      ]
+     ],
+     [
+      [
+       4.509164,
+       51.9209
+      ],
+      [
+       4.500711,
+       51.922715
+      ]
+     ],
+     [
+      [
+       4.498141,
+       51.923334
+      ],
+      [
+       4.506054,
+       51.921622
+      ]
+     ],
+     [
+      [
+       4.498249,
+       51.923011
+      ],
+      [
+       4.499632,
+       51.922913
+      ]
+     ],
+     [
+      [
+       4.499632,
+       51.922913
+      ],
+      [
+       4.500711,
+       51.922715
+      ]
+     ],
+     [
+      [
+       4.499632,
+       51.922913
+      ],
+      [
+       4.498331,
+       51.923236
+      ]
+     ],
+     [
+      [
+       4.498331,
+       51.923236
+      ],
+      [
+       4.498262,
+       51.923065
+      ]
+     ],
+     [
+      [
+       4.498262,
+       51.923065
+      ],
+      [
+       4.499632,
+       51.922913
+      ]
+     ],
+     [
+      [
+       4.498113,
+       51.923271
+      ],
+      [
+       4.498331,
+       51.923236
+      ]
+     ],
+     [
+      [
+       4.498102,
+       51.923082
+      ],
+      [
+       4.498262,
+       51.923065
+      ]
+     ],
+     [
+      [
+       4.507457,
+       51.920464
+      ],
+      [
+       4.507851,
+       51.921124
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-545738",
+    "datum": "2026-11-26",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "omgevingsvergunning",
+    "titel": "KENNISGEVING OMGEVINGSWET GRAVEN IN BODEM OOSTZEEDIJK/BOSLAND EN OOSTMAASLAAN 950 TE ROTTERDAM",
+    "locatie": "Oostzeedijk, Rotterdam",
+    "toelichting": "KENNISGEVING OMGEVINGSWET GRAVEN IN BODEM OOSTZEEDIJK/BOSLAND EN OOSTMAASLAAN 950 TE ROTTERDAM",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-545738.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 9.3,
+    "eerst_gezien": "2026-11-26",
+    "vorm_type": "lijn"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "MultiLineString",
+    "coordinates": [
+     [
+      [
+       4.468552,
+       51.89365
+      ],
+      [
+       4.470215,
+       51.894751
+      ]
+     ],
+     [
+      [
+       4.466457,
+       51.893067
+      ],
+      [
+       4.469439,
+       51.89505
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-547454",
+    "datum": "2026-11-26",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "omgevingsvergunning",
+    "titel": "KENNISGEVING OMGEVINGSWET SANEREN VAN DE BODEM WESTDUËLSTRAAT/CLEMENSSTRAAT (BINNENTUINEN) TE ROTTERDAM",
+    "locatie": "Westduëlstraat, Rotterdam",
+    "toelichting": "KENNISGEVING OMGEVINGSWET SANEREN VAN DE BODEM WESTDUËLSTRAAT/CLEMENSSTRAAT (BINNENTUINEN) TE ROTTERDAM",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-547454.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-26",
+    "vorm_type": "lijn"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.417243,
+      51.919
+     ],
+     [
+      4.418132,
+      51.918899
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-550286",
+    "datum": "2026-11-26",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "omgevingsvergunning",
+    "titel": "KENNISGEVING OMGEVINGSWET GRAVEN IN BODEM PINASPLEIN E.O. TE ROTTERDAM",
+    "locatie": "Pinasplein, Rotterdam",
+    "toelichting": "KENNISGEVING OMGEVINGSWET GRAVEN IN BODEM PINASPLEIN E.O. TE ROTTERDAM",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-550286.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-26",
+    "vorm_type": "lijn"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "LineString",
+    "coordinates": [
+     [
+      4.282648,
+      52.082962
+     ],
+     [
+      4.28265,
+      52.08241
+     ],
+     [
+      4.283231,
+      52.081886
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-551010",
+    "datum": "2026-11-26",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsvergunning",
+    "titel": "Omgevingsvergunning - Aangevraagd, Reinkenstraat ongenummerd",
+    "locatie": "Reinkenstraat ongenummerd",
+    "toelichting": "Aangevraagd, Reinkenstraat ongenummerd",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-551010.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 1.5,
+    "eerst_gezien": "2026-11-26",
+    "vorm_type": "lijn"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       5.224178,
+       52.081397
+      ],
+      [
+       5.224046,
+       52.081463
+      ],
+      [
+       5.223733,
+       52.08126
+      ],
+      [
+       5.223713,
+       52.081218
+      ],
+      [
+       5.223736,
+       52.081182
+      ],
+      [
+       5.223854,
+       52.081126
+      ],
+      [
+       5.224178,
+       52.081397
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-551582",
+    "datum": "2026-11-26",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Zeist",
+    "type": "andere melding",
+    "titel": "Kennisgeving melding milieubelastende activiteit -Laan van Cattenbroeck 74 3703BP Zeist",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Kennisgeving melding milieubelastende activiteit -Laan van Cattenbroeck 74 3703BP Zeist",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-551582.html",
+    "uitgever": "Zeist",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 99.5,
+    "eerst_gezien": "2026-11-26",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.313752,
+       52.054224
+      ],
+      [
+       4.312929,
+       52.053923
+      ],
+      [
+       4.313073,
+       52.052687
+      ],
+      [
+       4.313596,
+       52.052698
+      ],
+      [
+       4.313824,
+       52.052428
+      ],
+      [
+       4.315451,
+       52.052552
+      ],
+      [
+       4.315337,
+       52.053461
+      ],
+      [
+       4.313752,
+       52.054224
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-552136",
+    "datum": "2026-11-26",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad 's-Gravenhage",
+    "type": "omgevingsmelding",
+    "titel": "Kennisgeving melding milieubelastende activiteit(en), Hof van Cato te Den Haag",
+    "locatie": "",
+    "toelichting": "Kennisgeving melding milieubelastende activiteit(en), Hof van Cato te Den Haag",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-552136.html",
+    "uitgever": "'s-Gravenhage",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-26",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.263115,
+       51.877351
+      ],
+      [
+       4.260155,
+       51.876824
+      ],
+      [
+       4.260141,
+       51.87662
+      ],
+      [
+       4.263201,
+       51.877188
+      ],
+      [
+       4.263115,
+       51.877351
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "stcrt-2026-42111",
+    "datum": "2026-11-26",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Staatscourant",
+    "type": "omgevingsvergunning",
+    "titel": "Besluit omgevingsvergunning beperkingengebiedactiviteit hoofdspoorwegen (reguliere procedure)",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Besluit omgevingsvergunning beperkingengebiedactiviteit hoofdspoorwegen (reguliere procedure)",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/stcrt-2026-42111.html",
+    "uitgever": "Ministerie van Infrastructuur en Waterstaat",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-26",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.867323,
+       51.826088
+      ],
+      [
+       4.859546,
+       51.825237
+      ],
+      [
+       4.859517,
+       51.824648
+      ],
+      [
+       4.866667,
+       51.825836
+      ],
+      [
+       4.867323,
+       51.826088
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "wsb-2026-31027",
+    "datum": "2026-11-26",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Waterschapsblad Waterschap Rivierenland",
+    "type": "omgevingsvergunning",
+    "titel": "Waterschap Rivierenland - verlenen omgevingsvergunning voor het aanleggen van hoogspanningskabels middels gestuurde boring Kanaaldijk-Noord te Hardinxveld-Giessendam",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "verlenen omgevingsvergunning voor het aanleggen van hoogspanningskabels middels gestuurde boring Kanaaldijk-Noord te Hardinxveld-Giessendam",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/wsb-2026-31027.html",
+    "uitgever": "Waterschap Rivierenland",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-26",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.413995,
+       51.814584
+      ],
+      [
+       4.414042,
+       51.814589
+      ],
+      [
+       4.413991,
+       51.814586
+      ],
+      [
+       4.413995,
+       51.814584
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "wsb-2026-31061",
+    "datum": "2026-11-26",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Waterschapsblad Waterschap Hollandse Delta",
+    "type": "omgevingsvergunning",
+    "titel": "Kennisgeving aanvraag omgevingsvergunning voor het vervangen van een laagspanningskabel nabij Langeweg 12 in Oud-Beijerland",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Kennisgeving aanvraag omgevingsvergunning voor het vervangen van een laagspanningskabel nabij Langeweg 12 in Oud-Beijerland",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/wsb-2026-31061.html",
+    "uitgever": "Waterschap Hollandse Delta",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 35.4,
+    "eerst_gezien": "2026-11-26",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
     "type": "MultiLineString",
     "coordinates": [
      [
