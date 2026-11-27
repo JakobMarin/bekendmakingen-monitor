@@ -5,6 +5,343 @@
   {
    "type": "Feature",
    "geometry": {
+    "type": "MultiLineString",
+    "coordinates": [
+     [
+      [
+       4.488813,
+       51.924476
+      ],
+      [
+       4.488935,
+       51.924216
+      ]
+     ],
+     [
+      [
+       4.488935,
+       51.924216
+      ],
+      [
+       4.490231,
+       51.92207
+      ]
+     ],
+     [
+      [
+       4.490231,
+       51.92207
+      ],
+      [
+       4.490509,
+       51.92161
+      ]
+     ],
+     [
+      [
+       4.490509,
+       51.92161
+      ],
+      [
+       4.491085,
+       51.920655
+      ]
+     ],
+     [
+      [
+       4.491085,
+       51.920655
+      ],
+      [
+       4.491149,
+       51.920377
+      ]
+     ],
+     [
+      [
+       4.491149,
+       51.920377
+      ],
+      [
+       4.491236,
+       51.920351
+      ]
+     ],
+     [
+      [
+       4.491019,
+       51.92034
+      ],
+      [
+       4.491165,
+       51.920287
+      ]
+     ],
+     [
+      [
+       4.491085,
+       51.920655
+      ],
+      [
+       4.490796,
+       51.920554
+      ]
+     ],
+     [
+      [
+       4.490796,
+       51.920554
+      ],
+      [
+       4.491149,
+       51.920377
+      ]
+     ],
+     [
+      [
+       4.489035,
+       51.924298
+      ],
+      [
+       4.490231,
+       51.92207
+      ]
+     ],
+     [
+      [
+       4.490231,
+       51.92207
+      ],
+      [
+       4.490409,
+       51.921738
+      ],
+      [
+       4.490509,
+       51.92161
+      ]
+     ],
+     [
+      [
+       4.490509,
+       51.92161
+      ],
+      [
+       4.491215,
+       51.920701
+      ]
+     ],
+     [
+      [
+       4.488935,
+       51.924216
+      ],
+      [
+       4.488644,
+       51.924223
+      ]
+     ],
+     [
+      [
+       4.488644,
+       51.924223
+      ],
+      [
+       4.48993,
+       51.921716
+      ],
+      [
+       4.490796,
+       51.920554
+      ]
+     ],
+     [
+      [
+       4.490796,
+       51.920554
+      ],
+      [
+       4.490518,
+       51.920669
+      ],
+      [
+       4.489784,
+       51.921733
+      ],
+      [
+       4.488453,
+       51.924303
+      ]
+     ],
+     [
+      [
+       4.488644,
+       51.924223
+      ],
+      [
+       4.488653,
+       51.924502
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-554997",
+    "datum": "2026-11-27",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "omgevingsvergunning",
+    "titel": "KENNISGEVING OMGEVINGSWET GRAVEN IN BODEM MARINIERSWEG TE ROTTERDAM",
+    "locatie": "Mariniersweg, Rotterdam",
+    "toelichting": "KENNISGEVING OMGEVINGSWET GRAVEN IN BODEM MARINIERSWEG TE ROTTERDAM",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-554997.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-27",
+    "vorm_type": "lijn"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.310923,
+       51.870222
+      ],
+      [
+       4.311034,
+       51.870231
+      ],
+      [
+       4.31097,
+       51.870417
+      ],
+      [
+       4.310877,
+       51.870406
+      ],
+      [
+       4.310923,
+       51.870222
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "gmb-2026-555077",
+    "datum": "2026-11-27",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Gemeenteblad Rotterdam",
+    "type": "omgevingsvergunning",
+    "titel": "Aangevraagde omgevingsvergunning, Botlekweg 117 3197KA Botlek Rotterdam",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Aangevraagde omgevingsvergunning, Botlekweg 117 3197KA Botlek Rotterdam",
+    "waarom": "Graaf-/boorwerk, kabels of leidingen in de grond genoemd. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé/locatie en uitvoeringsdatum.",
+    "url": "https://zoek.officielebekendmakingen.nl/gmb-2026-555077.html",
+    "uitgever": "Rotterdam",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 1.5,
+    "eerst_gezien": "2026-11-27",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+     [
+      [
+       4.261635,
+       51.889931
+      ],
+      [
+       4.261604,
+       51.889853
+      ],
+      [
+       4.261533,
+       51.889873
+      ],
+      [
+       4.261562,
+       51.889924
+      ],
+      [
+       4.261161,
+       51.889981
+      ],
+      [
+       4.261132,
+       51.889937
+      ],
+      [
+       4.261086,
+       51.889942
+      ],
+      [
+       4.261036,
+       51.889853
+      ],
+      [
+       4.260935,
+       51.889875
+      ],
+      [
+       4.261069,
+       51.890148
+      ],
+      [
+       4.261179,
+       51.890125
+      ],
+      [
+       4.261144,
+       51.890052
+      ],
+      [
+       4.261179,
+       51.89
+      ],
+      [
+       4.261635,
+       51.889931
+      ]
+     ]
+    ]
+   },
+   "properties": {
+    "kenmerk": "stcrt-2026-42168",
+    "datum": "2026-11-27",
+    "inschatting": "hoog",
+    "relevantie_score": 3,
+    "bron": "Staatscourant",
+    "type": "omgevingsvergunning",
+    "titel": "Kennisgeving besluit vergunning Omgevingswet RWSZ2026-00016120",
+    "locatie": "Gebiedsmarkering",
+    "toelichting": "Kennisgeving besluit vergunning Omgevingswet RWSZ2026-00016120",
+    "waarom": "Graafwerk door netbeheerder: vrijwel zeker werk aan kabels/leidingen. (automatische inschatting)",
+    "ontbreekt": "Exacte tracé, uitvoeringsdatum en soort kabel/leiding.",
+    "url": "https://zoek.officielebekendmakingen.nl/stcrt-2026-42168.html",
+    "uitgever": "Rijkswaterstaat",
+    "binnen_buffer_100m": true,
+    "afstand_tot_asset_m": 0.0,
+    "eerst_gezien": "2026-11-27",
+    "vorm_type": "vlak"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
     "type": "LineString",
     "coordinates": [
      [
